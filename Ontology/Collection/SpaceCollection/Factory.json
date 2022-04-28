@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:rec_3_3:core:Factory;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Factory"
+  },
+  "extends": "dtmi:digitaltwins:rec_3_3:core:RealEstate;1",
+  "@context": "dtmi:dtdl:context;2"
+}
