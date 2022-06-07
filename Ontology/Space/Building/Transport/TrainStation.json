@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:rec_3_3:building:TrainStation;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Train station"
+  },
+  "extends": "dtmi:digitaltwins:rec_3_3:building:Transport;1",
+  "@context": "dtmi:dtdl:context;2"
+}

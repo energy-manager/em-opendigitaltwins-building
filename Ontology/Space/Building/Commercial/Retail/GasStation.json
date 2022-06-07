@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:rec_3_3:building:GasStation;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Gas station"
+  },
+  "extends": "dtmi:digitaltwins:rec_3_3:building:Retail;1",
+  "@context": "dtmi:dtdl:context;2"
+}

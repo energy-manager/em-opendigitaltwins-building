@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:rec_3_3:building:IceHall;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Ice hall"
+  },
+  "extends": "dtmi:digitaltwins:rec_3_3:building:Sports;1",
+  "@context": "dtmi:dtdl:context;2"
+}

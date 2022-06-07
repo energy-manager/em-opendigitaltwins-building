@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:Library;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:Library;1",
   "@type": "Interface",
   "displayName": {
     "en": "Library"

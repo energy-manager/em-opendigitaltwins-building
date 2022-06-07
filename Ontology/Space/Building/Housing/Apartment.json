@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:rec_3_3:building:Apartment;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Apartment"
+  },
+  "extends": "dtmi:digitaltwins:rec_3_3:building:Housing;1",
+  "@context": "dtmi:dtdl:context;2"
+}

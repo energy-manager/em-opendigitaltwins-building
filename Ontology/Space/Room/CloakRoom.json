@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:CloakRoom;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:CloakRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "CloakRoom"

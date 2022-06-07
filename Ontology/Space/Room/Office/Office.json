@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:Office;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:Office;1",
   "@type": "Interface",
   "displayName": {
     "en": "Office"

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:LoadingReceivingRoom;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:LoadingReceivingRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "Loading/receiving room"

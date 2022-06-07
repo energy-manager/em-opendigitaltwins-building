@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:Kitchenette;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:Kitchenette;1",
   "@type": "Interface",
   "displayName": {
     "en": "Kitechenette"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:building:FoodHandlingRoom;1",
+  "extends": "dtmi:digitaltwins:rec_3_3:room:FoodHandlingRoom;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:MothersRoom;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:MothersRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "Mothers' room"

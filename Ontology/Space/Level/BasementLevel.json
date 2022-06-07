@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:BasementLevel;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:level:BasementLevel;1",
   "@type": "Interface",
   "displayName": {
     "en": "Basement level"

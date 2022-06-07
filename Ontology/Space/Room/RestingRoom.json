@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:RestingRoom;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:RestingRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "RestingRoom"

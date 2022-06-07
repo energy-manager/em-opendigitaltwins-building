@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:Reception;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:Reception;1",
   "@type": "Interface",
   "displayName": {
     "en": "Reception"

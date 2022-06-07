@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:SecurityRoom;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:SecurityRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "Security room"

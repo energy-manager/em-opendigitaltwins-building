@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:HealthcareRoom;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:HealthcareRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "Healthcare room"

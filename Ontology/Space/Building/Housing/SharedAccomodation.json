@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:rec_3_3:building:SharedAccomodation;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Shared accomodation"
+  },
+  "extends": "dtmi:digitaltwins:rec_3_3:building:Housing;1",
+  "@context": "dtmi:dtdl:context;2"
+}

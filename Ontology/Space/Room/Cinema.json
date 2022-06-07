@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:Cinema;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:Cinema;1",
   "@type": "Interface",
   "displayName": {
     "en": "Cinema"

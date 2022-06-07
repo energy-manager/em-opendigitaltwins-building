@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:rec_3_3:building:FreightTerminal;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Freight terminal"
+  },
+  "extends": "dtmi:digitaltwins:rec_3_3:building:Terminal;1",
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:rec_3_3:building:SwimmingHall;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Swimming hall"
+  },
+  "extends": "dtmi:digitaltwins:rec_3_3:building:Sports;1",
+  "@context": "dtmi:dtdl:context;2"
+}

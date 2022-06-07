@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:Bedroom;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:Bedroom;1",
   "@type": "Interface",
   "displayName": {
     "en": "Bedroom"

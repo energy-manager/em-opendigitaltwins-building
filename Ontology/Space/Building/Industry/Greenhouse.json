@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:rec_3_3:building:Greenhouse;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Greenhouse"
+  },
+  "extends": "dtmi:digitaltwins:rec_3_3:building:Industry;1",
+  "@context": "dtmi:dtdl:context;2"
+}

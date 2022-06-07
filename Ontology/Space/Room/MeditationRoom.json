@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:MeditationRoom;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:MeditationRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "Meditation room"

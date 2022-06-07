@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:LockerRoom;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:LockerRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "Locker room"

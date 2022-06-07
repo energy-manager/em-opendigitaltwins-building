@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:StaffRoom;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:StaffRoom;1",
   "@type": "Interface",
   "description": {
     "en": "Room for staff to take breaks."

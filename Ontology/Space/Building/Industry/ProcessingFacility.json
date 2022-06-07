@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:rec_3_3:building:ProcessingFacility;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Processing facility"
+  },
+  "extends": "dtmi:digitaltwins:rec_3_3:building:Industry;1",
+  "@context": "dtmi:dtdl:context;2"
+}

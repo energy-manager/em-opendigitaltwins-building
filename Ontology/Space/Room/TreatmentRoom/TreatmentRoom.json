@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:TreatmentRoom;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:TreatmentRoom;1",
   "@type": "Interface",
   "description": {
     "en": "For e.g. medical or other treatment or consultation."

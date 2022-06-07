@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:WasteManagementRoom;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:WasteManagementRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "WasteManagementRoom"

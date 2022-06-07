@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:LivingRoom;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:LivingRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "LivingRoom"

@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:digitaltwins:rec_3_3:core:Hotel;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Hotel"
-  },
-  "extends": "dtmi:digitaltwins:rec_3_3:core:RealEstate;1",
-  "@context": "dtmi:dtdl:context;2"
-}

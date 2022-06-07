@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:UtilitiesRoom;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:UtilitiesRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "UtilitiesRoom"

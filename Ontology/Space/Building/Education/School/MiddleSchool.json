@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:rec_3_3:building:MiddleSchool;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Middle school"
+  },
+  "extends": "dtmi:digitaltwins:rec_3_3:building:School;1",
+  "@context": "dtmi:dtdl:context;2"
+}

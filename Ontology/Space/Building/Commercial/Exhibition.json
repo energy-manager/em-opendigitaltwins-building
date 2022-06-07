@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:rec_3_3:building:Exhibition;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Office"
+  },
+  "extends": "dtmi:digitaltwins:rec_3_3:building:Commercial;1",
+  "@context": "dtmi:dtdl:context;2"
+}

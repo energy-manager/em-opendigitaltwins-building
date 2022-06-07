@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:Storage;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:Storage;1",
   "@type": "Interface",
   "displayName": {
     "en": "Storage"

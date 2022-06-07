@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:digitaltwins:rec_3_3:building:Silo;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Silo"
+  },
+  "extends": "dtmi:digitaltwins:rec_3_3:building:Warehouse;1",
+  "@context": "dtmi:dtdl:context;2"
+}

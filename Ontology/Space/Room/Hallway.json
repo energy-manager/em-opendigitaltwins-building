@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:Hallway;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:Hallway;1",
   "@type": "Interface",
   "displayName": {
     "en": "Hallway"

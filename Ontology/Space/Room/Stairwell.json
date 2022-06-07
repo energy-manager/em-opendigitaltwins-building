@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:Stairwell;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:room:Stairwell;1",
   "@type": "Interface",
   "displayName": {
     "en": "Stairwell"
