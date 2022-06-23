@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:ApartmentBlock;1",
+  "@id": "dtmi:no:energymanager:building:ApartmentBlock;1",
   "@type": "Interface",
   "displayName": {
     "en": "Apartment block"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:building:Housing;1",
+  "extends": "dtmi:no:energymanager:building:Housing;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,31 +1,43 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:HVACHeatingMethod;1",
+  "@id": "dtmi:no:energymanager:asset:HVACHeatingMethod;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Steam",
-            "name": "Steam"
+            "name": "Steam",
+            "displayName": {
+              "en": "Steam"
+            }
           },
           {
             "enumValue": "HotWater",
-            "name": "HotWater"
+            "name": "HotWater",
+            "displayName": {
+              "en": "Hot water"
+            }
           },
           {
             "enumValue": "Gas",
-            "name": "Gas"
+            "name": "Gas",
+            "displayName": {
+              "en": "Gas"
+            }
           },
           {
             "enumValue": "Electric",
-            "name": "Electric"
+            "name": "Electric",
+            "displayName": {
+              "en": "Electric"
+            }
           }
         ],
         "valueSchema": "string"
@@ -35,7 +47,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "outside diameter"
+        "en": "Outside diameter"
       },
       "name": "outsideDiameter",
       "schema": "double",
@@ -45,6 +57,6 @@
   "displayName": {
     "en": "HVAC heating method"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:Component;1",
+  "extends": "dtmi:no:energymanager:asset:Component;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:IlluminanceSetpoint;1",
+  "@id": "dtmi:no:energymanager:capability:IlluminanceSetpoint;1",
   "@type": "Interface",
   "contents": [
     {
@@ -22,6 +22,6 @@
   "displayName": {
     "en": "Illuminance setpoint"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:QuantitySetpoint;1",
+  "extends": "dtmi:no:energymanager:capability:QuantitySetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:room:GroupRoom;1",
+  "@id": "dtmi:no:energymanager:room:GroupRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "GroupRoom"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:room:EducationalRoom;1",
+  "extends": "dtmi:no:energymanager:room:EducationalRoom;1",
   "@context": "dtmi:dtdl:context;2"
 }

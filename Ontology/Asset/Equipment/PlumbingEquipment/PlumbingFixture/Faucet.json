@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:Faucet;1",
+  "@id": "dtmi:no:energymanager:asset:Faucet;1",
   "@type": "Interface",
   "contents": [
     {
@@ -48,12 +48,12 @@
         "en": "mounted on"
       },
       "name": "mountedOn",
-      "target": "dtmi:digitaltwins:rec_3_3:asset:Sink;1"
+      "target": "dtmi:no:energymanager:asset:Sink;1"
     }
   ],
   "displayName": {
     "en": "Faucet"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:PlumbingFixture;1",
+  "extends": "dtmi:no:energymanager:asset:PlumbingFixture;1",
   "@context": "dtmi:dtdl:context;2"
 }

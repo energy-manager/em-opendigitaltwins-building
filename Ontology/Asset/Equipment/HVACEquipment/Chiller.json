@@ -1,23 +1,29 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:Chiller;1",
+  "@id": "dtmi:no:energymanager:asset:Chiller;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "WaterCooled",
-            "name": "WaterCooled"
+            "name": "WaterCooled",
+            "displayName": {
+              "en": "Water-cooled"
+            }
           },
           {
             "enumValue": "AirCooled",
-            "name": "AirCooled"
+            "name": "AirCooled",
+            "displayName": {
+              "en": "Air-cooled"
+            }
           }
         ],
         "valueSchema": "string"
@@ -27,7 +33,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "refrigerant type"
+        "en": "Refrigerant type"
       },
       "name": "refrigerantType",
       "schema": "string",
@@ -36,7 +42,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "nominal cooling capacity"
+        "en": "Nominal cooling capacity"
       },
       "name": "nominalCoolingCapacity",
       "schema": "double",
@@ -45,7 +51,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "net sensible cooling capacity"
+        "en": "Net sensible cooling capacity"
       },
       "name": "netSensibleCoolingCapacity",
       "schema": "double",
@@ -54,31 +60,46 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "compressor type"
+        "en": "Compressor type"
       },
       "name": "compressorType",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Scroll",
-            "name": "Scroll"
+            "name": "Scroll",
+            "displayName": {
+              "en": "Scroll"
+            }
           },
           {
             "enumValue": "Screw",
-            "name": "Screw"
+            "name": "Screw",
+            "displayName": {
+              "en": "Screw"
+            }
           },
           {
             "enumValue": "Reciprocol",
-            "name": "Reciprocol"
+            "name": "Reciprocol",
+            "displayName": {
+              "en": "Reciprocol"
+            }
           },
           {
             "enumValue": "Centrifugal",
-            "name": "Centrifugal"
+            "name": "Centrifugal",
+            "displayName": {
+              "en": "Centrifugal"
+            }
           },
           {
             "enumValue": "Absorption",
-            "name": "Absorption"
+            "name": "Absorption",
+            "displayName": {
+              "en": "Absorption"
+            }
           }
         ],
         "valueSchema": "string"
@@ -89,6 +110,6 @@
   "displayName": {
     "en": "Chiller"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:HVACEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:HVACEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

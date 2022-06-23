@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:Toilet;1",
+  "@id": "dtmi:no:energymanager:asset:Toilet;1",
   "@type": "Interface",
   "contents": [
     {
@@ -37,6 +37,6 @@
   "displayName": {
     "en": "Toilet"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:PlumbingFixture;1",
+  "extends": "dtmi:no:energymanager:asset:PlumbingFixture;1",
   "@context": "dtmi:dtdl:context;2"
 }

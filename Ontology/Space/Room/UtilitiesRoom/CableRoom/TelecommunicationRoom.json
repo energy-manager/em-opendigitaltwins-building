@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:room:TelecommunicationRoom;1",
+  "@id": "dtmi:no:energymanager:room:TelecommunicationRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "TelecommunicationRoom"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:room:CableRoom;1",
+  "extends": "dtmi:no:energymanager:room:CableRoom;1",
   "@context": "dtmi:dtdl:context;2"
 }

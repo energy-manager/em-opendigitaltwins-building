@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:room:StaffRoom;1",
+  "@id": "dtmi:no:energymanager:room:StaffRoom;1",
   "@type": "Interface",
   "description": {
     "en": "Room for staff to take breaks."
@@ -7,6 +7,6 @@
   "displayName": {
     "en": "StaffRoom"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:core:Room;1",
+  "extends": "dtmi:no:energymanager:core:Room;1",
   "@context": "dtmi:dtdl:context;2"
 }

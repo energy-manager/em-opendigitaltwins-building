@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:CleanAgentEquipment;1",
+  "@id": "dtmi:no:energymanager:asset:CleanAgentEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Clean agent equipment"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:FireSuppressionEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:FireSuppressionEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

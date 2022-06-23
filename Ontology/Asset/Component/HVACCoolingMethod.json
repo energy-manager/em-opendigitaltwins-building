@@ -1,23 +1,29 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:HVACCoolingMethod;1",
+  "@id": "dtmi:no:energymanager:asset:HVACCoolingMethod;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "DX",
-            "name": "DX"
+            "name": "DX",
+            "displayName": {
+              "en": "DX"
+            }
           },
           {
             "enumValue": "ChilledWater",
-            "name": "ChilledWater"
+            "name": "ChilledWater",
+            "displayName": {
+              "en": "Chilled water"
+            }
           }
         ],
         "valueSchema": "string"
@@ -27,7 +33,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "refrigerant type"
+        "en": "Refrigerant type"
       },
       "name": "refrigerantType",
       "schema": "string",
@@ -36,7 +42,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "outside diameter"
+        "en": "Outside diameter"
       },
       "name": "outsideDiameter",
       "schema": "double",
@@ -46,6 +52,6 @@
   "displayName": {
     "en": "HVAC cooling method"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:Component;1",
+  "extends": "dtmi:no:energymanager:asset:Component;1",
   "@context": "dtmi:dtdl:context;2"
 }

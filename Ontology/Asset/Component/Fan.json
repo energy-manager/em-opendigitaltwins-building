@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:Fan;1",
+  "@id": "dtmi:no:energymanager:asset:Fan;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "nominal external static pressure"
+        "en": "Nominal external static pressure"
       },
       "name": "nominalExternalStaticPressure",
       "schema": "double",
@@ -14,7 +14,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "nominal airflow"
+        "en": "Nominal airflow"
       },
       "name": "nominalAirflow",
       "schema": "double",
@@ -26,7 +26,7 @@
         "Property"
       ],
       "displayName": {
-        "en": "motor power"
+        "en": "Motor power"
       },
       "name": "motorPower",
       "schema": "double",
@@ -36,7 +36,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "minimum airflow rating"
+        "en": "Minimum airflow rating"
       },
       "name": "minAirflowRating",
       "schema": "double",
@@ -45,7 +45,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "maximum airflow rating"
+        "en": "Maximum airflow rating"
       },
       "name": "maxAirflowRating",
       "schema": "double",
@@ -54,19 +54,25 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "drive type"
+        "en": "Drive type"
       },
       "name": "driveType",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Direct",
-            "name": "Direct"
+            "name": "Direct",
+            "displayName": {
+              "en": "Direct"
+            }
           },
           {
             "enumValue": "Belt",
-            "name": "Belt"
+            "name": "Belt",
+            "displayName": {
+              "en": "Belt"
+            }
           }
         ],
         "valueSchema": "string"
@@ -77,6 +83,6 @@
   "displayName": {
     "en": "Fan"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:Component;1",
+  "extends": "dtmi:no:energymanager:asset:Component;1",
   "@context": "dtmi:dtdl:context;2"
 }

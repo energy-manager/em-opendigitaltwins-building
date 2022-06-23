@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:LevelState;1",
+  "@id": "dtmi:no:energymanager:capability:LevelState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Level state"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:PercentState;1",
+  "extends": "dtmi:no:energymanager:capability:PercentState;1",
   "@context": "dtmi:dtdl:context;2"
 }

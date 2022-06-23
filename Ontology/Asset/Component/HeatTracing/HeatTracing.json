@@ -1,23 +1,29 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:HeatTracing;1",
+  "@id": "dtmi:no:energymanager:asset:HeatTracing;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "SelfRegulating",
-            "name": "SelfRegulating"
+            "name": "SelfRegulating",
+            "displayName": {
+              "en": "Self-regulating"
+            }
           },
           {
             "enumValue": "ConstantWattage",
-            "name": "ConstantWattage"
+            "name": "ConstantWattage",
+            "displayName": {
+              "en": "Constant-wattage"
+            }
           }
         ],
         "valueSchema": "string"
@@ -30,7 +36,7 @@
         "en": "Watts/length unit"
       },
       "displayName": {
-        "en": "power density"
+        "en": "Power density"
       },
       "name": "powerDensity",
       "schema": "double",
@@ -40,6 +46,6 @@
   "displayName": {
     "en": "Heat tracing"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:Component;1",
+  "extends": "dtmi:no:energymanager:asset:Component;1",
   "@context": "dtmi:dtdl:context;2"
 }

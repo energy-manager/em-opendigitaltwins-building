@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:StartStopSensor;1",
+  "@id": "dtmi:no:energymanager:capability:StartStopSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Start stop sensor"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:BinarySensor;1",
+  "extends": "dtmi:no:energymanager:capability:BinarySensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

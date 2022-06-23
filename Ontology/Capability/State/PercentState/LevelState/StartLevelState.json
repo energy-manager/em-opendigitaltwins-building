@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:StartLevelState;1",
+  "@id": "dtmi:no:energymanager:capability:StartLevelState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Start level state"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:LevelState;1",
+  "extends": "dtmi:no:energymanager:capability:LevelState;1",
   "@context": "dtmi:dtdl:context;2"
 }

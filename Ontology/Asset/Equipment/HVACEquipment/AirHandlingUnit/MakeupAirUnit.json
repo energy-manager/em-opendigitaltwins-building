@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:MakeupAirUnit;1",
+  "@id": "dtmi:no:energymanager:asset:MakeupAirUnit;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Makeup Air Unit"
+    "en": "Makeup air unit"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:AirHandlingUnit;1",
+  "extends": "dtmi:no:energymanager:asset:AirHandlingUnit;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:HumidityRatioSetpoint;1",
+  "@id": "dtmi:no:energymanager:capability:HumidityRatioSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Humidity ratio setpoint"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:HumiditySetpoint;1",
+  "extends": "dtmi:no:energymanager:capability:HumiditySetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

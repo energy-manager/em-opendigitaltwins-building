@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:PoliceStation;1",
+  "@id": "dtmi:no:energymanager:building:PoliceStation;1",
   "@type": "Interface",
   "displayName": {
     "en": "Police station"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:building:Emergency;1",
+  "extends": "dtmi:no:energymanager:building:Emergency;1",
   "@context": "dtmi:dtdl:context;2"
 }

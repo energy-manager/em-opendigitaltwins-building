@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:core:Actuator;1",
+  "@id": "dtmi:no:energymanager:core:Actuator;1",
   "@type": "Interface",
   "contents": [
     {
@@ -11,7 +11,7 @@
         "en": "observed by"
       },
       "name": "observedBy",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Sensor;1"
+      "target": "dtmi:no:energymanager:core:Sensor;1"
     }
   ],
   "description": {
@@ -20,6 +20,6 @@
   "displayName": {
     "en": "Actuator"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:core:Capability;1",
+  "extends": "dtmi:no:energymanager:core:Capability;1",
   "@context": "dtmi:dtdl:context;2"
 }

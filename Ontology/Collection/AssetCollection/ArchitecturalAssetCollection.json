@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:ArchitecturalAssetCollection;1",
+  "@id": "dtmi:no:energymanager:asset:ArchitecturalAssetCollection;1",
   "@type": "Interface",
   "contents": [
     {
@@ -12,12 +12,12 @@
       },
       "minMultiplicity": 0,
       "name": "includes",
-      "target": "dtmi:digitaltwins:rec_3_3:asset:ArchitecturalAsset;1"
+      "target": "dtmi:no:energymanager:asset:ArchitecturalAsset;1"
     }
   ],
   "displayName": {
     "en": "Architectural asset collection"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:core:AssetCollection;1",
+  "extends": "dtmi:no:energymanager:core:AssetCollection;1",
   "@context": "dtmi:dtdl:context;2"
 }

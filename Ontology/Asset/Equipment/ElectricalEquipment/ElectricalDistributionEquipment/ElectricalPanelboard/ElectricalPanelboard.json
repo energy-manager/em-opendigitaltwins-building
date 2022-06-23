@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:ElectricalPanelboard;1",
+  "@id": "dtmi:no:energymanager:asset:ElectricalPanelboard;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "short circuit rating"
+        "en": "Short circuit rating"
       },
       "name": "shortCircuitRating",
       "schema": "string",
@@ -14,19 +14,25 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "output phases"
+        "en": "Output phases"
       },
       "name": "outputPhases",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Three",
-            "name": "Three"
+            "name": "Three",
+            "displayName": {
+              "en": "Three"
+            }
           },
           {
             "enumValue": "One",
-            "name": "One"
+            "name": "One",
+            "displayName": {
+              "en": "One"
+            }
           }
         ],
         "valueSchema": "string"
@@ -39,17 +45,16 @@
         "Property"
       ],
       "displayName": {
-        "en": "input voltage"
+        "en": "Input voltage"
       },
       "name": "inputVoltage",
       "schema": "double",
-      "unit": "volt",
       "writable": true
     },
     {
       "@type": "Property",
       "displayName": {
-        "en": "max number of poles"
+        "en": "Max number of poles"
       },
       "name": "maxNumberOfPoles",
       "schema": "integer",
@@ -58,15 +63,15 @@
     {
       "@type": "Component",
       "displayName": {
-        "en": "main bus"
+        "en": "Main bus"
       },
       "name": "mainBus",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:ElectricalBus;1"
+      "schema": "dtmi:no:energymanager:asset:ElectricalBus;1"
     }
   ],
   "displayName": {
     "en": "Electrical panelboard"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:ElectricalDistributionEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:ElectricalDistributionEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

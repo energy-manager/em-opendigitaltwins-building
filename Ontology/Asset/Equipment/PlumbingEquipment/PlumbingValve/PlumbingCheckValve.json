@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:PlumbingCheckValve;1",
+  "@id": "dtmi:no:energymanager:asset:PlumbingCheckValve;1",
   "@type": "Interface",
   "displayName": {
     "en": "Check valve"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:PlumbingValve;1",
+  "extends": "dtmi:no:energymanager:asset:PlumbingValve;1",
   "@context": "dtmi:dtdl:context;2"
 }

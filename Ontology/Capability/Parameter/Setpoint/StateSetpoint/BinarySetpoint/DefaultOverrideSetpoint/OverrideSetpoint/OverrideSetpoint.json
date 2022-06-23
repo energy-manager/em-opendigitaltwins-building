@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:OverrideSetpoint;1",
+  "@id": "dtmi:no:energymanager:capability:OverrideSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Override setpoint"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:DefaultOverrideSetpoint;1",
+  "extends": "dtmi:no:energymanager:capability:DefaultOverrideSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

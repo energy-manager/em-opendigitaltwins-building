@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:PresenceAbsenceState;1",
+  "@id": "dtmi:no:energymanager:capability:PresenceAbsenceState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Presence absence state"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:BinaryState;1",
+  "extends": "dtmi:no:energymanager:capability:BinaryState;1",
   "@context": "dtmi:dtdl:context;2"
 }

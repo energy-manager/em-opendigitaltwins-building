@@ -1,23 +1,29 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:Pump;1",
+  "@id": "dtmi:no:energymanager:asset:Pump;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
-            "enumValue": "vertical",
-            "name": "vertical"
+            "enumValue": "Vertical",
+            "name": "Vertical",
+            "displayName": {
+              "en": "Vertical"
+            }
           },
           {
-            "enumValue": "inline",
-            "name": "inline"
+            "enumValue": "Inline",
+            "name": "Inline",
+            "displayName": {
+              "en": "Inline"
+            }
           }
         ],
         "valueSchema": "string"
@@ -27,7 +33,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "pumping media"
+        "en": "Pumping media"
       },
       "name": "pumpingMedia",
       "schema": "string",
@@ -36,7 +42,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "pressure capacity"
+        "en": "Pressure capacity"
       },
       "name": "pressureCapacity",
       "schema": "double",
@@ -45,10 +51,10 @@
     {
       "@type": "Property",
       "description": {
-        "en": "foot of head"
+        "en": "Foot of head"
       },
       "displayName": {
-        "en": "head capacity"
+        "en": "Head capacity"
       },
       "name": "headCapacity",
       "schema": "integer",
@@ -57,7 +63,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "flow capacity"
+        "en": "Flow capacity"
       },
       "name": "flowCapacity",
       "schema": "double",
@@ -66,23 +72,23 @@
     {
       "@type": "Component",
       "displayName": {
-        "en": "pipe outlet"
+        "en": "Pipe outlet"
       },
       "name": "pipeOutlet",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:PipeConnection;1"
+      "schema": "dtmi:no:energymanager:asset:PipeConnection;1"
     },
     {
       "@type": "Component",
       "displayName": {
-        "en": "pipe inlet"
+        "en": "Pipe inlet"
       },
       "name": "pipeInlet",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:PipeConnection;1"
+      "schema": "dtmi:no:energymanager:asset:PipeConnection;1"
     }
   ],
   "displayName": {
     "en": "Pump"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:Component;1",
+  "extends": "dtmi:no:energymanager:asset:Component;1",
   "@context": "dtmi:dtdl:context;2"
 }

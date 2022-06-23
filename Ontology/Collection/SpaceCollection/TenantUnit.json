@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:business:TenantUnit;1",
+  "@id": "dtmi:no:energymanager:business:TenantUnit;1",
   "@type": "Interface",
   "contents": [
     {
@@ -12,7 +12,7 @@
       },
       "minMultiplicity": 0,
       "name": "includes",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Space;1"
+      "target": "dtmi:no:energymanager:core:Space;1"
     },
     {
       "@type": "Component",
@@ -20,7 +20,7 @@
         "en": "address"
       },
       "name": "address",
-      "schema": "dtmi:digitaltwins:rec_3_3:addressing:Address;1"
+      "schema": "dtmi:no:energymanager:addressing:Address;1"
     }
   ],
   "description": {
@@ -29,6 +29,6 @@
   "displayName": {
     "en": "Tenant unit"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:core:SpaceCollection;1",
+  "extends": "dtmi:no:energymanager:core:SpaceCollection;1",
   "@context": "dtmi:dtdl:context;2"
 }

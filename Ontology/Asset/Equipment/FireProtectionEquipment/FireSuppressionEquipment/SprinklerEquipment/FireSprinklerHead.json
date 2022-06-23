@@ -1,31 +1,43 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:FireSprinklerHead;1",
+  "@id": "dtmi:no:energymanager:asset:FireSprinklerHead;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Upright",
-            "name": "Upright"
+            "name": "Upright",
+            "displayName": {
+              "en": "Upright"
+            }
           },
           {
             "enumValue": "SideWall",
-            "name": "SideWall"
+            "name": "SideWall",
+            "displayName": {
+              "en": "Side-wall"
+            }
           },
           {
             "enumValue": "Pendant",
-            "name": "Pendant"
+            "name": "Pendant",
+            "displayName": {
+              "en": "Pendant"
+            }
           },
           {
             "enumValue": "ConcealedPendant",
-            "name": "ConcealedPendant"
+            "name": "ConcealedPendant",
+            "displayName": {
+              "en": "Concealed pendant"
+            }
           }
         ],
         "valueSchema": "string"
@@ -52,8 +64,8 @@
     }
   ],
   "displayName": {
-    "en": "Fire Sprinkler Head"
+    "en": "Fire sprinkler head"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:SprinklerEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:SprinklerEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

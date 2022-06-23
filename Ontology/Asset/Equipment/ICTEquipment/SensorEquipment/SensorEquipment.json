@@ -1,20 +1,47 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:SensorEquipment;1",
+  "@id": "dtmi:no:energymanager:asset:SensorEquipment;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
-      "displayName": {
-        "en": "Wi-Fi signal strength"
+      "description": {
+        "en": "Signal strength for wireless sensors"
       },
-      "name": "wifiSignalStrength",
+      "displayName": {
+        "en": "Received signal strength indicator (RSSI)"
+      },
+      "name": "rssi",
       "schema": "double",
       "writable": true
     },
     {
       "@type": "Property",
+      "description": {
+        "en": "Signal to noise level for wireless sensors"
+      },
       "displayName": {
-        "en": "battery percentage"
+        "en": "SNR (Signal to noise level)"
+      },
+      "name": "snr",
+      "schema": "double",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "description": {
+        "en": "Transmission mode for wireless sensors. E.g. spreading factor for LoRaWAN sensors (SF7 to SF12)"
+      },
+      "displayName": {
+        "en": "mode"
+      },
+      "name": "mode",
+      "schema": "string",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Battery percentage"
       },
       "name": "batteryPercentage",
       "schema": "double",
@@ -24,6 +51,6 @@
   "displayName": {
     "en": "Sensor equipment"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:ICTEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:ICTEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

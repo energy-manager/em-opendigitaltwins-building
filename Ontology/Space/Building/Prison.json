@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:Prison;1",
+  "@id": "dtmi:no:energymanager:building:Prison;1",
   "@type": "Interface",
   "displayName": {
     "en": "Prison"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:core:Building;1",
+  "extends": "dtmi:no:energymanager:core:Building;1",
   "@context": "dtmi:dtdl:context;2"
 }

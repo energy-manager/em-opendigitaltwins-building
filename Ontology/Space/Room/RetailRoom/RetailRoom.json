@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:room:RetailRoom;1",
+  "@id": "dtmi:no:energymanager:room:RetailRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "RetailRoom"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:core:Room;1",
+  "extends": "dtmi:no:energymanager:core:Room;1",
   "@context": "dtmi:dtdl:context;2"
 }

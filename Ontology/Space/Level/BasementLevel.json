@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:level:BasementLevel;1",
+  "@id": "dtmi:no:energymanager:level:BasementLevel;1",
   "@type": "Interface",
   "displayName": {
     "en": "Basement level"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:core:Level;1",
+  "extends": "dtmi:no:energymanager:core:Level;1",
   "@context": "dtmi:dtdl:context;2"
 }

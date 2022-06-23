@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:Boiler;1",
+  "@id": "dtmi:no:energymanager:asset:Boiler;1",
   "@type": "Interface",
   "contents": [
     {
@@ -93,6 +93,6 @@
   "displayName": {
     "en": "Boiler"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:PlumbingEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:PlumbingEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

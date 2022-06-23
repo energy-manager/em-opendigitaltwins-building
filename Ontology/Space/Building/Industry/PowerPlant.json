@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:PowerPlant;1",
+  "@id": "dtmi:no:energymanager:building:PowerPlant;1",
   "@type": "Interface",
   "displayName": {
     "en": "Power plant"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:building:Industry;1",
+  "extends": "dtmi:no:energymanager:building:Industry;1",
   "@context": "dtmi:dtdl:context;2"
 }

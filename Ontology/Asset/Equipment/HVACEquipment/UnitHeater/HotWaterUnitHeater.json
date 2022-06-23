@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:HotWaterUnitHeater;1",
+  "@id": "dtmi:no:energymanager:asset:HotWaterUnitHeater;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "flow capacity"
+        "en": "Flow capacity"
       },
       "name": "flowCapacity",
       "schema": "double",
@@ -15,6 +15,6 @@
   "displayName": {
     "en": "Hot water unit heater"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:UnitHeater;1",
+  "extends": "dtmi:no:energymanager:asset:UnitHeater;1",
   "@context": "dtmi:dtdl:context;2"
 }

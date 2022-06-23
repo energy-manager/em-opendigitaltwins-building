@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:Generator;1",
+  "@id": "dtmi:no:energymanager:asset:Generator;1",
   "@type": "Interface",
   "contents": [
     {
@@ -8,29 +8,34 @@
         "Property"
       ],
       "displayName": {
-        "en": "output voltage"
+        "en": "Output voltage"
       },
       "name": "outputVoltage",
       "schema": "double",
-      "unit": "volt",
       "writable": true
     },
     {
       "@type": "Property",
       "displayName": {
-        "en": "output phases"
+        "en": "Output phases"
       },
       "name": "outputPhases",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Three",
-            "name": "Three"
+            "name": "Three",
+            "displayName": {
+              "en": "Three"
+            }
           },
           {
             "enumValue": "One",
-            "name": "One"
+            "name": "One",
+            "displayName": {
+              "en": "One"
+            }
           }
         ],
         "valueSchema": "string"
@@ -40,7 +45,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "mode of operation"
+        "en": "Mode of operation"
       },
       "name": "modeOfOperation",
       "schema": "string",
@@ -49,7 +54,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "fuel type"
+        "en": "Fuel type"
       },
       "name": "fuelType",
       "schema": "string",
@@ -58,7 +63,7 @@
     {
       "@type": "Property",
       "description": {
-        "en": "Hz"
+        "en": "Frequency (Hz)"
       },
       "displayName": {
         "en": "frequency"
@@ -70,7 +75,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "day tank capacity"
+        "en": "Day tank capacity"
       },
       "name": "dayTankCapacity",
       "schema": "double",
@@ -79,7 +84,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "bulk storage capacity"
+        "en": "Bulk storage capacity"
       },
       "name": "bulkStorageCapacity",
       "schema": "double",
@@ -88,7 +93,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "standby power rating (KVA)"
+        "en": "Standby power rating (KVA)"
       },
       "name": "standbyPowerKVA",
       "schema": "integer",
@@ -100,17 +105,16 @@
         "Property"
       ],
       "displayName": {
-        "en": "standby power rating"
+        "en": "Standby power rating"
       },
       "name": "standbyPower",
       "schema": "double",
-      "unit": "kilowatt",
       "writable": true
     },
     {
       "@type": "Property",
       "displayName": {
-        "en": "prime power rating (KVA)"
+        "en": "Prime power rating (KVA)"
       },
       "name": "primePowerKVA",
       "schema": "integer",
@@ -122,17 +126,16 @@
         "Property"
       ],
       "displayName": {
-        "en": "prime power rating"
+        "en": "Prime power rating"
       },
       "name": "primePower",
       "schema": "double",
-      "unit": "kilowatt",
       "writable": true
     }
   ],
   "displayName": {
     "en": "Generator"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:ElectricalGenerationStorageEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:ElectricalGenerationStorageEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

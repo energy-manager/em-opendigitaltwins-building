@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:core:Agent;1",
+  "@id": "dtmi:no:energymanager:core:Agent;1",
   "@type": "Interface",
   "contents": [
     {
@@ -11,7 +11,7 @@
         "en": "has role"
       },
       "name": "hasRole",
-      "target": "dtmi:digitaltwins:rec_3_3:business:Role;1"
+      "target": "dtmi:no:energymanager:business:role;1"
     },
     {
       "@type": "Relationship",
@@ -64,7 +64,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "name"
+        "en": "Name"
       },
       "name": "name",
       "schema": "string",

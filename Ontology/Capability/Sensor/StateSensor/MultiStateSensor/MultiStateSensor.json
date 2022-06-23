@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:MultiStateSensor;1",
+  "@id": "dtmi:no:energymanager:capability:MultiStateSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Multi state sensor"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:StateSensor;1",
+  "extends": "dtmi:no:energymanager:capability:StateSensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

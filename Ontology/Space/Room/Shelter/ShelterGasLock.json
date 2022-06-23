@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:room:ShelterGasLock;1",
+  "@id": "dtmi:no:energymanager:room:ShelterGasLock;1",
   "@type": "Interface",
   "displayName": {
     "en": "ShelterGasLock"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:room:Shelter;1",
+  "extends": "dtmi:no:energymanager:room:Shelter;1",
   "@context": "dtmi:dtdl:context;2"
 }

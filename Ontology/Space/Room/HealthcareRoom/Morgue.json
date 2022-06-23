@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:room:Morgue;1",
+  "@id": "dtmi:no:energymanager:room:Morgue;1",
   "@type": "Interface",
   "displayName": {
     "en": "Morgue"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:room:HealthcareRoom;1",
+  "extends": "dtmi:no:energymanager:room:HealthcareRoom;1",
   "@context": "dtmi:dtdl:context;2"
 }

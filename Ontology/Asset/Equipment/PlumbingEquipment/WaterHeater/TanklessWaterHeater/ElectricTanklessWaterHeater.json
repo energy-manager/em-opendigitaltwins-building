@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:ElectricTanklessWaterHeater;1",
+  "@id": "dtmi:no:energymanager:asset:ElectricTanklessWaterHeater;1",
   "@type": "Interface",
   "contents": [
     {
@@ -19,6 +19,6 @@
   "displayName": {
     "en": "Electric tank-less water heater"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:TanklessWaterHeater;1",
+  "extends": "dtmi:no:energymanager:asset:TanklessWaterHeater;1",
   "@context": "dtmi:dtdl:context;2"
 }

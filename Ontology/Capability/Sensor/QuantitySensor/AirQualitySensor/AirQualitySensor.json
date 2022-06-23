@@ -1,18 +1,17 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:AirQualitySensor;1",
+  "@id": "dtmi:no:energymanager:capability:airQualitySensor;1",
   "@type": "Interface",
   "contents": [
     {
-      "@type": "Property",
+      "@type": "Telemetry",
       "description": {
         "en": "Most recently reported or set value of a core:Capability."
       },
       "displayName": {
-        "en": "last value"
+        "en": "Last value"
       },
       "name": "lastValue",
-      "schema": "double",
-      "writable": true
+      "schema": "double"
     }
   ],
   "description": {
@@ -21,6 +20,6 @@
   "displayName": {
     "en": "Air quality sensor"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:QuantitySensor;1",
+  "extends": "dtmi:no:energymanager:capability:quantitySensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

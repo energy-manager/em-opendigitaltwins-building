@@ -1,23 +1,29 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:FanCoilUnit;1",
+  "@id": "dtmi:no:energymanager:asset:FanCoilUnit;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
-            "enumValue": "vertical",
-            "name": "vertical"
+            "enumValue": "Vertical",
+            "name": "Vertical",
+            "displayName": {
+              "en": "Vertical"
+            }
           },
           {
-            "enumValue": "horizontal",
-            "name": "horizontal"
+            "enumValue": "Horizontal",
+            "name": "Horizontal",
+            "displayName": {
+              "en": "Horizontal"
+            }
           }
         ],
         "valueSchema": "string"
@@ -27,7 +33,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "refrigerant type"
+        "en": "Refrigerant type"
       },
       "name": "refrigerantType",
       "schema": "string",
@@ -36,7 +42,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "nominal cooling capacity"
+        "en": "Nominal cooling capacity"
       },
       "name": "nominalCoolingCapacity",
       "schema": "double",
@@ -45,7 +51,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "net sensible cooling capacity"
+        "en": "Net sensible cooling capacity"
       },
       "name": "netSensibleCoolingCapacity",
       "schema": "double",
@@ -54,23 +60,32 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "mounting"
+        "en": "Mounting"
       },
       "name": "mounting",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
-            "enumValue": "wall",
-            "name": "wall"
+            "enumValue": "Wall",
+            "name": "Wall",
+            "displayName": {
+              "en": "Wall"
+            }
           },
           {
-            "enumValue": "floor",
-            "name": "floor"
+            "enumValue": "Floor",
+            "name": "Floor",
+            "displayName": {
+              "en": "Floor"
+            }
           },
           {
-            "enumValue": "ceiling",
-            "name": "ceiling"
+            "enumValue": "Ceiling",
+            "name": "Ceiling",
+            "displayName": {
+              "en": "Ceiling"
+            }
           }
         ],
         "valueSchema": "string"
@@ -80,7 +95,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "filter type"
+        "en": "Filter type"
       },
       "name": "filterType",
       "schema": "string",
@@ -89,31 +104,31 @@
     {
       "@type": "Component",
       "displayName": {
-        "en": "secondary cooling method"
+        "en": "Secondary cooling method"
       },
       "name": "secondaryCoolingMethod",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:HVACCoolingMethod;1"
+      "schema": "dtmi:no:energymanager:asset:HVACCoolingMethod;1"
     },
     {
       "@type": "Component",
       "displayName": {
-        "en": "primary cooling method"
+        "en": "Primary cooling method"
       },
       "name": "primaryCoolingMethod",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:HVACCoolingMethod;1"
+      "schema": "dtmi:no:energymanager:asset:HVACCoolingMethod;1"
     },
     {
       "@type": "Component",
       "displayName": {
-        "en": "fan"
+        "en": "Fan"
       },
       "name": "fan",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:Fan;1"
+      "schema": "dtmi:no:energymanager:asset:Fan;1"
     }
   ],
   "displayName": {
     "en": "Fan coil unit"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:TerminalUnit;1",
+  "extends": "dtmi:no:energymanager:asset:TerminalUnit;1",
   "@context": "dtmi:dtdl:context;2"
 }

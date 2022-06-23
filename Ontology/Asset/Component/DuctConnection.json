@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:DuctConnection;1",
+  "@id": "dtmi:no:energymanager:asset:DuctConnection;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "size"
+        "en": "Size"
       },
       "name": "size",
       "schema": "double",
@@ -14,23 +14,32 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "shape"
+        "en": "Shape"
       },
       "name": "shape",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
-            "enumValue": "round",
-            "name": "round"
+            "enumValue": "Round",
+            "name": "Round",
+            "displayName": {
+              "en": "Round"
+            }
           },
           {
-            "enumValue": "rectangle",
-            "name": "rectangle"
+            "enumValue": "Rectangle",
+            "name": "Rectangle",
+            "displayName": {
+              "en": "Rectangle"
+            }
           },
           {
-            "enumValue": "oval",
-            "name": "oval"
+            "enumValue": "Oval",
+            "name": "Oval",
+            "displayName": {
+              "en": "Oval"
+            }
           }
         ],
         "valueSchema": "string"
@@ -40,19 +49,25 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "configuration"
+        "en": "Configuration"
       },
       "name": "configuration",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
-            "enumValue": "single",
-            "name": "single"
+            "enumValue": "Single",
+            "name": "Single",
+            "displayName": {
+              "en": "Single"
+            }
           },
           {
-            "enumValue": "dual",
-            "name": "dual"
+            "enumValue": "Dual",
+            "name": "Dual",
+            "displayName": {
+              "en": "Dual"
+            }
           }
         ],
         "valueSchema": "string"
@@ -63,6 +78,6 @@
   "displayName": {
     "en": "Duct connection"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:Component;1",
+  "extends": "dtmi:no:energymanager:asset:Component;1",
   "@context": "dtmi:dtdl:context;2"
 }

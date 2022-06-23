@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:BarrierAsset;1",
+  "@id": "dtmi:no:energymanager:asset:BarrierAsset;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "width"
+        "en": "Width"
       },
       "name": "width",
       "schema": "double",
@@ -14,7 +14,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "thickness"
+        "en": "Thickness"
       },
       "name": "thickness",
       "schema": "double",
@@ -23,19 +23,25 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "service"
+        "en": "Service"
       },
       "name": "service",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Interior",
-            "name": "Interior"
+            "name": "Interior",
+            "displayName": {
+              "en": "Interior"
+            }
           },
           {
             "enumValue": "Exterior",
-            "name": "Exterior"
+            "name": "Exterior",
+            "displayName": {
+              "en": "Exterior"
+            }
           }
         ],
         "valueSchema": "string"
@@ -45,7 +51,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "material"
+        "en": "Material"
       },
       "name": "material",
       "schema": "string",
@@ -54,7 +60,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "height"
+        "en": "Height"
       },
       "name": "height",
       "schema": "double",
@@ -63,7 +69,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "frame material"
+        "en": "Frame material"
       },
       "name": "frameMaterial",
       "schema": "string",
@@ -75,7 +81,7 @@
         "Property"
       ],
       "displayName": {
-        "en": "fire rating"
+        "en": "Fire rating"
       },
       "name": "fireRating",
       "schema": "double",
@@ -89,7 +95,7 @@
       },
       "minMultiplicity": 0,
       "name": "toSpace",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Space;1"
+      "target": "dtmi:no:energymanager:core:Space;1"
     },
     {
       "@type": "Relationship",
@@ -98,12 +104,12 @@
       },
       "minMultiplicity": 0,
       "name": "fromSpace",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Space;1"
+      "target": "dtmi:no:energymanager:core:Space;1"
     }
   ],
   "displayName": {
     "en": "Barrier asset"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:ArchitecturalAsset;1",
+  "extends": "dtmi:no:energymanager:asset:ArchitecturalAsset;1",
   "@context": "dtmi:dtdl:context;2"
 }

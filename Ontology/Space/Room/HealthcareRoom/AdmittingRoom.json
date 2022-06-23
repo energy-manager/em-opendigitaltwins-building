@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:room:AdmittingRoom;1",
+  "@id": "dtmi:no:energymanager:room:AdmittingRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "Admitting room"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:room:HealthcareRoom;1",
+  "extends": "dtmi:no:energymanager:room:HealthcareRoom;1",
   "@context": "dtmi:dtdl:context;2"
 }

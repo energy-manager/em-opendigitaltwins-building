@@ -1,27 +1,36 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:VariableFrequencyDrive;1",
+  "@id": "dtmi:no:energymanager:asset:VariableFrequencyDrive;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "VoltageSourceInverter",
-            "name": "VoltageSourceInverter"
+            "name": "VoltageSourceInverter",
+            "displayName": {
+              "en": "Voltage source inverter"
+            }
           },
           {
             "enumValue": "PulseWidthModulation",
-            "name": "PulseWidthModulation"
+            "name": "PulseWidthModulation",
+            "displayName": {
+              "en": "Pulse-width modulation"
+            }
           },
           {
             "enumValue": "CurrentSourceInverter",
-            "name": "CurrentSourceInverter"
+            "name": "CurrentSourceInverter",
+            "displayName": {
+              "en": "Current source inverter"
+            }
           }
         ],
         "valueSchema": "string"
@@ -32,6 +41,6 @@
   "displayName": {
     "en": "Variable frequency drive"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:ElectricalDistributionEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:ElectricalDistributionEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

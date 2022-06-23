@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:ConcertHall;1",
+  "@id": "dtmi:no:energymanager:building:ConcertHall;1",
   "@type": "Interface",
   "displayName": {
     "en": "Concert hall"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:building:Culture;1",
+  "extends": "dtmi:no:energymanager:building:Culture;1",
   "@context": "dtmi:dtdl:context;2"
 }

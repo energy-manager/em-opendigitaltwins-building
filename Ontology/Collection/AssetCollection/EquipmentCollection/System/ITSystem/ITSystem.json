@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:ITSystem;1",
+  "@id": "dtmi:no:energymanager:asset:ITSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "IT system"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:System;1",
+  "extends": "dtmi:no:energymanager:asset:System;1",
   "@context": "dtmi:dtdl:context;2"
 }

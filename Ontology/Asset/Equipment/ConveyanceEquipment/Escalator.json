@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:Escalator;1",
+  "@id": "dtmi:no:energymanager:asset:Escalator;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "step width"
+        "en": "Step width"
       },
       "name": "stepWidth",
       "schema": "double",
@@ -14,7 +14,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "maximum vertical rise"
+        "en": "Maximum vertical rise"
       },
       "name": "maxVerticalRise",
       "schema": "double",
@@ -23,7 +23,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "maximum travel speed"
+        "en": "Maximum travel speed"
       },
       "name": "maxTravelSpeed",
       "schema": "double",
@@ -35,17 +35,16 @@
         "Property"
       ],
       "displayName": {
-        "en": "inclination"
+        "en": "Inclination"
       },
       "name": "inclination",
       "schema": "double",
-      "unit": "degreeOfArc",
       "writable": true
     }
   ],
   "displayName": {
     "en": "Escalator"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:ConveyanceEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:ConveyanceEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

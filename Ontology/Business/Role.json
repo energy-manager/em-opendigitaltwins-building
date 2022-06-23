@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:business:Role;1",
+  "@id": "dtmi:no:energymanager:business:Role;1",
   "@type": "Interface",
   "contents": [
     {

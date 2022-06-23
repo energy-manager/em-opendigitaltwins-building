@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:CurrentMagnitudeSetpoint;1",
+  "@id": "dtmi:no:energymanager:capability:CurrentMagnitudeSetpoint;1",
   "@type": "Interface",
   "contents": [
     {
@@ -22,6 +22,6 @@
   "displayName": {
     "en": "Current magnitude setpoint"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:CurrentSetpoint;1",
+  "extends": "dtmi:no:energymanager:capability:CurrentSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:HVACMixingBox;1",
+  "@id": "dtmi:no:energymanager:asset:HVACMixingBox;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "economizer"
+        "en": "Economizer"
       },
       "name": "economizer",
       "schema": "boolean",
@@ -15,6 +15,6 @@
   "displayName": {
     "en": "HVAC mixing box"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:Component;1",
+  "extends": "dtmi:no:energymanager:asset:Component;1",
   "@context": "dtmi:dtdl:context;2"
 }

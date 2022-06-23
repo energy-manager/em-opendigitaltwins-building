@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:AccessControlEquipment;1",
+  "@id": "dtmi:no:energymanager:asset:AccessControlEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Access control equipment"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:SecurityEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:SecurityEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

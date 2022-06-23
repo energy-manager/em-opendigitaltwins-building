@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:ICTHardware;1",
+  "@id": "dtmi:no:energymanager:asset:ICTHardware;1",
   "@type": "Interface",
   "contents": [
     {
@@ -28,12 +28,12 @@
           "writable": true
         }
       ],
-      "target": "dtmi:digitaltwins:rec_3_3:asset:ITRack;1"
+      "target": "dtmi:no:energymanager:asset:ITRack;1"
     }
   ],
   "displayName": {
     "en": "ICT Hardware"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:ICTEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:ICTEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

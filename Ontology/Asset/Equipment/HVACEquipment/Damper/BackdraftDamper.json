@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:BackdraftDamper;1",
+  "@id": "dtmi:no:energymanager:asset:BackdraftDamper;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Backdraft Damper"
+    "en": "Backdraft damper"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:Damper;1",
+  "extends": "dtmi:no:energymanager:asset:Damper;1",
   "@context": "dtmi:dtdl:context;2"
 }

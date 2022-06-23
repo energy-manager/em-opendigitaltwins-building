@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:FireDamper;1",
+  "@id": "dtmi:no:energymanager:asset:FireDamper;1",
   "@type": "Interface",
   "contents": [
     {
@@ -8,7 +8,7 @@
         "Property"
       ],
       "displayName": {
-        "en": "fire rating"
+        "en": "Fire rating"
       },
       "name": "fireRating",
       "schema": "double",
@@ -17,8 +17,8 @@
     }
   ],
   "displayName": {
-    "en": "Fire Damper"
+    "en": "Fire damper"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:Damper;1",
+  "extends": "dtmi:no:energymanager:asset:Damper;1",
   "@context": "dtmi:dtdl:context;2"
 }

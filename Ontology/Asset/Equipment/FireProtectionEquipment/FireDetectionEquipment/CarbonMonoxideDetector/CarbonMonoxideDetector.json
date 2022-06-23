@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:CarbonMonoxideDetector;1",
+  "@id": "dtmi:no:energymanager:asset:CarbonMonoxideDetector;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Carbon Monoxide Detector"
+    "en": "Carbon-monoxide detector"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:FireDetectionEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:FireDetectionEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

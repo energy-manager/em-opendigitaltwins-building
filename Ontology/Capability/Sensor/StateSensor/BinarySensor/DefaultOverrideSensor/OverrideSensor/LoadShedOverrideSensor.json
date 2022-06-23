@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:LoadShedOverrideSensor;1",
+  "@id": "dtmi:no:energymanager:capability:LoadShedOverrideSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Load shed override sensor"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:OverrideSensor;1",
+  "extends": "dtmi:no:energymanager:capability:OverrideSensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:Barracks;1",
+  "@id": "dtmi:no:energymanager:building:Barracks;1",
   "@type": "Interface",
   "displayName": {
     "en": "Barracks"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:building:Housing;1",
+  "extends": "dtmi:no:energymanager:building:Housing;1",
   "@context": "dtmi:dtdl:context;2"
 }

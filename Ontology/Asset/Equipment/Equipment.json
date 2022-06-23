@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:Equipment;1",
+  "@id": "dtmi:no:energymanager:asset:Equipment;1",
   "@type": "Interface",
   "contents": [
     {
@@ -339,6 +339,6 @@
   "displayName": {
     "en": "Equipment"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:core:Asset;1",
+  "extends": "dtmi:no:energymanager:core:Asset;1",
   "@context": "dtmi:dtdl:context;2"
 }

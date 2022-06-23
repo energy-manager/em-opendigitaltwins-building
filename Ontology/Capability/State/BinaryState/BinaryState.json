@@ -1,10 +1,10 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:BinaryState;1",
+  "@id": "dtmi:no:energymanager:capability:BinaryState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Binary state"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:core:State;1",
+  "extends": "dtmi:no:energymanager:core:State;1",
   "contents": [
     {
       "@type": "Property",

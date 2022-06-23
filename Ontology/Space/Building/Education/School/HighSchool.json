@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:HighSchool;1",
+  "@id": "dtmi:no:energymanager:building:HighSchool;1",
   "@type": "Interface",
   "displayName": {
     "en": "High school"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:building:School;1",
+  "extends": "dtmi:no:energymanager:building:School;1",
   "@context": "dtmi:dtdl:context;2"
 }

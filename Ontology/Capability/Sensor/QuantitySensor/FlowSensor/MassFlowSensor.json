@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:MassFlowSensor;1",
+  "@id": "dtmi:no:energymanager:capability:MassFlowSensor;1",
   "@type": "Interface",
   "contents": [
     {
@@ -18,6 +18,6 @@
   "displayName": {
     "en": "Mass flow sensor"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:FlowSensor;1",
+  "extends": "dtmi:no:energymanager:capability:FlowSensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

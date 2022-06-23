@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:OccupancySensor;1",
+  "@id": "dtmi:no:energymanager:capability:OccupancySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "OccupancySensor"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:PresenceSensor;1",
+  "extends": "dtmi:no:energymanager:capability:PresenceSensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

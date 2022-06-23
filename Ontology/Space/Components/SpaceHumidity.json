@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:SpaceHumidity;1",
+  "@id": "dtmi:no:energymanager:SpaceHumidity;1",
   "@type": "Interface",
   "displayName": {
     "en": "Space Humidity"

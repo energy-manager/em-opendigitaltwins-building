@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:TVOCAirQualitySetpoint;1",
+  "@id": "dtmi:no:energymanager:capability:TVOCAirQualitySetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "TVOC air quality setpoint"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:AirQualitySetpoint;1",
+  "extends": "dtmi:no:energymanager:capability:AirQualitySetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

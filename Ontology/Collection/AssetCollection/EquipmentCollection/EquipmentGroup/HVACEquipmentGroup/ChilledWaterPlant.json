@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:ChilledWaterPlant;1",
+  "@id": "dtmi:no:energymanager:asset:ChilledWaterPlant;1",
   "@type": "Interface",
   "displayName": {
     "en": "Chilled water plant"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:HVACEquipmentGroup;1",
+  "extends": "dtmi:no:energymanager:asset:HVACEquipmentGroup;1",
   "@context": "dtmi:dtdl:context;2"
 }

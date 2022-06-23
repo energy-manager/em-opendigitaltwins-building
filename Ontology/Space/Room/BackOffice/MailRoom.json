@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:room:MailRoom;1",
+  "@id": "dtmi:no:energymanager:room:MailRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "Mail room"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:room:BackOffice;1",
+  "extends": "dtmi:no:energymanager:room:BackOffice;1",
   "@context": "dtmi:dtdl:context;2"
 }

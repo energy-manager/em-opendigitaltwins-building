@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:core:Capability;1",
+  "@id": "dtmi:no:energymanager:core:capability;1",
   "@type": "Interface",
   "contents": [
     {
@@ -8,7 +8,7 @@
         "en": "Time when a core:Capability's value was last updated (see core:lastValue)."
       },
       "displayName": {
-        "en": "last value time"
+        "en": "Last value time"
       },
       "name": "lastValueTime",
       "schema": "dateTime",
@@ -27,10 +27,10 @@
     {
       "@type": "Component",
       "displayName": {
-        "en": "categorization properties"
+        "en": "Categorization properties"
       },
       "name": "categorizationProperties",
-      "schema": "dtmi:digitaltwins:rec_3_3:device:CapabilityPropertySet;1"
+      "schema": "dtmi:no:energymanager:capability:capabilityPropertySet;1"
     },
     {
       "@type": "Relationship",
@@ -83,7 +83,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "name"
+        "en": "Name"
       },
       "name": "name",
       "schema": "string",

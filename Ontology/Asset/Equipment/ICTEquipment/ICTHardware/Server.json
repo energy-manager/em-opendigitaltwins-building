@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:Server;1",
+  "@id": "dtmi:no:energymanager:asset:Server;1",
   "@type": "Interface",
   "contents": [
     {
@@ -24,6 +24,6 @@
   "displayName": {
     "en": "Server"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:ICTHardware;1",
+  "extends": "dtmi:no:energymanager:asset:ICTHardware;1",
   "@context": "dtmi:dtdl:context;2"
 }

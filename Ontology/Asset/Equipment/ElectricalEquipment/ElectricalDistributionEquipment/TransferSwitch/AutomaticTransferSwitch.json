@@ -1,23 +1,29 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:AutomaticTransferSwitch;1",
+  "@id": "dtmi:no:energymanager:asset:AutomaticTransferSwitch;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "transition type"
+        "en": "Transition type"
       },
       "name": "transitionType",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Open",
-            "name": "Open"
+            "name": "Open",
+            "displayName": {
+              "en": "Open"
+            }
           },
           {
             "enumValue": "Closed",
-            "name": "Closed"
+            "name": "Closed",
+            "displayName": {
+              "en": "Closed"
+            }
           }
         ],
         "valueSchema": "string"
@@ -27,23 +33,32 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "switching mechanism"
+        "en": "Awitching mechanism"
       },
       "name": "switchingMechanism",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Contactor",
-            "name": "Contactor"
+            "name": "Contactor",
+            "displayName": {
+              "en": "Contractor"
+            }
           },
           {
             "enumValue": "CircuitBreakerPowerCase",
-            "name": "CircuitBreakerPowerCase"
+            "name": "CircuitBreakerPowerCase",
+            "displayName": {
+              "en": "Circuit breaker power case"
+            }
           },
           {
             "enumValue": "CircuitBreakerMoldedCase",
-            "name": "CircuitBreakerMoldedCase"
+            "name": "CircuitBreakerMoldedCase",
+            "displayName": {
+              "en": "Circuit breaker molded case"
+            }
           }
         ],
         "valueSchema": "string"
@@ -54,6 +69,6 @@
   "displayName": {
     "en": "Automatic transfer switch"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:TransferSwitch;1",
+  "extends": "dtmi:no:energymanager:asset:TransferSwitch;1",
   "@context": "dtmi:dtdl:context;2"
 }

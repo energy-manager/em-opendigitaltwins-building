@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:room:ClimateControlRoom;1",
+  "@id": "dtmi:no:energymanager:room:ClimateControlRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "ClimateControlRoom"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:room:UtilitiesRoom;1",
+  "extends": "dtmi:no:energymanager:room:UtilitiesRoom;1",
   "@context": "dtmi:dtdl:context;2"
 }

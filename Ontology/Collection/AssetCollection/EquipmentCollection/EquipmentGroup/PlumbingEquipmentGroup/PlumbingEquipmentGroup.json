@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:PlumbingEquipmentGroup;1",
+  "@id": "dtmi:no:energymanager:asset:PlumbingEquipmentGroup;1",
   "@type": "Interface",
   "contents": [
     {
@@ -12,12 +12,12 @@
       },
       "minMultiplicity": 0,
       "name": "includes",
-      "target": "dtmi:digitaltwins:rec_3_3:asset:PlumbingEquipment;1"
+      "target": "dtmi:no:energymanager:asset:PlumbingEquipment;1"
     }
   ],
   "displayName": {
     "en": "Plumbing equipment group"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:EquipmentGroup;1",
+  "extends": "dtmi:no:energymanager:asset:EquipmentGroup;1",
   "@context": "dtmi:dtdl:context;2"
 }

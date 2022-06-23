@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:core:Space;1",
+  "@id": "dtmi:no:energymanager:core:Space;1",
   "@type": "Interface",
   "contents": [
     {
@@ -45,7 +45,7 @@
         "en": "owned by"
       },
       "name": "ownedBy",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Agent;1"
+      "target": "dtmi:no:energymanager:core:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -53,7 +53,7 @@
         "en": "operated by"
       },
       "name": "operatedBy",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Agent;1"
+      "target": "dtmi:no:energymanager:core:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -64,7 +64,7 @@
         "en": "is part of"
       },
       "name": "isPartOf",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Space;1"
+      "target": "dtmi:no:energymanager:core:Space;1"
     },
     {
       "@type": "Relationship",
@@ -75,7 +75,7 @@
         "en": "included in"
       },
       "name": "includedIn",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Collection;1"
+      "target": "dtmi:no:energymanager:core:Collection;1"
     },
     {
       "@type": "Relationship",
@@ -86,7 +86,7 @@
         "en": "has part"
       },
       "name": "hasPart",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Space;1"
+      "target": "dtmi:no:energymanager:core:Space;1"
     },
     {
       "@type": "Relationship",
@@ -94,7 +94,7 @@
         "en": "has capability"
       },
       "name": "hasCapability",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Capability;1"
+      "target": "dtmi:no:energymanager:core:Capability;1"
     },
     {
       "@type": "Relationship",
@@ -109,7 +109,7 @@
         "en": "constructed by"
       },
       "name": "constructedBy",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Agent;1"
+      "target": "dtmi:no:energymanager:core:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -117,7 +117,19 @@
         "en": "architected by"
       },
       "name": "architectedBy",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Agent;1"
+      "target": "dtmi:no:energymanager:core:Agent;1"
+    },
+    {
+      "@type": "Relationship",
+      "description": {
+        "en": "Used for e.g. having a room that contains a sensor. Use serves/servedBy if asset is not directly located in the space. Inverse of: locatedIn"
+      },
+      "displayName": {
+        "en": "contains"
+      },
+      "minMultiplicity": 0,
+      "name": "contains", 
+      "target": "dtmi:no:energymanager:core:Asset;1"
     },
     {
       "@type": "Property",
@@ -172,7 +184,7 @@
       "displayName": {
         "en": "Area"
       },
-      "schema": "dtmi:digitaltwins:rec_3_3:SpaceArea;1"
+      "schema": "dtmi:no:energymanager:SpaceArea;1"
     },
     {
       "@type": "Component",
@@ -180,7 +192,7 @@
       "displayName": {
         "en": "Capacity"
       },
-      "schema": "dtmi:digitaltwins:rec_3_3:SpaceCapacity;1"
+      "schema": "dtmi:no:energymanager:SpaceCapacity;1"
     },
     {
       "@type": "Component",
@@ -188,7 +200,7 @@
       "displayName": {
         "en": "Occupancy"
       },
-      "schema": "dtmi:digitaltwins:rec_3_3:SpaceOccupancy;1"
+      "schema": "dtmi:no:energymanager:SpaceOccupancy;1"
     },
     {
       "@type": "Component",
@@ -196,7 +208,7 @@
       "displayName": {
         "en": "Temperature"
       },
-      "schema": "dtmi:digitaltwins:rec_3_3:SpaceTemperature;1"
+      "schema": "dtmi:no:energymanager:SpaceTemperature;1"
     },
     {
       "@type": "Component",
@@ -204,7 +216,7 @@
       "displayName": {
         "en": "Humidity"
       },
-      "schema": "dtmi:digitaltwins:rec_3_3:SpaceHumidity;1"
+      "schema": "dtmi:no:energymanager:SpaceHumidity;1"
     },
     {
       "@type": "Component",
@@ -212,7 +224,7 @@
       "displayName": {
         "en": "CO2"
       },
-      "schema": "dtmi:digitaltwins:rec_3_3:SpaceCO2;1"
+      "schema": "dtmi:no:energymanager:SpaceCO2;1"
     }
   ],
   "description": {

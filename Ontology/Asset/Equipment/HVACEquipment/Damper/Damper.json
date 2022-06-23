@@ -1,27 +1,36 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:Damper;1",
+  "@id": "dtmi:no:energymanager:asset:Damper;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "service"
+        "en": "Service"
       },
       "name": "service",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Supply",
-            "name": "Supply"
+            "name": "Supply",
+            "displayName": {
+              "en": "Supply"
+            }
           },
           {
             "enumValue": "Return",
-            "name": "Return"
+            "name": "Return",
+            "displayName": {
+              "en": "Return"
+            }
           },
           {
             "enumValue": "Exhaust",
-            "name": "Exhaust"
+            "name": "Exhaust",
+            "displayName": {
+              "en": "Exhaust"
+            }
           }
         ],
         "valueSchema": "string"
@@ -31,12 +40,12 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "leakage class"
+        "en": "Leakage class"
       },
       "name": "leakageClass",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "III",
             "name": "III"
@@ -57,23 +66,32 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "blade type"
+        "en": "Blade type"
       },
       "name": "bladeType",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Vee",
-            "name": "Vee"
+            "name": "Vee",
+            "displayName": {
+              "en": "Vee"
+            }
           },
           {
             "enumValue": "Round",
-            "name": "Round"
+            "name": "Round",
+            "displayName": {
+              "en": "Round"
+            }
           },
           {
             "enumValue": "Airfoil",
-            "name": "Airfoil"
+            "name": "Airfoil",
+            "displayName": {
+              "en": "Airfoil"
+            }
           }
         ],
         "valueSchema": "string"
@@ -83,15 +101,15 @@
     {
       "@type": "Component",
       "displayName": {
-        "en": "duct inlet"
+        "en": "Duct inlet"
       },
       "name": "ductInlet",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:DuctConnection;1"
+      "schema": "dtmi:no:energymanager:asset:DuctConnection;1"
     }
   ],
   "displayName": {
     "en": "Damper"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:HVACEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:HVACEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

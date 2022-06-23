@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:PowerStation;1",
+  "@id": "dtmi:no:energymanager:building:PowerStation;1",
   "@type": "Interface",
   "displayName": {
     "en": "Power station"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:building:Industry;1",
+  "extends": "dtmi:no:energymanager:building:Industry;1",
   "@context": "dtmi:dtdl:context;2"
 }

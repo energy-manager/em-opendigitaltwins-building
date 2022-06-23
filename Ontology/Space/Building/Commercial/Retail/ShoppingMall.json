@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:ShoppingMall;1",
+  "@id": "dtmi:no:energymanager:building:ShoppingMall;1",
   "@type": "Interface",
   "displayName": {
     "en": "Shopping mall"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:building:Retail;1",
+  "extends": "dtmi:no:energymanager:building:Retail;1",
   "@context": "dtmi:dtdl:context;2"
 }

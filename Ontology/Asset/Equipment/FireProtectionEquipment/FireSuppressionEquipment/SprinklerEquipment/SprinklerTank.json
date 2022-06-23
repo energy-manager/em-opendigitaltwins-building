@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:SprinklerTank;1",
+  "@id": "dtmi:no:energymanager:asset:SprinklerTank;1",
   "@type": "Interface",
   "displayName": {
     "en": "Sprinkler tank"
   },
   "extends": [
-    "dtmi:digitaltwins:rec_3_3:asset:Tank;1",
-    "dtmi:digitaltwins:rec_3_3:asset:SprinklerEquipment;1"
+    "dtmi:no:energymanager:asset:Tank;1",
+    "dtmi:no:energymanager:asset:SprinklerEquipment;1"
   ],
   "@context": "dtmi:dtdl:context;2"
 }

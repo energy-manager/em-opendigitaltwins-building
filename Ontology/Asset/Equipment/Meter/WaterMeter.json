@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:WaterMeter;1",
+  "@id": "dtmi:no:energymanager:asset:WaterMeter;1",
   "@type": "Interface",
   "contents": [
     {
@@ -62,7 +62,7 @@
         "en": "sub-meter of"
       },
       "name": "subMeterOf",
-      "target": "dtmi:digitaltwins:rec_3_3:asset:WaterMeter;1"
+      "target": "dtmi:no:energymanager:asset:WaterMeter;1"
     },
     {
       "@type": "Relationship",
@@ -75,6 +75,6 @@
   "displayName": {
     "en": "Water meter"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:Meter;1",
+  "extends": "dtmi:no:energymanager:asset:Meter;1",
   "@context": "dtmi:dtdl:context;2"
 }

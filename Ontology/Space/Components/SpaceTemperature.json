@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:SpaceTemperature;1",
+  "@id": "dtmi:no:energymanager:SpaceTemperature;1",
   "@type": "Interface",
   "displayName": {
     "en": "Space Temperature"

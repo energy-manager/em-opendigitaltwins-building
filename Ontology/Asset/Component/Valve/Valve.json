@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:Valve;2",
+  "@id": "dtmi:no:energymanager:asset:Valve;2",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "pressure capacity"
+        "en": "Pressure capacity"
       },
       "name": "pressureCapacity",
       "schema": "double",
@@ -14,7 +14,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "flow capacity"
+        "en": "Flow capacity"
       },
       "name": "flowCapacity",
       "schema": "double",
@@ -23,23 +23,23 @@
     {
       "@type": "Component",
       "displayName": {
-        "en": "pipe outlet"
+        "en": "Pipe outlet"
       },
       "name": "pipeOutlet",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:PipeConnection;1"
+      "schema": "dtmi:no:energymanager:asset:PipeConnection;1"
     },
     {
       "@type": "Component",
       "displayName": {
-        "en": "pipe inlet"
+        "en": "Pipe inlet"
       },
       "name": "pipeInlet",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:PipeConnection;1"
+      "schema": "dtmi:no:energymanager:asset:PipeConnection;1"
     }
   ],
   "displayName": {
     "en": "Valve"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:Component;1",
+  "extends": "dtmi:no:energymanager:asset:Component;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:HVACOutsideAirSystem;1",
+  "@id": "dtmi:no:energymanager:asset:HVACOutsideAirSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "HVAC outside air system"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:HVACConditionedAirSystem;1",
+  "extends": "dtmi:no:energymanager:asset:HVACConditionedAirSystem;1",
   "@context": "dtmi:dtdl:context;2"
 }

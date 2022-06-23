@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:agents:Person;1",
+  "@id": "dtmi:no:energymanager:agent:Person;1",
   "@type": "Interface",
   "contents": [
     {
@@ -8,7 +8,7 @@
         "en": "A person's last name (if they have one; this varies across cultural contexts)."
       },
       "displayName": {
-        "en": "last name"
+        "en": "Last name"
       },
       "name": "lastName",
       "schema": "string",
@@ -20,33 +20,9 @@
         "en": "URL link to an image that represents the person."
       },
       "displayName": {
-        "en": "image"
+        "en": "Image"
       },
       "name": "image",
-      "schema": "string",
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "description": {
-        "en": "A person's personal, individual name."
-      },
-      "displayName": {
-        "en": "given name"
-      },
-      "name": "givenName",
-      "schema": "string",
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "description": {
-        "en": "A gender designation for a Person."
-      },
-      "displayName": {
-        "en": "gender"
-      },
-      "name": "gender",
       "schema": "string",
       "writable": true
     },
@@ -56,21 +32,9 @@
         "en": "A person's first name (if they have one; this varies across cultural contexts)."
       },
       "displayName": {
-        "en": "first name"
+        "en": "First name"
       },
       "name": "firstName",
-      "schema": "string",
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "description": {
-        "en": "A person's family name."
-      },
-      "displayName": {
-        "en": "family name"
-      },
-      "name": "familyName",
       "schema": "string",
       "writable": true
     },
@@ -83,7 +47,7 @@
         "en": "is member of"
       },
       "name": "isMemberOf",
-      "target": "dtmi:digitaltwins:rec_3_3:agents:Organization;1"
+      "target": "dtmi:no:energymanager:agent:Organization;1"
     }
   ],
   "description": {
@@ -92,6 +56,6 @@
   "displayName": {
     "en": "Person"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:core:Agent;1",
+  "extends": "dtmi:no:energymanager:core:Agent;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:IrrigationPump;1",
+  "@id": "dtmi:no:energymanager:asset:IrrigationPump;1",
   "@type": "Interface",
   "displayName": {
     "en": "Irrigation pump"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:PlumbingPump;1",
+  "extends": "dtmi:no:energymanager:asset:PlumbingPump;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:core:Sensor;1",
+  "@id": "dtmi:no:energymanager:core:sensor;1",
   "@type": "Interface",
   "contents": [
     {
@@ -19,6 +19,6 @@
   "displayName": {
     "en": "Sensor"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:core:Capability;1",
+  "extends": "dtmi:no:energymanager:core:capability;1",
   "@context": "dtmi:dtdl:context;2"
 }

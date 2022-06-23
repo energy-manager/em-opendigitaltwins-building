@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:business:Lease;1",
+  "@id": "dtmi:no:energymanager:business:Lease;1",
   "@type": "Interface",
   "contents": [
     {
@@ -35,7 +35,7 @@
         "en": "regulated by"
       },
       "name": "regulatedBy",
-      "target": "dtmi:digitaltwins:rec_3_3:business:LeaseContract;1"
+      "target": "dtmi:no:energymanager:business:LeaseContract;1"
     },
     {
       "@type": "Relationship",
@@ -46,7 +46,7 @@
         "en": "leasor"
       },
       "name": "leasor",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Agent;1"
+      "target": "dtmi:no:energymanager:core:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -57,7 +57,7 @@
         "en": "leasee"
       },
       "name": "leasee",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Agent;1"
+      "target": "dtmi:no:energymanager:core:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -73,6 +73,6 @@
   "displayName": {
     "en": "Lease"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:core:Event;1",
+  "extends": "dtmi:no:energymanager:core:Event;1",
   "@context": "dtmi:dtdl:context;2"
 }

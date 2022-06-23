@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:core:Building;1",
+  "@id": "dtmi:no:energymanager:core:Building;1",
   "@type": "Interface",
   "contents": [
     {
@@ -8,7 +8,7 @@
         "en": "address"
       },
       "name": "address",
-      "schema": "dtmi:digitaltwins:rec_3_3:addressing:Address;1"
+      "schema": "dtmi:no:energymanager:addressing:Address;1"
     },
     {
       "@type": "Relationship",
@@ -19,7 +19,7 @@
         "en": "has building component"
       },
       "name": "hasBuildingComponent",
-      "target": "dtmi:digitaltwins:rec_3_3:core:BuildingComponent;1"
+      "target": "dtmi:no:energymanager:core:BuildingComponent;1"
     }
   ],
   "description": {
@@ -28,6 +28,6 @@
   "displayName": {
     "en": "Building"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:core:Space;1",
+  "extends": "dtmi:no:energymanager:core:Space;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:PipeConnection;1",
+  "@id": "dtmi:no:energymanager:asset:PipeConnection;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "outside diameter"
+        "en": "Outside diameter"
       },
       "name": "outsideDiameter",
       "schema": "double",
@@ -14,7 +14,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "nominal diameter"
+        "en": "Nominal diameter"
       },
       "name": "nominalDiameter",
       "schema": "double",
@@ -23,7 +23,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "inside diameter"
+        "en": "Inside diameter"
       },
       "name": "insideDiameter",
       "schema": "double",
@@ -33,6 +33,6 @@
   "displayName": {
     "en": "Pipe connection"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:Component;1",
+  "extends": "dtmi:no:energymanager:asset:Component;1",
   "@context": "dtmi:dtdl:context;2"
 }

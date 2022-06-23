@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:LinearVelocitySensor;1",
+  "@id": "dtmi:no:energymanager:capability:LinearVelocitySensor;1",
   "@type": "Interface",
   "contents": [
     {
@@ -18,6 +18,6 @@
   "displayName": {
     "en": "Linear velocity sensor"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:VelocitySensor;1",
+  "extends": "dtmi:no:energymanager:capability:VelocitySensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

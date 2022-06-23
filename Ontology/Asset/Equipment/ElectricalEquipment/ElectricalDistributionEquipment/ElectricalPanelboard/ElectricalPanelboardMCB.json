@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:ElectricalPanelboardMCB;1",
+  "@id": "dtmi:no:energymanager:asset:ElectricalPanelboardMCB;1",
   "@type": "Interface",
   "contents": [
     {
@@ -8,17 +8,16 @@
         "Property"
       ],
       "displayName": {
-        "en": "main circuit breaker rating"
+        "en": "Main circuit breaker rating"
       },
       "name": "MCBRating",
       "schema": "double",
-      "unit": "ampere",
       "writable": true
     }
   ],
   "displayName": {
     "en": "Electrical panelboard MCB"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:ElectricalPanelboard;1",
+  "extends": "dtmi:no:energymanager:asset:ElectricalPanelboard;1",
   "@context": "dtmi:dtdl:context;2"
 }

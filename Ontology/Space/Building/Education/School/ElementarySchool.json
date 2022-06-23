@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:ElementarySchool;1",
+  "@id": "dtmi:no:energymanager:building:ElementarySchool;1",
   "@type": "Interface",
   "displayName": {
     "en": "Elementary school"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:building:School;1",
+  "extends": "dtmi:no:energymanager:building:School;1",
   "@context": "dtmi:dtdl:context;2"
 }

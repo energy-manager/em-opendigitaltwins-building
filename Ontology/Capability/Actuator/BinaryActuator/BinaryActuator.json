@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:BinaryActuator;1",
+  "@id": "dtmi:no:energymanager:capability:BinaryActuator;1",
   "@type": "Interface",
   "contents": [
     {
@@ -18,6 +18,6 @@
   "displayName": {
     "en": "Binary actuator"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:core:Actuator;1",
+  "extends": "dtmi:no:energymanager:core:Actuator;1",
   "@context": "dtmi:dtdl:context;2"
 }

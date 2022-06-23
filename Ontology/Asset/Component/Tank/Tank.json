@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:Tank;1",
+  "@id": "dtmi:no:energymanager:asset:Tank;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "tank capacity"
+        "en": "Tank capacity"
       },
       "name": "tankCapacity",
       "schema": "double",
@@ -14,7 +14,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "system pressure"
+        "en": "System pressure"
       },
       "name": "systemPressure",
       "schema": "double",
@@ -24,6 +24,6 @@
   "displayName": {
     "en": "Tank"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:Component;1",
+  "extends": "dtmi:no:energymanager:asset:Component;1",
   "@context": "dtmi:dtdl:context;2"
 }

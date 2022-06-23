@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:FrequencySetpoint;1",
+  "@id": "dtmi:no:energymanager:capability:FrequencySetpoint;1",
   "@type": "Interface",
   "contents": [
     {
@@ -18,6 +18,6 @@
   "displayName": {
     "en": "Frequency setpoint"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:QuantitySetpoint;1",
+  "extends": "dtmi:no:energymanager:capability:QuantitySetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:WaterFilter;1",
+  "@id": "dtmi:no:energymanager:asset:WaterFilter;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "working pressure"
+        "en": "Working pressure"
       },
       "name": "workingPressure",
       "schema": "double",
@@ -14,7 +14,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
       "schema": "string",
@@ -23,7 +23,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "tank capacity"
+        "en": "Tank capacity"
       },
       "name": "tankCapacity",
       "schema": "double",
@@ -32,7 +32,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "flow capacity"
+        "en": "Flow capacity"
       },
       "name": "flowCapacity",
       "schema": "double",
@@ -41,10 +41,10 @@
     {
       "@type": "Property",
       "description": {
-        "en": "microns"
+        "en": "Microns"
       },
       "displayName": {
-        "en": "filtration rating"
+        "en": "Filtration rating"
       },
       "name": "filtrationRating",
       "schema": "integer",
@@ -54,6 +54,6 @@
   "displayName": {
     "en": "Water filter"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:HVACWaterTreatment;1",
+  "extends": "dtmi:no:energymanager:asset:HVACWaterTreatment;1",
   "@context": "dtmi:dtdl:context;2"
 }

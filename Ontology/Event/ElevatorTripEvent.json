@@ -1,11 +1,11 @@
 {
-    "@id": "dtmi:digitaltwins:rec_3_3:core:ElevatorTripEvent;1",
+    "@id": "dtmi:no:energymanager:core:ElevatorTripEvent;1",
     "@type": "Interface",
     "displayName": {
       "en": "Elevator Trip Event"
     },
     "extends" : [
-      "dtmi:digitaltwins:rec_3_3:core:Event;1"
+      "dtmi:no:energymanager:core:Event;1"
     ],
     "contents": [
       {
@@ -43,7 +43,7 @@
         },
         "writable": true,
         "schema": {
-          "@id": "dtmi:digitaltwins:rec_3_3:core:ElevatorTripDirection;1",
+          "@id": "dtmi:no:energymanager:core:ElevatorTripDirection;1",
           "@type": "Enum",
           "valueSchema": "string",
           "enumValues": [

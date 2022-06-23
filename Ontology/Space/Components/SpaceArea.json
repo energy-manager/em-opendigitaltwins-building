@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:SpaceArea;1",
+  "@id": "dtmi:no:energymanager:SpaceArea;1",
   "@type": "Interface",
   "displayName": {
     "en": "Space Area"

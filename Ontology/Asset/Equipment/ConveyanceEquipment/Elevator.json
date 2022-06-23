@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:Elevator;1",
+  "@id": "dtmi:no:energymanager:asset:Elevator;1",
   "@type": "Interface",
   "contents": [
     {
@@ -8,7 +8,7 @@
         "en": "The number of people who can fit in a Space."
       },
       "displayName": {
-        "en": "person capacity"
+        "en": "Person capacity"
       },
       "name": "personCapacity",
       "schema": "integer",
@@ -20,17 +20,16 @@
         "Property"
       ],
       "displayName": {
-        "en": "weight capacity"
+        "en": "Weight capacity"
       },
       "name": "weightCapacity",
       "schema": "double",
-      "unit": "kilogram",
       "writable": true
     },
     {
       "@type": "Property",
       "displayName": {
-        "en": "maximum travel speed"
+        "en": "Maximum travel speed"
       },
       "name": "maxTravelSpeed",
       "schema": "double",
@@ -39,7 +38,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "maximum travel distance"
+        "en": "Maximum travel distance"
       },
       "name": "maxTravelDistance",
       "schema": "double",
@@ -48,7 +47,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "maximum landings"
+        "en": "Maximum landings"
       },
       "name": "maxLandings",
       "schema": "integer",
@@ -58,6 +57,6 @@
   "displayName": {
     "en": "Elevator"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:ConveyanceEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:ConveyanceEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

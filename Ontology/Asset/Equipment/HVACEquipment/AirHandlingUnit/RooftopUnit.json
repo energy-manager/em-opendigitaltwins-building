@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:RooftopUnit;1",
+  "@id": "dtmi:no:energymanager:asset:RooftopUnit;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Rooftop Unit"
+    "en": "Rooftop unit"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:AirHandlingUnit;1",
+  "extends": "dtmi:no:energymanager:asset:AirHandlingUnit;1",
   "@context": "dtmi:dtdl:context;2"
 }

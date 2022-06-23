@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:room:Bedroom;1",
+  "@id": "dtmi:no:energymanager:room:Bedroom;1",
   "@type": "Interface",
   "displayName": {
     "en": "Bedroom"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:core:Room;1",
+  "extends": "dtmi:no:energymanager:core:Room;1",
   "@context": "dtmi:dtdl:context;2"
 }

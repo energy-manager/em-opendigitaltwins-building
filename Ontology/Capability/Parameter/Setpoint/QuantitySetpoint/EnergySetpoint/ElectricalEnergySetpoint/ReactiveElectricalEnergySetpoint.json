@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:ReactiveElectricalEnergySetpoint;1",
+  "@id": "dtmi:no:energymanager:capability:ReactiveElectricalEnergySetpoint;1",
   "@type": "Interface",
   "contents": [
     {
@@ -18,6 +18,6 @@
   "displayName": {
     "en": "Reactive electrical energy setpoint"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:ElectricalEnergySetpoint;1",
+  "extends": "dtmi:no:energymanager:capability:ElectricalEnergySetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

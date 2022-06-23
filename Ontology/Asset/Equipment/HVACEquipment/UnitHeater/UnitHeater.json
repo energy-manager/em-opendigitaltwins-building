@@ -1,23 +1,29 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:UnitHeater;1",
+  "@id": "dtmi:no:energymanager:asset:UnitHeater;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
-            "enumValue": "vertical",
-            "name": "vertical"
+            "enumValue": "Vertical",
+            "name": "Vertical",
+            "displayName": {
+              "en": "Vertical"
+            }
           },
           {
-            "enumValue": "horizontal",
-            "name": "horizontal"
+            "enumValue": "Horizontal",
+            "name": "Horizontal",
+            "displayName": {
+              "en": "Horizontal"
+            }
           }
         ],
         "valueSchema": "string"
@@ -27,7 +33,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "nominal heating capacity"
+        "en": "Nominal heating capacity"
       },
       "name": "nominalHeatingCapacity",
       "schema": "double",
@@ -36,23 +42,23 @@
     {
       "@type": "Component",
       "displayName": {
-        "en": "heating method"
+        "en": "Heating method"
       },
       "name": "heatingMethod",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:HVACHeatingMethod;1"
+      "schema": "dtmi:no:energymanager:asset:HVACHeatingMethod;1"
     },
     {
       "@type": "Component",
       "displayName": {
-        "en": "fan"
+        "en": "Fan"
       },
       "name": "fan",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:Fan;1"
+      "schema": "dtmi:no:energymanager:asset:Fan;1"
     }
   ],
   "displayName": {
     "en": "Unit heater"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:HVACEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:HVACEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

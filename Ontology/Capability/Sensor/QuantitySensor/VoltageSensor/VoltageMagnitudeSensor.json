@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:VoltageMagnitudeSensor;1",
+  "@id": "dtmi:no:energymanager:capability:VoltageMagnitudeSensor;1",
   "@type": "Interface",
   "contents": [
     {
@@ -22,6 +22,6 @@
   "displayName": {
     "en": "Voltage magnitude sensor"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:VoltageSensor;1",
+  "extends": "dtmi:no:energymanager:capability:VoltageSensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

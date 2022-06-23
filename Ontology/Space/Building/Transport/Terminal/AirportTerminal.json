@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:AirportTerminal;1",
+  "@id": "dtmi:no:energymanager:building:AirportTerminal;1",
   "@type": "Interface",
   "displayName": {
     "en": "Airport terminal"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:building:Terminal;1",
+  "extends": "dtmi:no:energymanager:building:Terminal;1",
   "@context": "dtmi:dtdl:context;2"
 }

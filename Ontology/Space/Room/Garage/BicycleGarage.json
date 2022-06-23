@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:room:BicycleGarage;1",
+  "@id": "dtmi:no:energymanager:room:BicycleGarage;1",
   "@type": "Interface",
   "displayName": {
     "en": "BicycleGarage"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:room:Garage;1",
+  "extends": "dtmi:no:energymanager:room:Garage;1",
   "@context": "dtmi:dtdl:context;2"
 }

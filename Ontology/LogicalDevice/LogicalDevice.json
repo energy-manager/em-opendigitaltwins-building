@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:core:LogicalDevice;1",
+  "@id": "dtmi:no:energymanager:core:LogicalDevice;1",
   "@type": "Interface",
   "contents": [
     {
@@ -21,7 +21,7 @@
       },
       "maxMultiplicity": 1,
       "name": "isPartOf",
-      "target": "dtmi:digitaltwins:rec_3_3:core:LogicalDevice;1"
+      "target": "dtmi:no:energymanager:core:LogicalDevice;1"
     },
     {
       "@type": "Relationship",
@@ -32,7 +32,7 @@
         "en": "has part"
       },
       "name": "hasPart",
-      "target": "dtmi:digitaltwins:rec_3_3:core:LogicalDevice;1"
+      "target": "dtmi:no:energymanager:core:LogicalDevice;1"
     },
     {
       "@type": "Relationship",
@@ -40,7 +40,7 @@
         "en": "has capability"
       },
       "name": "hasCapability",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Capability;1"
+      "target": "dtmi:no:energymanager:core:Capability;1"
     },
     {
       "@type": "Relationship",
@@ -52,7 +52,7 @@
       },
       "maxMultiplicity": 1,
       "name": "hostedBy",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Asset;1"
+      "target": "dtmi:no:energymanager:core:Asset;1"
     },
     {
       "@type": "Property",

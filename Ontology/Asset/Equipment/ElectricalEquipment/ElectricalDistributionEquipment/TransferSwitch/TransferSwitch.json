@@ -1,23 +1,29 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:TransferSwitch;1",
+  "@id": "dtmi:no:energymanager:asset:TransferSwitch;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "poles"
+        "en": "Poles"
       },
       "name": "poles",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Three",
-            "name": "Three"
+            "name": "Three",
+            "displayName": {
+              "en": "Three"
+            }
           },
           {
             "enumValue": "Four",
-            "name": "Four"
+            "name": "Four",
+            "displayName": {
+              "en": "Four"
+            }
           }
         ],
         "valueSchema": "string"
@@ -30,17 +36,16 @@
         "Property"
       ],
       "displayName": {
-        "en": "mains rating"
+        "en": "Mains rating"
       },
       "name": "mainsRating",
       "schema": "double",
-      "unit": "ampere",
       "writable": true
     }
   ],
   "displayName": {
     "en": "Transfer switch"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:ElectricalDistributionEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:ElectricalDistributionEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:core:Portfolio;1",
+  "@id": "dtmi:no:energymanager:core:Portfolio;1",
   "@type": "Interface",
   "contents": [
     {
@@ -20,6 +20,6 @@
   "displayName": {
     "en": "Portfolio"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:core:Collection;1",
+  "extends": "dtmi:no:energymanager:core:Collection;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:Hospital;1",
+  "@id": "dtmi:no:energymanager:building:Hospital;1",
   "@type": "Interface",
   "displayName": {
     "en": "Hospital"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:building:Health;1",
+  "extends": "dtmi:no:energymanager:building:Health;1",
   "@context": "dtmi:dtdl:context;2"
 }

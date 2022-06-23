@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:RetirementHome;1",
+  "@id": "dtmi:no:energymanager:building:RetirementHome;1",
   "@type": "Interface",
   "displayName": {
     "en": "Retirement home"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:building:Health;1",
+  "extends": "dtmi:no:energymanager:building:Health;1",
   "@context": "dtmi:dtdl:context;2"
 }

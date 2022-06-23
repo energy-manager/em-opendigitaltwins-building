@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:agents:Organization;1",
+  "@id": "dtmi:no:energymanager:agent:Organization;1",
   "@type": "Interface",
   "contents": [
     {
@@ -8,7 +8,7 @@
         "en": "URL link to an image/logo that represents the organization."
       },
       "displayName": {
-        "en": "logo"
+        "en": "Logo"
       },
       "name": "logo",
       "schema": "string",
@@ -23,7 +23,7 @@
         "en": "is part of"
       },
       "name": "isPartOf",
-      "target": "dtmi:digitaltwins:rec_3_3:agents:Organization;1"
+      "target": "dtmi:no:energymanager:agent:organization;1"
     },
     {
       "@type": "Relationship",
@@ -34,7 +34,7 @@
         "en": "has part"
       },
       "name": "hasPart",
-      "target": "dtmi:digitaltwins:rec_3_3:agents:Organization;1"
+      "target": "dtmi:no:energymanager:agent:organization;1"
     },
     {
       "@type": "Relationship",
@@ -45,7 +45,7 @@
         "en": "has member"
       },
       "name": "hasMember",
-      "target": "dtmi:digitaltwins:rec_3_3:agents:Person;1"
+      "target": "dtmi:no:energymanager:agent:person;1"
     }
   ],
   "description": {
@@ -54,6 +54,6 @@
   "displayName": {
     "en": "Organization"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:core:Agent;1",
+  "extends": "dtmi:no:energymanager:core:Agent;1",
   "@context": "dtmi:dtdl:context;2"
 }

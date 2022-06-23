@@ -1,31 +1,43 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:AirHandlingUnit;1",
+  "@id": "dtmi:no:energymanager:asset:AirHandlingUnit;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "zone delivery"
+        "en": "Zone delivery"
       },
       "name": "zoneDelivery",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "VAVZone",
-            "name": "VAVZone"
+            "name": "VAVZone",
+            "displayName": {
+              "en": "VAV zone"
+            }
           },
           {
             "enumValue": "MultiZone",
-            "name": "MultiZone"
+            "name": "MultiZone",
+            "displayName": {
+              "en": "Multi-zone"
+            }
           },
           {
             "enumValue": "DirectZone",
-            "name": "DirectZone"
+            "name": "DirectZone",
+            "displayName": {
+              "en": "Direct zone"
+            }
           },
           {
             "enumValue": "ChilledBeamZone",
-            "name": "ChilledBeamZone"
+            "name": "ChilledBeamZone",
+            "displayName": {
+              "en": "Chilled beam zone"
+            }
           }
         ],
         "valueSchema": "string"
@@ -35,27 +47,39 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "ventilation strategy"
+        "en": "Ventilation strategy"
       },
       "name": "ventilationStrategy",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "None",
-            "name": "None"
+            "name": "None",
+            "displayName": {
+              "en": "None"
+            }
           },
           {
             "enumValue": "Economizing",
-            "name": "Economizing"
+            "name": "Economizing",
+            "displayName": {
+              "en": "Economizing"
+            }
           },
           {
             "enumValue": "DemandEconomizing",
-            "name": "DemandEconomizing"
+            "name": "DemandEconomizing",
+            "displayName": {
+              "en": "Demand-economizing"
+            }
           },
           {
             "enumValue": "Demand",
-            "name": "Demand"
+            "name": "Demand",
+            "displayName": {
+              "en": "Demand"
+            }
           }
         ],
         "valueSchema": "string"
@@ -65,23 +89,32 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "ventilation configuration"
+        "en": "Ventilation configuration"
       },
       "name": "ventilationConfiguration",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "OA",
-            "name": "OA"
+            "name": "OA",
+            "displayName": {
+              "en": "OA"
+            }
           },
           {
             "enumValue": "None",
-            "name": "None"
+            "name": "None",
+            "displayName": {
+              "en": "None"
+            }
           },
           {
             "enumValue": "MixedAir",
-            "name": "MixedAir"
+            "name": "MixedAir",
+            "displayName": {
+              "en": "Mixed-air"
+            }
           }
         ],
         "valueSchema": "string"
@@ -91,7 +124,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "refrigerant type"
+        "en": "Refrigerant type"
       },
       "name": "refrigerantType",
       "schema": "string",
@@ -100,7 +133,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "nominal heating capacity"
+        "en": "Nominal heating capacity"
       },
       "name": "nominalHeatingCapacity",
       "schema": "double",
@@ -109,7 +142,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "nominal cooling capacity"
+        "en": "Nominal cooling capacity"
       },
       "name": "nominalCoolingCapacity",
       "schema": "double",
@@ -118,7 +151,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "net sensible cooling capacity"
+        "en": "Net sensible cooling capacity"
       },
       "name": "netSensibleCoolingCapacity",
       "schema": "double",
@@ -127,27 +160,39 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "humidification method"
+        "en": "Humidification method"
       },
       "name": "humidificationMethod",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Ultrasonic",
-            "name": "Ultrasonic"
+            "name": "Ultrasonic",
+            "displayName": {
+              "en": "Ultrasonic"
+            }
           },
           {
             "enumValue": "Steam",
-            "name": "Steam"
+            "name": "Steam",
+            "displayName": {
+              "en": "Steam"
+            }
           },
           {
             "enumValue": "None",
-            "name": "None"
+            "name": "None",
+            "displayName": {
+              "en": "None"
+            }
           },
           {
             "enumValue": "Adiabatic",
-            "name": "Adiabatic"
+            "name": "Adiabatic",
+            "displayName": {
+              "en": "Adiabatic"
+            }
           }
         ],
         "valueSchema": "string"
@@ -157,7 +202,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "filter type"
+        "en": "Filter type"
       },
       "name": "filterType",
       "schema": "string",
@@ -166,23 +211,32 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "discharge ductwork configuration"
+        "en": "Discharge ductwork configuration"
       },
       "name": "dischargeDuctworkConfiguration",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "TripleDuct",
-            "name": "TripleDuct"
+            "name": "TripleDuct",
+            "displayName": {
+              "en": "Triple-duct"
+            }
           },
           {
             "enumValue": "SingleDuct",
-            "name": "SingleDuct"
+            "name": "SingleDuct",
+            "displayName": {
+              "en": "Single-duct"
+            }
           },
           {
             "enumValue": "DualDuct",
-            "name": "DualDuct"
+            "name": "DualDuct",
+            "displayName": {
+              "en": "Dual-duct"
+            }
           }
         ],
         "valueSchema": "string"
@@ -192,35 +246,53 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "dehumidification method"
+        "en": "Dehumidification method"
       },
       "name": "dehumidificationMethod",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "WrapAroundCoil",
-            "name": "WrapAroundCoil"
+            "name": "WrapAroundCoil",
+            "displayName": {
+              "en": "Wrap-around coil"
+            }
           },
           {
             "enumValue": "TieredCooling",
-            "name": "TieredCooling"
+            "name": "TieredCooling",
+            "displayName": {
+              "en": "Tiered cooling"
+            }
           },
           {
             "enumValue": "None",
-            "name": "None"
+            "name": "None",
+            "displayName": {
+              "en": "None"
+            }
           },
           {
             "enumValue": "DualWheel",
-            "name": "DualWheel"
+            "name": "DualWheel",
+            "displayName": {
+              "en": "Dual-wheel"
+            }
           },
           {
             "enumValue": "Desiccant",
-            "name": "Desiccant"
+            "name": "Desiccant",
+            "displayName": {
+              "en": "Desiccant"
+            }
           },
           {
             "enumValue": "CoolReheat",
-            "name": "CoolReheat"
+            "name": "CoolReheat",
+            "displayName": {
+              "en": "Cool reheat"
+            }
           }
         ],
         "valueSchema": "string"
@@ -230,19 +302,25 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "airflow modulation"
+        "en": "Airflow modulation"
       },
       "name": "airflowModulation",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "VariableVolume",
-            "name": "VariableVolume"
+            "name": "VariableVolume",
+            "displayName": {
+              "en": "Variable volume"
+            }
           },
           {
             "enumValue": "ConstantVolume",
-            "name": "ConstantVolume"
+            "name": "ConstantVolume",
+            "displayName": {
+              "en": "Constant volume"
+            }
           }
         ],
         "valueSchema": "string"
@@ -252,71 +330,71 @@
     {
       "@type": "Component",
       "displayName": {
-        "en": "supply fan"
+        "en": "Supply fan"
       },
       "name": "supplyFan",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:Fan;1"
+      "schema": "dtmi:no:energymanager:asset:Fan;1"
     },
     {
       "@type": "Component",
       "displayName": {
-        "en": "secondary cooling method"
+        "en": "Secondary cooling method"
       },
       "name": "secondaryCoolingMethod",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:HVACCoolingMethod;1"
+      "schema": "dtmi:no:energymanager:asset:HVACCoolingMethod;1"
     },
     {
       "@type": "Component",
       "displayName": {
-        "en": "return fan"
+        "en": "Return fan"
       },
       "name": "returnFan",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:Fan;1"
+      "schema": "dtmi:no:energymanager:asset:Fan;1"
     },
     {
       "@type": "Component",
       "displayName": {
-        "en": "re-heating method"
+        "en": "Re-heating method"
       },
       "name": "reHeatingMethod",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:HVACHeatingMethod;1"
+      "schema": "dtmi:no:energymanager:asset:HVACHeatingMethod;1"
     },
     {
       "@type": "Component",
       "displayName": {
-        "en": "primary cooling method"
+        "en": "Primary cooling method"
       },
       "name": "primaryCoolingMethod",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:HVACCoolingMethod;1"
+      "schema": "dtmi:no:energymanager:asset:HVACCoolingMethod;1"
     },
     {
       "@type": "Component",
       "displayName": {
-        "en": "pre-heating method"
+        "en": "Pre-heating method"
       },
       "name": "preHeatingMethod",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:HVACHeatingMethod;1"
+      "schema": "dtmi:no:energymanager:asset:HVACHeatingMethod;1"
     },
     {
       "@type": "Component",
       "displayName": {
-        "en": "mixing box"
+        "en": "Mixing box"
       },
       "name": "mixingBox",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:HVACMixingBox;1"
+      "schema": "dtmi:no:energymanager:asset:HVACMixingBox;1"
     },
     {
       "@type": "Component",
       "displayName": {
-        "en": "exhaust fan"
+        "en": "Exhaust fan"
       },
       "name": "exhaustFan",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:Fan;1"
+      "schema": "dtmi:no:energymanager:asset:Fan;1"
     }
   ],
   "displayName": {
-    "en": "Air Handling Unit"
+    "en": "Air handling unit"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:HVACEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:HVACEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,23 +1,29 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:FanPoweredBox;1",
+  "@id": "dtmi:no:energymanager:asset:FanPoweredBox;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "configuration"
+        "en": "Configuration"
       },
       "name": "configuration",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
-            "enumValue": "series",
-            "name": "series"
+            "enumValue": "Series",
+            "name": "Series",
+            "displayName": {
+              "en": "Series"
+            }
           },
           {
-            "enumValue": "parallel",
-            "name": "parallel"
+            "enumValue": "Parallel",
+            "name": "Parallel",
+            "displayName": {
+              "en": "Parallel"
+            }
           }
         ],
         "valueSchema": "string"
@@ -27,15 +33,15 @@
     {
       "@type": "Component",
       "displayName": {
-        "en": "fan"
+        "en": "Fan"
       },
-      "name": "fan",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:Fan;1"
+      "name": "Fan",
+      "schema": "dtmi:no:energymanager:asset:Fan;1"
     }
   ],
   "displayName": {
     "en": "Fan powered box"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:VAVBox;1",
+  "extends": "dtmi:no:energymanager:asset:VAVBox;1",
   "@context": "dtmi:dtdl:context;2"
 }

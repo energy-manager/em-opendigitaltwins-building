@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:Transformer;1",
+  "@id": "dtmi:no:energymanager:asset:Transformer;1",
   "@type": "Interface",
   "contents": [
     {
@@ -8,11 +8,10 @@
         "Property"
       ],
       "displayName": {
-        "en": "secondary voltage"
+        "en": "Secondary voltage"
       },
       "name": "voltageSecondary",
       "schema": "double",
-      "unit": "volt",
       "writable": true
     },
     {
@@ -21,17 +20,16 @@
         "Property"
       ],
       "displayName": {
-        "en": "primary voltage"
+        "en": "Primary voltage"
       },
       "name": "voltagePrimary",
       "schema": "double",
-      "unit": "volt",
       "writable": true
     },
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
       "schema": "string",
@@ -40,7 +38,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "size (KVA)"
+        "en": "Size (KVA)"
       },
       "name": "sizeKVA",
       "schema": "integer",
@@ -49,19 +47,25 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "phases"
+        "en": "Phases"
       },
       "name": "phases",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Three",
-            "name": "Three"
+            "name": "Three",
+            "displayName": {
+              "en": "Three"
+            }
           },
           {
             "enumValue": "One",
-            "name": "One"
+            "name": "One",
+            "displayName": {
+              "en": "One"
+            }
           }
         ],
         "valueSchema": "string"
@@ -72,6 +76,6 @@
   "displayName": {
     "en": "Transformer"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:ElectricalDistributionEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:ElectricalDistributionEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:room:CafeteriaRoom;1",
+  "@id": "dtmi:no:energymanager:room:CafeteriaRoom;1",
   "@type": "Interface",
   "displayName": {
     "en": "CafeteriaRoom"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:room:FoodHandlingRoom;1",
+  "extends": "dtmi:no:energymanager:room:FoodHandlingRoom;1",
   "@context": "dtmi:dtdl:context;2"
 }

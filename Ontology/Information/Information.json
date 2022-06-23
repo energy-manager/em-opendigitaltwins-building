@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:core:Information;1",
+  "@id": "dtmi:no:energymanager:core:Information;1",
   "@type": "Interface",
   "contents": [
     {

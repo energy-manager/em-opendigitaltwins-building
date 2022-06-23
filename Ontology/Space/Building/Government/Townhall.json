@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:Townhall;1",
+  "@id": "dtmi:no:energymanager:building:Townhall;1",
   "@type": "Interface",
   "displayName": {
     "en": "Townhall"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:building:Government;1",
+  "extends": "dtmi:no:energymanager:building:Government;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:TerminalUnit;1",
+  "@id": "dtmi:no:energymanager:asset:TerminalUnit;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "minimum airflow rating"
+        "en": "Minimum airflow rating"
       },
       "name": "minAirflowRating",
       "schema": "double",
@@ -14,7 +14,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "maximum airflow rating"
+        "en": "Maximum airflow rating"
       },
       "name": "maxAirflowRating",
       "schema": "double",
@@ -23,15 +23,15 @@
     {
       "@type": "Component",
       "displayName": {
-        "en": "duct inlet"
+        "en": "Duct inlet"
       },
       "name": "ductInlet",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:DuctConnection;1"
+      "schema": "dtmi:no:energymanager:asset:DuctConnection;1"
     }
   ],
   "displayName": {
     "en": "Terminal unit"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:HVACEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:HVACEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

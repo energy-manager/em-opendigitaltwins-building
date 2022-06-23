@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:StartLevelActuator;1",
+  "@id": "dtmi:no:energymanager:capability:StartLevelActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Start level actuator"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:LevelActuator;1",
+  "extends": "dtmi:no:energymanager:capability:LevelActuator;1",
   "@context": "dtmi:dtdl:context;2"
 }

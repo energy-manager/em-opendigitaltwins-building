@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:IlluminanceSensor;1",
+  "@id": "dtmi:no:energymanager:capability:IlluminanceSensor;1",
   "@type": "Interface",
   "contents": [
     {
@@ -22,6 +22,6 @@
   "displayName": {
     "en": "Illuminance sensor"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:QuantitySensor;1",
+  "extends": "dtmi:no:energymanager:capability:QuantitySensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

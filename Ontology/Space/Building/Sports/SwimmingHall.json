@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:SwimmingHall;1",
+  "@id": "dtmi:no:energymanager:building:SwimmingHall;1",
   "@type": "Interface",
   "displayName": {
     "en": "Swimming hall"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:building:Sports;1",
+  "extends": "dtmi:no:energymanager:building:Sports;1",
   "@context": "dtmi:dtdl:context;2"
 }

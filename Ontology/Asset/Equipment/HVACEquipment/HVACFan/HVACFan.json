@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:HVACFan;1",
+  "@id": "dtmi:no:energymanager:asset:HVACFan;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
       "schema": "string",
@@ -14,23 +14,23 @@
     {
       "@type": "Component",
       "displayName": {
-        "en": "fan"
+        "en": "Fan"
       },
       "name": "fan",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:Fan;1"
+      "schema": "dtmi:no:energymanager:asset:Fan;1"
     },
     {
       "@type": "Component",
       "displayName": {
-        "en": "duct inlet"
+        "en": "Duct inlet"
       },
       "name": "ductInlet",
-      "schema": "dtmi:digitaltwins:rec_3_3:asset:DuctConnection;1"
+      "schema": "dtmi:no:energymanager:asset:DuctConnection;1"
     }
   ],
   "displayName": {
     "en": "Fan"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:HVACEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:HVACEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

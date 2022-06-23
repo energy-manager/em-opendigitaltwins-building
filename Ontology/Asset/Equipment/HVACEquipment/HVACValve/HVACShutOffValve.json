@@ -1,27 +1,36 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:HVACShutOffValve;1",
+  "@id": "dtmi:no:energymanager:asset:HVACShutOffValve;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Gate",
-            "name": "Gate"
+            "name": "Gate",
+            "displayName": {
+              "en": "Gate"
+            }
           },
           {
             "enumValue": "Butterfly",
-            "name": "Butterfly"
+            "name": "Butterfly",
+            "displayName": {
+              "en": "Butterfly"
+            }
           },
           {
             "enumValue": "Ball",
-            "name": "Ball"
+            "name": "Ball",
+            "displayName": {
+              "en": "Ball"
+            }
           }
         ],
         "valueSchema": "string"
@@ -32,6 +41,6 @@
   "displayName": {
     "en": "Shut-off valve"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:HVACValve;1",
+  "extends": "dtmi:no:energymanager:asset:HVACValve;1",
   "@context": "dtmi:dtdl:context;2"
 }

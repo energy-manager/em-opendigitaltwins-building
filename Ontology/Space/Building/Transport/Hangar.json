@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:Hangar;1",
+  "@id": "dtmi:no:energymanager:building:Hangar;1",
   "@type": "Interface",
   "displayName": {
     "en": "Hangar"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:building:Transport;1",
+  "extends": "dtmi:no:energymanager:building:Transport;1",
   "@context": "dtmi:dtdl:context;2"
 }

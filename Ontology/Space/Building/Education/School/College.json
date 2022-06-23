@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:College;1",
+  "@id": "dtmi:no:energymanager:building:College;1",
   "@type": "Interface",
   "displayName": {
     "en": "College"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:building:School;1",
+  "extends": "dtmi:no:energymanager:building:School;1",
   "@context": "dtmi:dtdl:context;2"
 }

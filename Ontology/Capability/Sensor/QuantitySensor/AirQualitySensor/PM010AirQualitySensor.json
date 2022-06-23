@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:PM010AirQualitySensor;1",
+  "@id": "dtmi:no:energymanager:capability:PM010AirQualitySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "PM1.0 air quality sensor"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:AirQualitySensor;1",
+  "extends": "dtmi:no:energymanager:capability:AirQualitySensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

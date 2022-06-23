@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:building:Church;1",
+  "@id": "dtmi:no:energymanager:building:Church;1",
   "@type": "Interface",
   "displayName": {
     "en": "Church"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:building:Worship;1",
+  "extends": "dtmi:no:energymanager:building:Worship;1",
   "@context": "dtmi:dtdl:context;2"
 }

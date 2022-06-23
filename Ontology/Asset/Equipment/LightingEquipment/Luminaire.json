@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:Luminaire;2",
+  "@id": "dtmi:no:energymanager:asset:Luminaire;2",
   "@type": "Interface",
   "contents": [
     {
@@ -45,6 +45,6 @@
   "displayName": {
     "en": "Luminaire"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:LightingEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:LightingEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

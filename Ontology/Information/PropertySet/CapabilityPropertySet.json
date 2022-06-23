@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:CapabilityPropertySet;1",
+  "@id": "dtmi:no:energymanager:capability:CapabilityPropertySet;1",
   "@type": "Interface",
   "contents": [
     {
@@ -640,6 +640,6 @@
   "displayName": {
     "en": "Capability property set"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:core:PropertySet;1",
+  "extends": "dtmi:no:energymanager:core:PropertySet;1",
   "@context": "dtmi:dtdl:context;2"
 }

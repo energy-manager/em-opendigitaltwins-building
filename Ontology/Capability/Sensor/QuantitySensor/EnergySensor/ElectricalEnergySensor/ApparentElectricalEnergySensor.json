@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:ApparentElectricalEnergySensor;1",
+  "@id": "dtmi:no:energymanager:capability:ApparentElectricalEnergySensor;1",
   "@type": "Interface",
   "contents": [
     {
@@ -18,6 +18,6 @@
   "displayName": {
     "en": "Apparent electrical energy sensor"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:ElectricalEnergySensor;1",
+  "extends": "dtmi:no:energymanager:capability:ElectricalEnergySensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

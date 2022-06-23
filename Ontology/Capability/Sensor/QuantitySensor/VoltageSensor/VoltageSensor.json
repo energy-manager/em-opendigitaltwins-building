@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:VoltageSensor;1",
+  "@id": "dtmi:no:energymanager:capability:VoltageSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Voltage sensor"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:device:QuantitySensor;1",
+  "extends": "dtmi:no:energymanager:capability:QuantitySensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

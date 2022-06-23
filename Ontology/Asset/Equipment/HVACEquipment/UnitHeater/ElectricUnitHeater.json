@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:ElectricUnitHeater;1",
+  "@id": "dtmi:no:energymanager:asset:ElectricUnitHeater;1",
   "@type": "Interface",
   "contents": [
     {
@@ -8,17 +8,16 @@
         "Property"
       ],
       "displayName": {
-        "en": "power input"
+        "en": "Power input"
       },
       "name": "powerInput",
       "schema": "double",
-      "unit": "watt",
       "writable": true
     }
   ],
   "displayName": {
     "en": "Electric unit heater"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:UnitHeater;1",
+  "extends": "dtmi:no:energymanager:asset:UnitHeater;1",
   "@context": "dtmi:dtdl:context;2"
 }

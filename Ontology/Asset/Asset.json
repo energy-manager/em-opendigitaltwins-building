@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:core:Asset;1",
+  "@id": "dtmi:no:energymanager:core:asset;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "displayName": {
-        "en": "serial number"
+        "en": "Serial number"
       },
       "name": "serialNumber",
       "schema": "string",
@@ -14,7 +14,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "physical tag number"
+        "en": "Physical tag number"
       },
       "name": "physicalTagNumber",
       "schema": "string",
@@ -23,7 +23,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "model number"
+        "en": "Model number"
       },
       "name": "modelNumber",
       "schema": "string",
@@ -50,7 +50,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "weight"
+        "en": "Weight"
       },
       "name": "weight",
       "schema": "double",
@@ -59,7 +59,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "turnover date"
+        "en": "Turnover date"
       },
       "name": "turnoverDate",
       "schema": "date",
@@ -68,7 +68,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "maintenance interval"
+        "en": "Maintenance interval"
       },
       "name": "maintenanceInterval",
       "schema": "duration",
@@ -77,7 +77,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "installation date"
+        "en": "Installation date"
       },
       "name": "installationDate",
       "schema": "date",
@@ -86,7 +86,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "initial cost"
+        "en": "Initial cost"
       },
       "name": "initialCost",
       "schema": "string",
@@ -95,7 +95,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "expected replacement cost"
+        "en": "Expected replacement cost"
       },
       "name": "expectedReplacementCost",
       "schema": "string",
@@ -104,7 +104,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "expected life"
+        "en": "Expected life"
       },
       "name": "expectedLife",
       "schema": "duration",
@@ -113,7 +113,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "expected end-of-life"
+        "en": "Expected end-of-life"
       },
       "name": "expectedEndOfLife",
       "schema": "date",
@@ -122,7 +122,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "commission date"
+        "en": "Commission date"
       },
       "name": "commissionDate",
       "schema": "date",
@@ -157,7 +157,7 @@
         "en": "is part of"
       },
       "name": "isPartOf",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Asset;1"
+      "target": "dtmi:no:energymanager:core:asset;1"
     },
     {
       "@type": "Relationship",
@@ -168,7 +168,7 @@
         "en": "included in"
       },
       "name": "includedIn",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Collection;1"
+      "target": "dtmi:no:energymanager:core:collection;1"
     },
     {
       "@type": "Relationship",
@@ -179,7 +179,7 @@
         "en": "has part"
       },
       "name": "hasPart",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Asset;1"
+      "target": "dtmi:no:energymanager:core:asset;1"
     },
     {
       "@type": "Relationship",
@@ -187,7 +187,7 @@
         "en": "has capability"
       },
       "name": "hasCapability",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Capability;1"
+      "target": "dtmi:no:energymanager:core:capability;1"
     },
     {
       "@type": "Relationship",
@@ -196,7 +196,7 @@
       },
       "minMultiplicity": 0,
       "name": "locatedIn",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Space;1"
+      "target": "dtmi:no:energymanager:core:space;1"
     },
     {
       "@type": "Relationship",
@@ -204,7 +204,7 @@
         "en": "serviced by"
       },
       "name": "servicedBy",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Agent;1"
+      "target": "dtmi:no:energymanager:core:agent;1"
     },
     {
       "@type": "Relationship",
@@ -212,7 +212,7 @@
         "en": "manufactured by"
       },
       "name": "manufacturedBy",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Agent;1"
+      "target": "dtmi:no:energymanager:core:agent;1"
     },
     {
       "@type": "Relationship",
@@ -220,7 +220,7 @@
         "en": "installed by"
       },
       "name": "installedBy",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Agent;1"
+      "target": "dtmi:no:energymanager:core:agent;1"
     },
     {
       "@type": "Relationship",
@@ -228,7 +228,7 @@
         "en": "commissioned by"
       },
       "name": "commissionedBy",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Agent;1"
+      "target": "dtmi:no:energymanager:core:agent;1"
     },
     {
       "@type": "Relationship",
@@ -239,7 +239,7 @@
         "en": "hosts"
       },
       "name": "hosts",
-      "target": "dtmi:digitaltwins:rec_3_3:core:LogicalDevice;1"
+      "target": "dtmi:no:energymanager:core:logicalDevice;1"
     },
     {
       "@type": "Property",
@@ -282,7 +282,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "name"
+        "en": "Name"
       },
       "name": "name",
       "schema": "string",

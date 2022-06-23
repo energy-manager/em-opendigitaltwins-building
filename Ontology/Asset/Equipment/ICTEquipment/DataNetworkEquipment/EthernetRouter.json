@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:asset:EthernetRouter;1",
+  "@id": "dtmi:no:energymanager:asset:EthernetRouter;1",
   "@type": "Interface",
   "contents": [
     {
@@ -24,6 +24,6 @@
   "displayName": {
     "en": "Ethernet router"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:asset:DataNetworkEquipment;1",
+  "extends": "dtmi:no:energymanager:asset:DataNetworkEquipment;1",
   "@context": "dtmi:dtdl:context;2"
 }

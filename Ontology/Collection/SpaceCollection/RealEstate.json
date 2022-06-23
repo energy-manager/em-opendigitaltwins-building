@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:core:RealEstate;1",
+  "@id": "dtmi:no:energymanager:core:RealEstate;1",
   "@type": "Interface",
   "contents": [
     {
@@ -24,7 +24,7 @@
       },
       "minMultiplicity": 0,
       "name": "ownedBy",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Agent;1"
+      "target": "dtmi:no:energymanager:core:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -36,7 +36,7 @@
       },
       "minMultiplicity": 0,
       "name": "includes",
-      "target": "dtmi:digitaltwins:rec_3_3:core:Space;1"
+      "target": "dtmi:no:energymanager:core:Space;1"
     }
   ],
   "description": {
@@ -45,6 +45,6 @@
   "displayName": {
     "en": "Real estate"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:core:SpaceCollection;1",
+  "extends": "dtmi:no:energymanager:core:SpaceCollection;1",
   "@context": "dtmi:dtdl:context;2"
 }
