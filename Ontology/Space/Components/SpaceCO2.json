@@ -6,12 +6,11 @@
   },
   "contents": [
     {
-      "@type": "Telemetry",
+      "@type": "Property",
       "name": "CO2Sensor",
       "displayName": {
         "en": "CO2 sensor"
       },
-      "writable": true,
       "schema": "double",
       "comment": "ppm"
     },
@@ -21,17 +20,15 @@
       "displayName": {
         "en": "CO2 setpoint"
       },
-      "writable": true,
       "schema": "double",
       "comment": "ppm"
     },
     {
-      "@type": "Telemetry",
+      "@type": "Property",
       "name": "CO2Delta",
       "displayName": {
         "en": "CO2 delta"
       },
-      "writable": true,
       "schema": "double",
       "comment": "ppm"
     }

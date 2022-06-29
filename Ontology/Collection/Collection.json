@@ -12,11 +12,17 @@
         "@type": "Map",
         "mapKey": {
           "name": "tagName",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Name"
+          }
         },
-        "dtmi:dtdl:property:mapValue;2": {
+        "mapValue": {
           "name": "tagValue",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Value"
+          }
         }
       },
       "writable": true
@@ -31,11 +37,17 @@
         "@type": "Map",
         "mapKey": {
           "name": "externalIdName",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Name"
+          }
         },
-        "dtmi:dtdl:property:mapValue;2": {
+        "mapValue": {
           "name": "externalIdValue",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Value"
+          }
         }
       },
       "writable": true

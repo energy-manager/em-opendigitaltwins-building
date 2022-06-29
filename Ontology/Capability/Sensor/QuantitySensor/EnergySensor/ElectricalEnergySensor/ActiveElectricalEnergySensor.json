@@ -4,7 +4,7 @@
   "contents": [
     {
       "@type": [
-        "Telemetry",
+        "Property",
         "Energy"
       ],
       "description": {
@@ -15,8 +15,7 @@
       },
       "name": "lastValue",
       "schema": "double",
-      "unit": "kilowattHour",
-      "writable": true
+      "unit": "kilowattHour"
     }
   ],
   "displayName": {

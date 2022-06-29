@@ -6,12 +6,11 @@
   },
   "contents": [
     {
-      "@type": "Telemetry",
+      "@type": "Property",
       "name": "temperatureSensor",
       "displayName": {
         "en": "Temperature sensor"
       },
-      "writable": true,
       "schema": "double"
     },
     {
@@ -20,16 +19,14 @@
       "displayName": {
         "en": "Temperature setpoint"
       },
-      "writable": true,
       "schema": "double"
     },
     {
-      "@type": "Telemetry",
+      "@type": "Property",
       "name": "temperatureDelta",
       "displayName": {
         "en": "Temperature delta"
       },
-      "writable": true,
       "schema": "double"
     }
   ],

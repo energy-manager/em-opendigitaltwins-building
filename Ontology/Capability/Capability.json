@@ -3,7 +3,7 @@
   "@type": "Interface",
   "contents": [
     {
-      "@type": "Telemetry",
+      "@type": "Property",
       "description": {
         "en": "Time when a core:Capability's value was last updated (see core:lastValue)."
       },
@@ -11,8 +11,7 @@
         "en": "Last value time"
       },
       "name": "lastValueTime",
-      "schema": "dateTime",
-      "writable": true
+      "schema": "dateTime"
     },
     {
       "@type": "Relationship",
@@ -52,11 +51,17 @@
         "@type": "Map",
         "mapKey": {
           "name": "tagName",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Name"
+          }
         },
-        "dtmi:dtdl:property:mapValue;2": {
+        "mapValue": {
           "name": "tagValue",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Value"
+          }
         }
       },
       "writable": true
@@ -71,11 +76,17 @@
         "@type": "Map",
         "mapKey": {
           "name": "externalIdName",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Name"
+          }
         },
-        "dtmi:dtdl:property:mapValue;2": {
+        "mapValue": {
           "name": "externalIdValue",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Value"
+          }
         }
       },
       "writable": true

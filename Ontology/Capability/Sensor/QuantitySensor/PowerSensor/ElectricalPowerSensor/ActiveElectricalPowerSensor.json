@@ -5,7 +5,7 @@
     {
       "@type": [
         "Power",
-        "Telemetry"
+        "Property"
       ],
       "description": {
         "en": "Most recently reported or set value of a core:Capability."
@@ -15,8 +15,7 @@
       },
       "name": "lastValue",
       "schema": "double",
-      "unit": "watt",
-      "writable": true
+      "unit": "watt"
     }
   ],
   "displayName": {

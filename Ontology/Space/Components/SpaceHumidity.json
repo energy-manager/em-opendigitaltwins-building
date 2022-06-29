@@ -7,14 +7,13 @@
   "contents": [
     {
       "@type": [
-        "Telemetry", 
+        "Property", 
         "RelativeHumidity"
       ],
       "name": "humiditySensor",
       "displayName": {
         "en": "Humidity sensor"
       },
-      "writable": true,
       "schema": "double",
       "unit": "percent"
     },
@@ -27,20 +26,18 @@
       "displayName": {
         "en": "Humidity setpoint"
       },
-      "writable": true,
       "schema": "double",
       "unit": "percent"
     },
     {
       "@type": [
-        "Telemetry", 
+        "Property", 
         "RelativeHumidity"
       ],
       "name": "humidityDelta",
       "displayName": {
         "en": "Humidity delta"
       },
-      "writable": true,
       "schema": "double",
       "unit": "percent"
     }

@@ -3,7 +3,7 @@
   "@type": "Interface",
   "contents": [
     {
-      "@type": "Telemetry",
+      "@type": "Property",
       "description": {
         "en": "The number of people presently occupying a Space."
       },
@@ -11,8 +11,7 @@
         "en": "Person occupancy"
       },
       "name": "personOccupancy",
-      "schema": "integer",
-      "writable": true
+      "schema": "integer"
     },
     {
       "@type": "Property",
