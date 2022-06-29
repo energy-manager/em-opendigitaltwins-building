@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:room:CookingRoom;1",
   "@type": "Interface",
   "displayName": {
-    "en": "CookingRoom"
+    "en": "Cooking room"
   },
   "extends": "dtmi:no:energymanager:room:FoodHandlingRoom;1",
   "@context": "dtmi:dtdl:context;2"

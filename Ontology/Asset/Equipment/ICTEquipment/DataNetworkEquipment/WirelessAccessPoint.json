@@ -5,12 +5,12 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "WiFi7",
             "name": "WiFi7"
@@ -35,19 +35,25 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "mounting"
+        "en": "Mounting"
       },
       "name": "mounting",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Outdoor",
-            "name": "Outdoor"
+            "name": "Outdoor",
+            "displayName": {
+              "en": "Outdoor"
+            }
           },
           {
             "enumValue": "Indoor",
-            "name": "Indoor"
+            "name": "Indoor",
+            "displayName": {
+              "en": "Indoor"
+            }
           }
         ],
         "valueSchema": "string"

@@ -8,7 +8,7 @@
         "en": "A number indicating the ordinal number of this level within the building. Note that the implementation of this numbering scheme and its starting point is implementation-specific; e.g., the fifth floor below ground may be 0 in some systems, and -5 in others."
       },
       "displayName": {
-        "en": "level number"
+        "en": "Level number"
       },
       "name": "levelNumber",
       "schema": "integer",

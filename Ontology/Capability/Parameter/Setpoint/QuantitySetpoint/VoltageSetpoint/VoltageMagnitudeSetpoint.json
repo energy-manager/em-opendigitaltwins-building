@@ -11,7 +11,7 @@
         "en": "Most recently reported or set value of a core:Capability."
       },
       "displayName": {
-        "en": "last value"
+        "en": "Last value"
       },
       "name": "lastValue",
       "schema": "double",

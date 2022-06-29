@@ -5,7 +5,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "nominal cooling capacity"
+        "en": "Nominal cooling capacity"
       },
       "name": "nominalCoolingCapacity",
       "schema": "double",
@@ -14,7 +14,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "flow capacity"
+        "en": "Flow capacity"
       },
       "name": "flowCapacity",
       "schema": "double",
@@ -23,7 +23,7 @@
     {
       "@type": "Component",
       "displayName": {
-        "en": "fan"
+        "en": "Fan"
       },
       "name": "fan",
       "schema": "dtmi:no:energymanager:asset:Fan;1"

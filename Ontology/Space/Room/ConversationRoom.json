@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:room:ConversationRoom;1",
   "@type": "Interface",
   "displayName": {
-    "en": "ConversationRoom"
+    "en": "Conversation room"
   },
   "extends": "dtmi:no:energymanager:core:Room;1",
   "@context": "dtmi:dtdl:context;2"

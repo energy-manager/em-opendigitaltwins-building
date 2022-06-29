@@ -5,19 +5,25 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "HotWater",
-            "name": "HotWater"
+            "name": "HotWater",
+            "displayName": {
+              "en": "Hot water"
+            }
           },
           {
             "enumValue": "ChilledWater",
-            "name": "ChilledWater"
+            "name": "ChilledWater",
+            "displayName": {
+              "en": "Chilled water"
+            }
           }
         ],
         "valueSchema": "string"
@@ -27,19 +33,25 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "arrangement"
+        "en": "Arrangement"
       },
       "name": "arrangement",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Vertical",
-            "name": "Vertical"
+            "name": "Vertical",
+            "displayName": {
+              "en": "Vertical"
+            }
           },
           {
             "enumValue": "Horizontal",
-            "name": "Horizontal"
+            "name": "Horizontal",
+            "displayName": {
+              "en": "Horizontal"
+            }
           }
         ],
         "valueSchema": "string"

@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:room:ElevatorShaft;1",
   "@type": "Interface",
   "displayName": {
-    "en": "ElevatorShaft"
+    "en": "Elevator shaft"
   },
   "extends": "dtmi:no:energymanager:core:Room;1",
   "@context": "dtmi:dtdl:context;2"

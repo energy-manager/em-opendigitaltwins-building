@@ -5,7 +5,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "number of ports"
+        "en": "Number of ports"
       },
       "name": "numberOfPorts",
       "schema": "integer",
@@ -14,7 +14,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "height (rack units)"
+        "en": "Height (rack units)"
       },
       "name": "heightRUs",
       "schema": "integer",

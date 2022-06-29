@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:room:DisabledToilet;1",
   "@type": "Interface",
   "displayName": {
-    "en": "DisabledToilet"
+    "en": "Disabled toilet"
   },
   "extends": "dtmi:no:energymanager:room:PersonalHygiene;1",
   "@context": "dtmi:dtdl:context;2"

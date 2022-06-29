@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:room:RetailRoom;1",
   "@type": "Interface",
   "displayName": {
-    "en": "RetailRoom"
+    "en": "Retail rom"
   },
   "extends": "dtmi:no:energymanager:core:Room;1",
   "@context": "dtmi:dtdl:context;2"

@@ -4,15 +4,12 @@
     "displayName": {
       "en": "Elevator Trip Event"
     },
-    "extends" : [
-      "dtmi:no:energymanager:core:Event;1"
-    ],
     "contents": [
       {
         "@type": "Property",
         "name": "startLevelId",
         "displayName": {
-          "en": "Start Level Id"
+          "en": "Start level id"
         },
         "writable": true,
         "schema": "string"
@@ -21,7 +18,7 @@
         "@type": "Property",
         "name": "endLevelId",
         "displayName": {
-          "en": "End Level Id"
+          "en": "End level id"
         },
         "writable": true,
         "schema": "string"
@@ -30,7 +27,7 @@
         "@type": "Property",
         "name": "currentLevelId",
         "displayName": {
-          "en": "Current Level Id"
+          "en": "Current level id"
         },
         "writable": true,
         "schema": "string"
@@ -39,7 +36,7 @@
         "@type": "Property",
         "name": "currentTripDirection",
         "displayName": {
-          "en": "Current Trip Direction"
+          "en": "Current trip direction"
         },
         "writable": true,
         "schema": {
@@ -49,18 +46,23 @@
           "enumValues": [
             {
               "name": "Up",
-              "displayName": "Up",
-              "enumValue": "Up"
+              "enumValue": "Up",
+              "displayName": {
+                "en": "Up"
+              }
             },
             {
               "name": "Down",
-              "displayName": "Down",
-              "enumValue": "Down"
+              "enumValue": "Down",
+              "displayName": {
+                "en": "Down"
+              }
             }
           ]
         }
       }
     ],
+    "extends" : "dtmi:no:energymanager:core:Event;1",
     "@context": "dtmi:dtdl:context;2"
   }
   

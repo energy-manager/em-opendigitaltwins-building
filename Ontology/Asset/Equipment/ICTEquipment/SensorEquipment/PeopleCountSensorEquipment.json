@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:asset:PeopleCountSensorEquipment;1",
   "@type": "Interface",
   "displayName": {
-    "en": "People Count Sensor"
+    "en": "People count sensor"
   },
   "extends": "dtmi:no:energymanager:asset:SensorEquipment;1",
   "@context": "dtmi:dtdl:context;2"

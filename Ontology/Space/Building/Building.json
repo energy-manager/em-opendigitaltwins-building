@@ -5,7 +5,7 @@
     {
       "@type": "Component",
       "displayName": {
-        "en": "address"
+        "en": "Address"
       },
       "name": "address",
       "schema": "dtmi:no:energymanager:addressing:Address;1"

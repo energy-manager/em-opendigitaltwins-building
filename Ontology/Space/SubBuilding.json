@@ -5,19 +5,25 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Wing",
-            "name": "Wing"
+            "name": "Wing",
+            "displayName": {
+              "en": "Wing"
+            }
           },
           {
             "enumValue": "Tower",
-            "name": "Tower"
+            "name": "Tower",
+            "displayName": {
+              "en": "Tower"
+            }
           }
         ],
         "valueSchema": "string"
@@ -27,7 +33,7 @@
     {
       "@type": "Component",
       "displayName": {
-        "en": "address"
+        "en": "Address"
       },
       "name": "address",
       "schema": "dtmi:no:energymanager:addressing:Address;1"

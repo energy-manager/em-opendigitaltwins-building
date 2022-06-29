@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:asset:ToiletFlushometer;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Toilet with Flushometer"
+    "en": "Toilet with flushometer"
   },
   "extends": "dtmi:no:energymanager:asset:Toilet;1",
   "@context": "dtmi:dtdl:context;2"

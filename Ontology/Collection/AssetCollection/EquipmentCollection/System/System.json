@@ -5,7 +5,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "comment"
+        "en": "Comment"
       },
       "name": "comment",
       "schema": "string",
@@ -14,31 +14,46 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "service"
+        "en": "Service"
       },
       "name": "service",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Utility",
-            "name": "Utility"
+            "name": "Utility",
+            "displayName": {
+              "en": "Utility"
+            }
           },
           {
             "enumValue": "Tenant",
-            "name": "Tenant"
+            "name": "Tenant",
+            "displayName": {
+              "en": "Tenant"
+            }
           },
           {
             "enumValue": "Site",
-            "name": "Site"
+            "name": "Site",
+            "displayName": {
+              "en": "Site"
+            }
           },
           {
             "enumValue": "District",
-            "name": "District"
+            "name": "District",
+            "displayName": {
+              "en": "District"
+            }
           },
           {
             "enumValue": "Building",
-            "name": "Building"
+            "name": "Building",
+            "displayName": {
+              "en": "Building"
+            }
           }
         ],
         "valueSchema": "string"

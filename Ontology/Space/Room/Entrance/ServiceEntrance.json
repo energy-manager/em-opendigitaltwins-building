@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:room:ServiceEntrance;1",
   "@type": "Interface",
   "displayName": {
-    "en": "ServiceEntrance"
+    "en": "Service entrance"
   },
   "extends": "dtmi:no:energymanager:room:Entrance;1",
   "@context": "dtmi:dtdl:context;2"

@@ -5,19 +5,25 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "WaterTube",
-            "name": "WaterTube"
+            "name": "WaterTube",
+            "displayName": {
+              "en": "Water-tube"
+            }
           },
           {
             "enumValue": "FireTube",
-            "name": "FireTube"
+            "name": "FireTube",
+            "displayName": {
+              "en": "Fire-tube"
+            }
           }
         ],
         "valueSchema": "string"
@@ -27,7 +33,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "tank capacity"
+        "en": "Tank capacity"
       },
       "name": "tankCapacity",
       "schema": "double",
@@ -36,7 +42,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "power output"
+        "en": "Power output"
       },
       "name": "powerOutput",
       "schema": "double",
@@ -48,7 +54,7 @@
         "Property"
       ],
       "displayName": {
-        "en": "power input"
+        "en": "Power input"
       },
       "name": "powerInput",
       "schema": "double",
@@ -58,19 +64,25 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "medium"
+        "en": "Medium"
       },
       "name": "medium",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Steam",
-            "name": "Steam"
+            "name": "Steam",
+            "displayName": {
+              "en": "Steam"
+            }
           },
           {
             "enumValue": "HotWater",
-            "name": "HotWater"
+            "name": "HotWater",
+            "displayName": {
+              "en": "Hot water"
+            }
           }
         ],
         "valueSchema": "string"
@@ -83,7 +95,7 @@
         "en": "Imperial measure for the recovery rate of a boiler (gallons per hour)."
       },
       "displayName": {
-        "en": "recovery @ 100F rise"
+        "en": "Recovery @ 100F rise"
       },
       "name": "recovery100FRise",
       "schema": "integer",

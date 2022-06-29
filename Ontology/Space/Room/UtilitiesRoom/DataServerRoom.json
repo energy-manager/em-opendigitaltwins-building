@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:room:DataServerRoom;1",
   "@type": "Interface",
   "displayName": {
-    "en": "DataServerRoom"
+    "en": "Data server room"
   },
   "extends": "dtmi:no:energymanager:room:UtilitiesRoom;1",
   "@context": "dtmi:dtdl:context;2"

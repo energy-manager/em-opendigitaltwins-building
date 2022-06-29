@@ -3,12 +3,12 @@
   "@type": "Interface",
   "contents": [
     {
-      "@type": "Property",
+      "@type": "Telemetry",
       "description": {
         "en": "The number of people presently occupying a Space."
       },
       "displayName": {
-        "en": "person occupancy"
+        "en": "Person occupancy"
       },
       "name": "personOccupancy",
       "schema": "integer",
@@ -20,7 +20,7 @@
         "en": "The number of people who can fit in a Space."
       },
       "displayName": {
-        "en": "person capacity"
+        "en": "Person capacity"
       },
       "name": "personCapacity",
       "schema": "integer",
@@ -134,18 +134,24 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "Custom Tags"
+        "en": "Custom tags"
       },
       "name": "customTags",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Map",
-        "dtmi:dtdl:property:mapKey;2": {
+        "mapKey": {
           "name": "tagName",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Name"
+          }
         },
-        "dtmi:dtdl:property:mapValue;2": {
+        "mapValue": {
           "name": "tagValue",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Value"
+          }
         }
       },
       "writable": true
@@ -156,15 +162,21 @@
         "en": "External IDs"
       },
       "name": "externalIds",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Map",
-        "dtmi:dtdl:property:mapKey;2": {
+        "mapKey": {
           "name": "externalIdName",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Name"
+          }
         },
-        "dtmi:dtdl:property:mapValue;2": {
+        "mapValue": {
           "name": "externalIdValue",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Value"
+          }
         }
       },
       "writable": true
@@ -172,7 +184,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "name"
+        "en": "Name"
       },
       "name": "name",
       "schema": "string",

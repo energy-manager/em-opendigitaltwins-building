@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:asset:ExitSign;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Exit Sign"
+    "en": "Exit sign"
   },
   "extends": "dtmi:no:energymanager:asset:SafetyLighting;1",
   "@context": "dtmi:dtdl:context;2"

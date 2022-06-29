@@ -5,7 +5,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "tank capacity"
+        "en": "Tank capacity"
       },
       "name": "tankCapacity",
       "schema": "double",

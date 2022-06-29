@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:capability:CH2OAirQualitySetpoint;1",
   "@type": "Interface",
   "displayName": {
-    "en": "C o air quality setpoint"
+    "en": "CH2O air quality setpoint"
   },
   "extends": "dtmi:no:energymanager:capability:AirQualitySetpoint;1",
   "@context": "dtmi:dtdl:context;2"

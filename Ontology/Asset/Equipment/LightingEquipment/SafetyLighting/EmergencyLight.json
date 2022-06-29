@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:asset:EmergencyLight;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Emergency Light"
+    "en": "Emergency light"
   },
   "extends": "dtmi:no:energymanager:asset:SafetyLighting;1",
   "@context": "dtmi:dtdl:context;2"

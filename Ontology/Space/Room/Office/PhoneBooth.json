@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:room:PhoneBooth;1",
   "@type": "Interface",
   "displayName": {
-    "en": "PhoneBooth"
+    "en": "Phone booth"
   },
   "extends": "dtmi:no:energymanager:room:Office;1",
   "@context": "dtmi:dtdl:context;2"

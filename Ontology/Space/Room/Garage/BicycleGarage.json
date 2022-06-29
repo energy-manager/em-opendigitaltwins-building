@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:room:BicycleGarage;1",
   "@type": "Interface",
   "displayName": {
-    "en": "BicycleGarage"
+    "en": "Bicycle garage"
   },
   "extends": "dtmi:no:energymanager:room:Garage;1",
   "@context": "dtmi:dtdl:context;2"

@@ -5,23 +5,32 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "TwoPost",
-            "name": "TwoPost"
+            "name": "TwoPost",
+            "displayName": {
+              "en": "Two-post"
+            }
           },
           {
             "enumValue": "FourPost",
-            "name": "FourPost"
+            "name": "FourPost",
+            "displayName": {
+              "en": "Four-post"
+            }
           },
           {
             "enumValue": "Cabinet",
-            "name": "Cabinet"
+            "name": "Cabinet",
+            "displayName": {
+              "en": "Cabinet"
+            }
           }
         ],
         "valueSchema": "string"
@@ -31,19 +40,25 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "mounting"
+        "en": "Mounting"
       },
       "name": "mounting",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Wall",
-            "name": "Wall"
+            "name": "Wall",
+            "displayName": {
+              "en": "Wall"
+            }
           },
           {
             "enumValue": "Floor",
-            "name": "Floor"
+            "name": "Floor",
+            "displayName": {
+              "en": "Floor"
+            }
           }
         ],
         "valueSchema": "string"
@@ -53,7 +68,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "height (rack units)"
+        "en": "Height (rack units)"
       },
       "name": "heightRUs",
       "schema": "integer",
@@ -61,7 +76,7 @@
     }
   ],
   "displayName": {
-    "en": "IT Rack"
+    "en": "IT rack"
   },
   "extends": "dtmi:no:energymanager:asset:ICTEquipment;1",
   "@context": "dtmi:dtdl:context;2"

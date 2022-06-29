@@ -6,19 +6,19 @@
   },
   "contents": [
     {
-      "@type": "Property",
+      "@type": "Telemetry",
       "name": "isOccupied",
       "displayName": {
-        "en": "Is Occupied"
+        "en": "Is occupied"
       },
       "writable": true,
       "schema": "boolean"
     },
     {
-      "@type": "Property",
+      "@type": "Telemetry",
       "name": "peopleCount",
       "displayName": {
-        "en": "People Count"
+        "en": "People count"
       },
       "writable": true,
       "schema": "double"
@@ -27,16 +27,19 @@
       "@type": "Property",
       "name": "hasInferredOccupancy",
       "displayName": {
-        "en": "Inferred Occupancy"
+        "en": "Inferred occupancy"
       },
       "writable": true,
       "schema": "boolean"
     },
     {
-      "@type": ["Property", "TimeSpan"],
+      "@type": [
+        "Telemetry", 
+        "TimeSpan"
+      ],
       "name": "dwellTimeAverage",
       "displayName": {
-        "en": "Dwell Time Average"
+        "en": "Dwell time average"
       },
       "writable": true,
       "schema": "double",
@@ -44,10 +47,13 @@
       "comment": "Average time spent in the space by all individuals in the space"
     },
     {
-      "@type": ["Property", "TimeSpan"],
+      "@type": [
+        "Telemetry", 
+        "TimeSpan"
+      ],
       "name": "entranceDwellTime",
       "displayName": {
-        "en": "Entrance Dwell Time"
+        "en": "Entrance dwell time"
       },
       "writable": true,
       "schema": "double",
@@ -55,10 +61,13 @@
       "comment": "Wait time to enter the space"
     },
     {
-      "@type": ["Property", "TimeSpan"],
+      "@type": [
+        "Telemetry", 
+        "TimeSpan"
+      ],
       "name": "exitDwellTime",
       "displayName": {
-        "en": "Exit Dwell Time"
+        "en": "Exit dwell time"
       },
       "writable": true,
       "schema": "double",
@@ -66,20 +75,20 @@
       "comment": "Wait time to exit the space"
     },
     {
-      "@type": "Property",
+      "@type": "Telemetry",
       "name": "entranceRate",
       "displayName": {
-        "en": "Entrance Rate"
+        "en": "Entrance rate"
       },
       "writable": true,
       "schema": "double",
       "comment": "e.g. people per second"
     },
     {
-      "@type": "Property",
+      "@type": "Telemetry",
       "name": "exitRate",
       "displayName": {
-        "en": "Exit Rate"
+        "en": "Exit rate"
       },
       "writable": true,
       "schema": "double",

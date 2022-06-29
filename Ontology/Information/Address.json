@@ -5,7 +5,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "region (state/province)"
+        "en": "Region (state/province)"
       },
       "name": "region",
       "schema": "string",
@@ -14,7 +14,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "postal code"
+        "en": "Postal code"
       },
       "name": "postalCode",
       "schema": "string",
@@ -23,7 +23,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "country"
+        "en": "Country"
       },
       "name": "country",
       "schema": "string",
@@ -32,7 +32,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "city"
+        "en": "City"
       },
       "name": "city",
       "schema": "string",
@@ -41,7 +41,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "address line 2"
+        "en": "Address line 2"
       },
       "name": "addressLine2",
       "schema": "string",
@@ -50,7 +50,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "address line 1"
+        "en": "Address line 1"
       },
       "name": "addressLine1",
       "schema": "string",

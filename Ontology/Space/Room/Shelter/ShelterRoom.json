@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:room:ShelterRoom;1",
   "@type": "Interface",
   "displayName": {
-    "en": "ShelterRoom"
+    "en": "Shelter room"
   },
   "extends": "dtmi:no:energymanager:room:Shelter;1",
   "@context": "dtmi:dtdl:context;2"

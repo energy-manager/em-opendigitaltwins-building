@@ -2,10 +2,10 @@
   "@id": "dtmi:no:energymanager:room:LaboratoryDry;1",
   "@type": "Interface",
   "description": {
-    "en": "A LaboratoryDry is a laboratory where computational or applied mathematical analyses are done on a computer-generated model to simulate a phenomenon in the physical realm."
+    "en": "A Laboratory Dry is a laboratory where computational or applied mathematical analyses are done on a computer-generated model to simulate a phenomenon in the physical realm."
   },
   "displayName": {
-    "en": "LaboratoryDry"
+    "en": "Laboratory dry"
   },
   "extends": "dtmi:no:energymanager:room:Laboratory;1",
   "@context": "dtmi:dtdl:context;2"

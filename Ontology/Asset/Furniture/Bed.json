@@ -1,6 +1,9 @@
 {
   "@id": "dtmi:no:energymanager:asset:Bed;1",
   "@type": "Interface",
+  "displayName": {
+    "en": "Bed"
+  },
   "extends": "dtmi:no:energymanager:asset:Furniture;1",
   "@context": "dtmi:dtdl:context;2"
 }

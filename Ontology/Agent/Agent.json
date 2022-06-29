@@ -29,9 +29,9 @@
         "en": "Custom Tags"
       },
       "name": "customTags",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Map",
-        "dtmi:dtdl:property:mapKey;2": {
+        "mapKey": {
           "name": "tagName",
           "schema": "string"
         },
@@ -48,9 +48,9 @@
         "en": "External IDs"
       },
       "name": "externalIds",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Map",
-        "dtmi:dtdl:property:mapKey;2": {
+        "mapKey": {
           "name": "externalIdName",
           "schema": "string"
         },

@@ -5,7 +5,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "water per flush"
+        "en": "Water per flush"
       },
       "name": "waterPerFlush",
       "schema": "double",
@@ -14,19 +14,25 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Touchless",
-            "name": "Touchless"
+            "name": "Touchless",
+            "displayName": {
+              "en": "Touchless"
+            }
           },
           {
             "enumValue": "ManualOnly",
-            "name": "ManualOnly"
+            "name": "ManualOnly",
+            "displayName": {
+              "en": "Manual only"
+            }
           }
         ],
         "valueSchema": "string"
@@ -36,19 +42,25 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "technology"
+        "en": "Technology"
       },
       "name": "technology",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Piston",
-            "name": "Piston"
+            "name": "Piston",
+            "displayName": {
+              "en": "Piston"
+            }
           },
           {
             "enumValue": "Diaphragm",
-            "name": "Diaphragm"
+            "name": "Diaphragm",
+            "displayName": {
+              "en": "Diaphragm"
+            }
           }
         ],
         "valueSchema": "string"
@@ -64,7 +76,7 @@
     }
   ],
   "displayName": {
-    "en": "Flushometer-Valve"
+    "en": "Flushometer-valve"
   },
   "extends": "dtmi:no:energymanager:asset:PlumbingFixture;1",
   "@context": "dtmi:dtdl:context;2"

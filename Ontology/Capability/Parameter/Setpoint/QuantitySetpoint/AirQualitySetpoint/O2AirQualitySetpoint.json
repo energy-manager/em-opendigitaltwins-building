@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:capability:O2AirQualitySetpoint;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Air quality setpoint"
+    "en": "O2 air quality setpoint"
   },
   "extends": "dtmi:no:energymanager:capability:AirQualitySetpoint;1",
   "@context": "dtmi:dtdl:context;2"

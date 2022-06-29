@@ -2,34 +2,43 @@
   "@id": "dtmi:no:energymanager:SpaceHumidity;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Space Humidity"
+    "en": "Space humidity"
   },
   "contents": [
     {
-      "@type": ["Property", "RelativeHumidity"],
+      "@type": [
+        "Telemetry", 
+        "RelativeHumidity"
+      ],
       "name": "humiditySensor",
       "displayName": {
-        "en": "Humidity Sensor"
+        "en": "Humidity sensor"
       },
       "writable": true,
       "schema": "double",
       "unit": "percent"
     },
     {
-      "@type": ["Property", "RelativeHumidity"],
+      "@type": [
+        "Property", 
+        "RelativeHumidity"
+      ],
       "name": "humiditySetpoint",
       "displayName": {
-        "en": "Humidity Setpoint"
+        "en": "Humidity setpoint"
       },
       "writable": true,
       "schema": "double",
       "unit": "percent"
     },
     {
-      "@type": ["Property", "RelativeHumidity"],
+      "@type": [
+        "Telemetry", 
+        "RelativeHumidity"
+      ],
       "name": "humidityDelta",
       "displayName": {
-        "en": "Humidity Delta"
+        "en": "Humidity delta"
       },
       "writable": true,
       "schema": "double",

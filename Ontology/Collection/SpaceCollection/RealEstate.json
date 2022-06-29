@@ -8,7 +8,7 @@
         "en": "Reference to the unique identity of the real estate in the property register in the country where the real estate is located."
       },
       "displayName": {
-        "en": "property register designation"
+        "en": "Property register designation"
       },
       "name": "propertyRegisterDesignation",
       "schema": "string",

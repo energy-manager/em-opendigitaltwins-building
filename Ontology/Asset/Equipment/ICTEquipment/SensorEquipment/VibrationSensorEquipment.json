@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:asset:VibrationSensorEquipment;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Vibration Sensor"
+    "en": "Vibration sensor"
   },
   "extends": "dtmi:no:energymanager:asset:SensorEquipment;1",
   "@context": "dtmi:dtdl:context;2"

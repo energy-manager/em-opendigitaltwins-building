@@ -8,7 +8,7 @@
         "en": "10/100/1000MB, 10GB"
       },
       "displayName": {
-        "en": "port speed"
+        "en": "Port speed"
       },
       "name": "portSpeed",
       "schema": "string",

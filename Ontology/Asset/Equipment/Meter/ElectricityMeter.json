@@ -5,12 +5,12 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "DC",
             "name": "DC"
@@ -30,7 +30,7 @@
         "Property"
       ],
       "displayName": {
-        "en": "maximum voltage rating"
+        "en": "Minimum voltage rating"
       },
       "name": "minVoltageRating",
       "schema": "double",
@@ -43,7 +43,7 @@
         "Property"
       ],
       "displayName": {
-        "en": "minimum current rating"
+        "en": "Minimum current rating"
       },
       "name": "minCurrentRating",
       "schema": "double",
@@ -56,7 +56,7 @@
         "Property"
       ],
       "displayName": {
-        "en": "maximum voltage rating"
+        "en": "Maximum voltage rating"
       },
       "name": "maxVoltageRating",
       "schema": "double",
@@ -69,7 +69,7 @@
         "Property"
       ],
       "displayName": {
-        "en": "maximum current rating"
+        "en": "Maximum current rating"
       },
       "name": "maxCurrentRating",
       "schema": "double",

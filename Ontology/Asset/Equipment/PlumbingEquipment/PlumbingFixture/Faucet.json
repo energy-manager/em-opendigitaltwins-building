@@ -5,19 +5,25 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Touchless",
-            "name": "Touchless"
+            "name": "Touchless",
+            "displayName": {
+              "en": "Touchless"
+            }
           },
           {
             "enumValue": "ManualOnly",
-            "name": "ManualOnly"
+            "name": "ManualOnly",
+            "displayName": {
+              "en": "Manual only"
+            }
           }
         ],
         "valueSchema": "string"
@@ -27,7 +33,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "maximum flow rate"
+        "en": "Maximum flow rate"
       },
       "name": "maxFlowRate",
       "schema": "double",
@@ -36,7 +42,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "number of handles"
+        "en": "Number of handles"
       },
       "name": "numberOfHandles",
       "schema": "integer",

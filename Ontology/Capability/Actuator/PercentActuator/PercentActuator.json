@@ -3,16 +3,15 @@
   "@type": "Interface",
   "contents": [
     {
-      "@type": "Property",
+      "@type": "Telemetry",
       "description": {
         "en": "Most recently reported or set value of a core:Capability."
       },
       "displayName": {
-        "en": "last value"
+        "en": "Last value"
       },
       "name": "lastValue",
-      "schema": "double",
-      "writable": true
+      "schema": "double"
     }
   ],
   "displayName": {

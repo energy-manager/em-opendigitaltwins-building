@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:room:MainEntrance;1",
   "@type": "Interface",
   "displayName": {
-    "en": "MainEntrance"
+    "en": "Main entrance"
   },
   "extends": "dtmi:no:energymanager:room:Entrance;1",
   "@context": "dtmi:dtdl:context;2"

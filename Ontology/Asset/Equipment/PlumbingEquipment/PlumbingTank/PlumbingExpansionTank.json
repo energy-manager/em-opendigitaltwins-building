@@ -5,23 +5,32 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Diaphragm",
-            "name": "Diaphragm"
+            "name": "Diaphragm",
+            "displayName": {
+              "en": "Diaphragm"
+            }
           },
           {
             "enumValue": "Compression",
-            "name": "Compression"
+            "name": "Compression",
+            "displayName": {
+              "en": "Compression"
+            }
           },
           {
             "enumValue": "Bladder",
-            "name": "Bladder"
+            "name": "Bladder",
+            "displayName": {
+              "en": "Bladder"
+            }
           }
         ],
         "valueSchema": "string"

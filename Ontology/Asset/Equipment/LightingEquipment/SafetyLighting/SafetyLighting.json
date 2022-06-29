@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:asset:SafetyLighting;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Safety Lighting"
+    "en": "Safety lighting"
   },
   "extends": "dtmi:no:energymanager:asset:LightingEquipment;1",
   "@context": "dtmi:dtdl:context;2"

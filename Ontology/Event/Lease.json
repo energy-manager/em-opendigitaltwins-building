@@ -8,7 +8,7 @@
         "en": "Time at which a lease arrangement begins."
       },
       "displayName": {
-        "en": "lease start"
+        "en": "Lease start"
       },
       "name": "leaseStart",
       "schema": "dateTime",
@@ -20,7 +20,7 @@
         "en": "Time at which a lease arrangement ends."
       },
       "displayName": {
-        "en": "lease end"
+        "en": "Lease end"
       },
       "name": "leaseEnd",
       "schema": "dateTime",

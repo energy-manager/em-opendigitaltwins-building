@@ -8,158 +8,266 @@
         "en": "is fed by"
       },
       "name": "isFedBy",
-      "dtmi:dtdl:property:properties;2": {
+      "properties": {
         "@type": "Property",
         "displayName": {
-          "en": "substance"
+          "en": "Substance"
         },
         "name": "substance",
-        "dtmi:dtdl:property:schema;2": {
+        "schema": {
           "@type": "Enum",
-          "dtmi:dtdl:property:enumValues;2": [
+          "enumValues": [
             {
               "enumValue": "Water",
-              "name": "Water"
+              "name": "Water",
+              "displayName": {
+                "en": "Water"
+              }
             },
             {
               "enumValue": "WasteVentDrainage",
-              "name": "WasteVentDrainage"
+              "name": "WasteVentDrainage",
+              "displayName": {
+                "en": "Waste-vent drainage"
+              }
             },
             {
               "enumValue": "TransferAir",
-              "name": "TransferAir"
+              "name": "TransferAir",
+              "displayName": {
+                "en": "Transfer-air"
+              }
             },
             {
               "enumValue": "SupplyAir",
-              "name": "SupplyAir"
+              "name": "SupplyAir",
+              "displayName": {
+                "en": "Supply-air"
+              }
             },
             {
               "enumValue": "StormDrainage",
-              "name": "StormDrainage"
+              "name": "StormDrainage",
+              "displayName": {
+                "en": "Storm-drainage"
+              }
             },
             {
               "enumValue": "Steam",
-              "name": "Steam"
+              "name": "Steam",
+              "displayName": {
+                "en": "Steam"
+              }
             },
             {
               "enumValue": "SprinklerWater",
-              "name": "SprinklerWater"
+              "name": "SprinklerWater",
+              "displayName": {
+                "en": "Sprinkler-water"
+              }
             },
             {
               "enumValue": "ReturnAir",
-              "name": "ReturnAir"
+              "name": "ReturnAir",
+              "displayName": {
+                "en": "Return-air"
+              }
             },
             {
               "enumValue": "Refrig",
-              "name": "Refrig"
+              "name": "Refrig",
+              "displayName": {
+                "en": "Refrig"
+              }
             },
             {
               "enumValue": "RecircHotDomesticWater",
-              "name": "RecircHotDomesticWater"
+              "name": "RecircHotDomesticWater",
+              "displayName": {
+                "en": "Recirculate hot domestic water"
+              }
             },
             {
               "enumValue": "Propane",
-              "name": "Propane"
+              "name": "Propane",
+              "displayName": {
+                "en": "Propane"
+              }
             },
             {
               "enumValue": "People",
-              "name": "People"
+              "name": "People",
+              "displayName": {
+                "en": "People"
+              }
             },
             {
               "enumValue": "OutsideAir",
-              "name": "OutsideAir"
+              "name": "OutsideAir",
+              "displayName": {
+                "en": "Outside-air"
+              }
             },
             {
               "enumValue": "NonPotableDomesticWater",
-              "name": "NonPotableDomesticWater"
+              "name": "NonPotableDomesticWater",
+              "displayName": {
+                "en": "Non-potable domestic water"
+              }
             },
             {
               "enumValue": "NaturalGas",
-              "name": "NaturalGas"
+              "name": "NaturalGas",
+              "displayName": {
+                "en": "Natural gas"
+              }
             },
             {
               "enumValue": "MakeupWater",
-              "name": "MakeupWater"
+              "name": "MakeupWater",
+              "displayName": {
+                "en": "Makeup water"
+              }
             },
             {
               "enumValue": "Light",
-              "name": "Light"
+              "name": "Light",
+              "displayName": {
+                "en": "Light"
+              }
             },
             {
               "enumValue": "IrrigationWater",
-              "name": "IrrigationWater"
+              "name": "IrrigationWater",
+              "displayName": {
+                "en": "Irrigation water"
+              }
             },
             {
               "enumValue": "HotWater",
-              "name": "HotWater"
+              "name": "HotWater",
+              "displayName": {
+                "en": "Hot water"
+              }
             },
             {
               "enumValue": "HotDomesticWater",
-              "name": "HotDomesticWater"
+              "name": "HotDomesticWater",
+              "displayName": {
+                "en": "Hot domestic water"
+              }
             },
             {
               "enumValue": "GreaseExhaustAir",
-              "name": "GreaseExhaustAir"
+              "name": "GreaseExhaustAir",
+              "displayName": {
+                "en": "Grease exhaust air"
+              }
             },
             {
               "enumValue": "Gasoline",
-              "name": "Gasoline"
+              "name": "Gasoline",
+              "displayName": {
+                "en": "Gasoline"
+              }
             },
             {
               "enumValue": "FuelOil",
-              "name": "FuelOil"
+              "name": "FuelOil",
+              "displayName": {
+                "en": "Fuel-oil"
+              }
             },
             {
               "enumValue": "Freight",
-              "name": "Freight"
+              "name": "Freight",
+              "displayName": {
+                "en": "Freight"
+              }
             },
             {
               "enumValue": "ExhaustAir",
-              "name": "ExhaustAir"
+              "name": "ExhaustAir",
+              "displayName": {
+                "en": "Exhaust air"
+              }
             },
             {
               "enumValue": "Ethernet",
-              "name": "Ethernet"
+              "name": "Ethernet",
+              "displayName": {
+                "en": "Ethernet"
+              }
             },
             {
               "enumValue": "DriveElec",
-              "name": "DriveElec"
+              "name": "DriveElec",
+              "displayName": {
+                "en": "Drive-elec"
+              }
             },
             {
               "enumValue": "Diesel",
-              "name": "Diesel"
+              "name": "Diesel",
+              "displayName": {
+                "en": "Diesel"
+              }
             },
             {
               "enumValue": "DCElec",
-              "name": "DCElec"
+              "name": "DCElec",
+              "displayName": {
+                "en": "DC-elec"
+              }
             },
             {
               "enumValue": "CondenserWater",
-              "name": "CondenserWater"
+              "name": "CondenserWater",
+              "displayName": {
+                "en": "Condenser water"
+              }
             },
             {
               "enumValue": "Condensate",
-              "name": "Condensate"
+              "name": "Condensate",
+              "displayName": {
+                "en": "Condensate"
+              }
             },
             {
               "enumValue": "ColdDomesticWater",
-              "name": "ColdDomesticWater"
+              "name": "ColdDomesticWater",
+              "displayName": {
+                "en": "Cold domestic water"
+              }
             },
             {
               "enumValue": "ChilledWater",
-              "name": "ChilledWater"
+              "name": "ChilledWater",
+              "displayName": {
+                "en": "Chilled water"
+              }
             },
             {
               "enumValue": "BlowdownWater",
-              "name": "BlowdownWater"
+              "name": "BlowdownWater",
+              "displayName": {
+                "en": "Blowdown water"
+              }
             },
             {
               "enumValue": "Air",
-              "name": "Air"
+              "name": "Air",
+              "displayName": {
+                "en": "Air"
+              }
             },
             {
               "enumValue": "ACElec",
-              "name": "ACElec"
+              "name": "ACElec",
+              "displayName": {
+                "en": "AC-elec"
+              }
             }
           ],
           "valueSchema": "string"
@@ -173,158 +281,266 @@
         "en": "feeds"
       },
       "name": "feeds",
-      "dtmi:dtdl:property:properties;2": {
+      "properties": {
         "@type": "Property",
         "displayName": {
-          "en": "substance"
+          "en": "Substance"
         },
         "name": "substance",
-        "dtmi:dtdl:property:schema;2": {
+        "schema": {
           "@type": "Enum",
-          "dtmi:dtdl:property:enumValues;2": [
+          "enumValues": [
             {
               "enumValue": "Water",
-              "name": "Water"
+              "name": "Water",
+              "displayName": {
+                "en": "Water"
+              }
             },
             {
               "enumValue": "WasteVentDrainage",
-              "name": "WasteVentDrainage"
+              "name": "WasteVentDrainage",
+              "displayName": {
+                "en": "Waste-vent drainage"
+              }
             },
             {
               "enumValue": "TransferAir",
-              "name": "TransferAir"
+              "name": "TransferAir",
+              "displayName": {
+                "en": "Transfer-air"
+              }
             },
             {
               "enumValue": "SupplyAir",
-              "name": "SupplyAir"
+              "name": "SupplyAir",
+              "displayName": {
+                "en": "Supply-air"
+              }
             },
             {
               "enumValue": "StormDrainage",
-              "name": "StormDrainage"
+              "name": "StormDrainage",
+              "displayName": {
+                "en": "Storm drainage"
+              }
             },
             {
               "enumValue": "Steam",
-              "name": "Steam"
+              "name": "Steam",
+              "displayName": {
+                "en": "Steam"
+              }
             },
             {
               "enumValue": "SprinklerWater",
-              "name": "SprinklerWater"
+              "name": "SprinklerWater",
+              "displayName": {
+                "en": "Sprinkler water"
+              }
             },
             {
               "enumValue": "ReturnAir",
-              "name": "ReturnAir"
+              "name": "ReturnAir",
+              "displayName": {
+                "en": "Return-air"
+              }
             },
             {
               "enumValue": "Refrig",
-              "name": "Refrig"
+              "name": "Refrig",
+              "displayName": {
+                "en": "Refrig"
+              }
             },
             {
               "enumValue": "RecircHotDomesticWater",
-              "name": "RecircHotDomesticWater"
+              "name": "RecircHotDomesticWater",
+              "displayName": {
+                "en": "Recirculate hot domestic water"
+              }
             },
             {
               "enumValue": "Propane",
-              "name": "Propane"
+              "name": "Propane",
+              "displayName": {
+                "en": "Propane"
+              }
             },
             {
               "enumValue": "People",
-              "name": "People"
+              "name": "People",
+              "displayName": {
+                "en": "People"
+              }
             },
             {
               "enumValue": "OutsideAir",
-              "name": "OutsideAir"
+              "name": "OutsideAir",
+              "displayName": {
+                "en": "Outside-air"
+              }
             },
             {
               "enumValue": "NonPotableDomesticWater",
-              "name": "NonPotableDomesticWater"
+              "name": "NonPotableDomesticWater",
+              "displayName": {
+                "en": "Non-potable domestic water"
+              }
             },
             {
               "enumValue": "NaturalGas",
-              "name": "NaturalGas"
+              "name": "NaturalGas",
+              "displayName": {
+                "en": "Natural gas"
+              }
             },
             {
               "enumValue": "MakeupWater",
-              "name": "MakeupWater"
+              "name": "MakeupWater",
+              "displayName": {
+                "en": "Makeup-water"
+              }
             },
             {
               "enumValue": "Light",
-              "name": "Light"
+              "name": "Light",
+              "displayName": {
+                "en": "Light"
+              }
             },
             {
               "enumValue": "IrrigationWater",
-              "name": "IrrigationWater"
+              "name": "IrrigationWater",
+              "displayName": {
+                "en": "Irrigation water"
+              }
             },
             {
               "enumValue": "HotWater",
-              "name": "HotWater"
+              "name": "HotWater",
+              "displayName": {
+                "en": "Hot water"
+              }
             },
             {
               "enumValue": "HotDomesticWater",
-              "name": "HotDomesticWater"
+              "name": "HotDomesticWater",
+              "displayName": {
+                "en": "Hot domestic water"
+              }
             },
             {
               "enumValue": "GreaseExhaustAir",
-              "name": "GreaseExhaustAir"
+              "name": "GreaseExhaustAir",
+              "displayName": {
+                "en": "Grease exhaust-air"
+              }
             },
             {
               "enumValue": "Gasoline",
-              "name": "Gasoline"
+              "name": "Gasoline",
+              "displayName": {
+                "en": "Gasoline"
+              }
             },
             {
               "enumValue": "FuelOil",
-              "name": "FuelOil"
+              "name": "FuelOil",
+              "displayName": {
+                "en": "Fuel-oil"
+              }
             },
             {
               "enumValue": "Freight",
-              "name": "Freight"
+              "name": "Freight",
+              "displayName": {
+                "en": "Freight"
+              }
             },
             {
               "enumValue": "ExhaustAir",
-              "name": "ExhaustAir"
+              "name": "ExhaustAir",
+              "displayName": {
+                "en": "Exhaust-air"
+              }
             },
             {
               "enumValue": "Ethernet",
-              "name": "Ethernet"
+              "name": "Ethernet",
+              "displayName": {
+                "en": "Ethernet"
+              }
             },
             {
               "enumValue": "DriveElec",
-              "name": "DriveElec"
+              "name": "DriveElec",
+              "displayName": {
+                "en": "Drive-elec"
+              }
             },
             {
               "enumValue": "Diesel",
-              "name": "Diesel"
+              "name": "Diesel",
+              "displayName": {
+                "en": "Diesel"
+              }
             },
             {
               "enumValue": "DCElec",
-              "name": "DCElec"
+              "name": "DCElec",
+              "displayName": {
+                "en": "DC-elec"
+              }
             },
             {
               "enumValue": "CondenserWater",
-              "name": "CondenserWater"
+              "name": "CondenserWater",
+              "displayName": {
+                "en": "Condenser water"
+              }
             },
             {
               "enumValue": "Condensate",
-              "name": "Condensate"
+              "name": "Condensate",
+              "displayName": {
+                "en": "Condensate"
+              }
             },
             {
               "enumValue": "ColdDomesticWater",
-              "name": "ColdDomesticWater"
+              "name": "ColdDomesticWater",
+              "displayName": {
+                "en": "Cold domestic water"
+              }
             },
             {
               "enumValue": "ChilledWater",
-              "name": "ChilledWater"
+              "name": "ChilledWater",
+              "displayName": {
+                "en": "Chilled water"
+              }
             },
             {
               "enumValue": "BlowdownWater",
-              "name": "BlowdownWater"
+              "name": "BlowdownWater",
+              "displayName": {
+                "en": "Blowdown water"
+              }
             },
             {
               "enumValue": "Air",
-              "name": "Air"
+              "name": "Air",
+              "displayName": {
+                "en": "Air"
+              }
             },
             {
               "enumValue": "ACElec",
-              "name": "ACElec"
+              "name": "ACElec",
+              "displayName": {
+                "en": "AC-elec"
+              }
             }
           ],
           "valueSchema": "string"

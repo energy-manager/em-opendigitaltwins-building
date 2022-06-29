@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:room:ShowerRoom;1",
   "@type": "Interface",
   "displayName": {
-    "en": "ShowerRoom"
+    "en": "Shower room"
   },
   "extends": "dtmi:no:energymanager:room:PersonalHygiene;1",
   "@context": "dtmi:dtdl:context;2"

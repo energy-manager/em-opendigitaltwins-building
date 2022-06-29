@@ -5,7 +5,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "working pressure"
+        "en": "Working pressure"
       },
       "name": "workingPressure",
       "schema": "double",
@@ -17,7 +17,7 @@
         "Property"
       ],
       "displayName": {
-        "en": "motor power"
+        "en": "Motor power"
       },
       "name": "motorPower",
       "schema": "double",
@@ -27,7 +27,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "free air delivery"
+        "en": "Free air delivery"
       },
       "name": "freeAirDelivery",
       "schema": "double",

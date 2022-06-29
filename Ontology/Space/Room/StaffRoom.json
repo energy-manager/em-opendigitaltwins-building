@@ -5,7 +5,7 @@
     "en": "Room for staff to take breaks."
   },
   "displayName": {
-    "en": "StaffRoom"
+    "en": "Staff room"
   },
   "extends": "dtmi:no:energymanager:core:Room;1",
   "@context": "dtmi:dtdl:context;2"

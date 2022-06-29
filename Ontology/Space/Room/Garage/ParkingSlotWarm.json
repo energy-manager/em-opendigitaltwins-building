@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:room:ParkingSlotWarm;1",
   "@type": "Interface",
   "displayName": {
-    "en": "ParkingSlotWarm"
+    "en": "Parking slot warm"
   },
   "extends": "dtmi:no:energymanager:room:Garage;1",
   "@context": "dtmi:dtdl:context;2"

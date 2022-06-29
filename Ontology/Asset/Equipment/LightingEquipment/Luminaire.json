@@ -8,7 +8,7 @@
         "Property"
       ],
       "displayName": {
-        "en": "power input"
+        "en": "Power input"
       },
       "name": "powerInput",
       "schema": "double",
@@ -18,23 +18,32 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "mounting"
+        "en": "Mounting"
       },
       "name": "mounting",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "WallMount",
-            "name": "WallMount"
+            "name": "WallMount",
+            "displayName": {
+              "en": "Wall-mount"
+            }
           },
           {
             "enumValue": "Recessed",
-            "name": "Recessed"
+            "name": "Recessed",
+            "displayName": {
+              "en": "Recessed"
+            }
           },
           {
             "enumValue": "Pendant",
-            "name": "Pendant"
+            "name": "Pendant",
+            "displayName": {
+              "en": "Pendant"
+            }
           }
         ],
         "valueSchema": "string"

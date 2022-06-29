@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:asset:LightingController;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Lighting Controller"
+    "en": "Lighting controller"
   },
   "extends": "dtmi:no:energymanager:asset:LightingEquipment;1",
   "@context": "dtmi:dtdl:context;2"

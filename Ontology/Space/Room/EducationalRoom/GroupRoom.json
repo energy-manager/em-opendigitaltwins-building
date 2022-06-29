@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:room:GroupRoom;1",
   "@type": "Interface",
   "displayName": {
-    "en": "GroupRoom"
+    "en": "Group room"
   },
   "extends": "dtmi:no:energymanager:room:EducationalRoom;1",
   "@context": "dtmi:dtdl:context;2"

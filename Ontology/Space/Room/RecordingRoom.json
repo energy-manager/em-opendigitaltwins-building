@@ -5,7 +5,7 @@
     "en": "Room for making audio and/or video recordings. A.ka. studio."
   },
   "displayName": {
-    "en": "RecordingRoom"
+    "en": "Recording room"
   },
   "extends": "dtmi:no:energymanager:core:Room;1",
   "@context": "dtmi:dtdl:context;2"

@@ -32,7 +32,7 @@
         "en": "Transmission mode for wireless sensors. E.g. spreading factor for LoRaWAN sensors (SF7 to SF12)"
       },
       "displayName": {
-        "en": "mode"
+        "en": "Mode"
       },
       "name": "mode",
       "schema": "string",

@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:capability:PM10AirQualitySetpoint;1",
   "@type": "Interface",
   "displayName": {
-    "en": "P air quality setpoint"
+    "en": "PM10 air quality setpoint"
   },
   "extends": "dtmi:no:energymanager:capability:AirQualitySetpoint;1",
   "@context": "dtmi:dtdl:context;2"

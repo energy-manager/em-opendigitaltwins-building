@@ -5,12 +5,12 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "Custom Tags"
+        "en": "Custom tags"
       },
       "name": "customTags",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Map",
-        "dtmi:dtdl:property:mapKey;2": {
+        "mapKey": {
           "name": "tagName",
           "schema": "string"
         },
@@ -27,9 +27,9 @@
         "en": "External IDs"
       },
       "name": "externalIds",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Map",
-        "dtmi:dtdl:property:mapKey;2": {
+        "mapKey": {
           "name": "externalIdName",
           "schema": "string"
         },
@@ -43,7 +43,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "name"
+        "en": "Name"
       },
       "name": "name",
       "schema": "string",

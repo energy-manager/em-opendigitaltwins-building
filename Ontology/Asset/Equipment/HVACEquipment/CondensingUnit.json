@@ -5,19 +5,25 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "WaterCooled",
-            "name": "WaterCooled"
+            "name": "WaterCooled",
+            "displayName": {
+              "en": "Water-cooled"
+            }
           },
           {
             "enumValue": "AirCooled",
-            "name": "AirCooled"
+            "name": "AirCooled",
+            "displayName": {
+              "en": "Air-cooled"
+            }
           }
         ],
         "valueSchema": "string"
@@ -27,7 +33,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "refrigerant type"
+        "en": "Refrigerant type"
       },
       "name": "refrigerantType",
       "schema": "string",
@@ -36,7 +42,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "nominal heating capacity"
+        "en": "Nominal heating capacity"
       },
       "name": "nominalHeatingCapacity",
       "schema": "double",
@@ -45,7 +51,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "nominal cooling capacity"
+        "en": "Nominal cooling capacity"
       },
       "name": "nominalCoolingCapacity",
       "schema": "double",
@@ -54,7 +60,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "net sensible heating capacity"
+        "en": "Net sensible heating capacity"
       },
       "name": "netSensibleHeatingCapacity",
       "schema": "double",
@@ -63,7 +69,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "net sensible cooling capacity"
+        "en": "Net sensible cooling capacity"
       },
       "name": "netSensibleCoolingCapacity",
       "schema": "double",
@@ -72,7 +78,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "energy efficiency ratio"
+        "en": "Energy efficiency ratio"
       },
       "name": "eer",
       "schema": "double",

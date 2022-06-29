@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:asset:LeakDetectorEquipment;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Leak Detector"
+    "en": "Leak detector"
   },
   "extends": "dtmi:no:energymanager:asset:SensorEquipment;1",
   "@context": "dtmi:dtdl:context;2"

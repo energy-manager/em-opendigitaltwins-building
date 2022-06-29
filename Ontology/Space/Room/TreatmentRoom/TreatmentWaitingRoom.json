@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:room:TreatmentWaitingRoom;1",
   "@type": "Interface",
   "displayName": {
-    "en": "TreatmentWaitingRoom"
+    "en": "Treatment waiting room"
   },
   "extends": "dtmi:no:energymanager:room:TreatmentRoom;1",
   "@context": "dtmi:dtdl:context;2"

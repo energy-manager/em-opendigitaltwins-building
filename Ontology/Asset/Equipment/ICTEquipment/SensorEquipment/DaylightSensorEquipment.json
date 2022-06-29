@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:asset:DaylightSensorEquipment;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Daylight Sensor"
+    "en": "Daylight sensor"
   },
   "extends": "dtmi:no:energymanager:asset:SensorEquipment;1",
   "@context": "dtmi:dtdl:context;2"

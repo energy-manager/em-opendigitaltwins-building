@@ -5,23 +5,32 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "Gate",
-            "name": "Gate"
+            "name": "Gate",
+            "displayName": {
+              "en": "Gate"
+            }
           },
           {
             "enumValue": "Butterfly",
-            "name": "Butterfly"
+            "name": "Butterfly",
+            "displayName": {
+              "en": "Butterfly"
+            }
           },
           {
             "enumValue": "Ball",
-            "name": "Ball"
+            "name": "Ball",
+            "displayName": {
+              "en": "Ball"
+            }
           }
         ],
         "valueSchema": "string"

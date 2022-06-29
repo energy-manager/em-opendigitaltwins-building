@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:room:ClimateControlRoom;1",
   "@type": "Interface",
   "displayName": {
-    "en": "ClimateControlRoom"
+    "en": "Climate control room"
   },
   "extends": "dtmi:no:energymanager:room:UtilitiesRoom;1",
   "@context": "dtmi:dtdl:context;2"

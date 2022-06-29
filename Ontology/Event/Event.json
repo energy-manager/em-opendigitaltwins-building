@@ -5,7 +5,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "has updated time"
+        "en": "Has updated time"
       },
       "name": "hasUpdatedTime",
       "schema": "dateTime",
@@ -17,7 +17,7 @@
         "en": "Cognitive clustering of time-related properties that can apply to time-indexed objects (i.e., events of various sorts).\n\nCertain time properties are given using xsd:DateTime, i.e., ISO8601 (see below), whereas others are given as ints or floats, depending on use case.\n\nTime format ISO8601:\n\nComplete date, hour, minutes, seconds, and decimal fraction of second\n\n      YYYY-MM-DDThh:mm:ss.sTZD (eg 1997-07-16T19:20:30.45+01:00)\n\nWhere:\n     YYYY = 4 numbers for year.\n     MM = 2 numbers for month (01=January, e"
       },
       "displayName": {
-        "en": "has time"
+        "en": "Has time"
       },
       "name": "hasTime",
       "schema": "string",
@@ -26,7 +26,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "has stop time"
+        "en": "Has stop time"
       },
       "name": "hasStopTime",
       "schema": "dateTime",
@@ -35,7 +35,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "has start time"
+        "en": "Has start time"
       },
       "name": "hasStartTime",
       "schema": "dateTime",
@@ -44,7 +44,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "has read time"
+        "en": "Has read time"
       },
       "name": "hasReadTime",
       "schema": "dateTime",
@@ -53,7 +53,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "has point in time"
+        "en": "Has point in time"
       },
       "name": "hasPointInTime",
       "schema": "dateTime",
@@ -62,7 +62,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "has observation time"
+        "en": "Has observation time"
       },
       "name": "hasObservationTime",
       "schema": "dateTime",
@@ -74,7 +74,7 @@
         "en": "Measured in ms (milliseconds). Duration is defined as the length of time that something lasts."
       },
       "displayName": {
-        "en": "has duration"
+        "en": "Has duration"
       },
       "name": "hasDuration",
       "schema": "double",
@@ -83,7 +83,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "has deleted time"
+        "en": "Has deleted time"
       },
       "name": "hasDeletedTime",
       "schema": "dateTime",
@@ -92,7 +92,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "has created time"
+        "en": "Has created time"
       },
       "name": "hasCreatedTime",
       "schema": "dateTime",
@@ -101,18 +101,24 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "Custom Tags"
+        "en": "Custom tags"
       },
       "name": "customTags",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Map",
-        "dtmi:dtdl:property:mapKey;2": {
+        "mapKey": {
           "name": "tagName",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Name"
+          }
         },
-        "dtmi:dtdl:property:mapValue;2": {
+        "mapValue": {
           "name": "tagValue",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Value"
+          }
         }
       },
       "writable": true
@@ -123,15 +129,21 @@
         "en": "External IDs"
       },
       "name": "externalIds",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Map",
-        "dtmi:dtdl:property:mapKey;2": {
+        "mapKey": {
           "name": "externalIdName",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Name"
+          }
         },
-        "dtmi:dtdl:property:mapValue;2": {
+        "mapValue": {
           "name": "externalIdValue",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Value"
+          }
         }
       },
       "writable": true
@@ -139,7 +151,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "name"
+        "en": "Name"
       },
       "name": "name",
       "schema": "string",

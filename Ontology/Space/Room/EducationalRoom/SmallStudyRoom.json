@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:building:SmallStudyRoom;1",
   "@type": "Interface",
   "displayName": {
-    "en": "SmallStudyRoom"
+    "en": "Small study room"
   },
   "extends": "dtmi:no:energymanager:room:EducationalRoom;1",
   "@context": "dtmi:dtdl:context;2"

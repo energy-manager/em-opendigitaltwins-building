@@ -9,31 +9,28 @@
       "@type": "Property",
       "name": "grossArea",
       "displayName": {
-        "en": "Gross Area"
+        "en": "Gross area"
       },
       "writable": true,
-      "schema": "double",
-      "comment": "squareFoot"
+      "schema": "double"
     },
     {
       "@type": "Property",
       "name": "usableArea",
       "displayName": {
-        "en": "Usable Area"
+        "en": "Usable area"
       },
       "writable": true,
-      "schema": "double",
-      "comment": "squareFoot"
+      "schema": "double"
     },
     {
       "@type": "Property",
       "name": "rentableArea",
       "displayName": {
-        "en": "Rentable Area"
+        "en": "Rentable area"
       },
       "writable": true,
-      "schema": "double",
-      "comment": "squareFoot"
+      "schema": "double"
     }
   ],
   "@context": "dtmi:dtdl:context;2"

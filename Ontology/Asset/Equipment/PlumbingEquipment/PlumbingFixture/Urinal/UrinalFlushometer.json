@@ -5,7 +5,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "water per flush"
+        "en": "Water per flush"
       },
       "name": "waterPerFlush",
       "schema": "double",
@@ -13,7 +13,7 @@
     }
   ],
   "displayName": {
-    "en": "Urinal with Flushometer"
+    "en": "Urinal with flushometer"
   },
   "extends": "dtmi:no:energymanager:asset:Urinal;1",
   "@context": "dtmi:dtdl:context;2"

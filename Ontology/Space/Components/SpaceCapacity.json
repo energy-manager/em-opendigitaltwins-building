@@ -9,17 +9,17 @@
       "@type": "Property",
       "name": "maxOccupancy",
       "displayName": {
-        "en": "Maximum Occupancy"
+        "en": "Maximum occupancy"
       },
       "writable": true,
       "schema": "integer",
-      "comment": "Building Code Occupancy"
+      "comment": "Building code occupancy"
     },
     {
       "@type": "Property",
       "name": "seatingCapacity",
       "displayName": {
-        "en": "Seating Capacity"
+        "en": "Seating capacity"
       },
       "writable": true,
       "schema": "integer",

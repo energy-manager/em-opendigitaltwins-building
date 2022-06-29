@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:asset:UrinalWaterless;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Urinal - Waterless"
+    "en": "Urinal - waterless"
   },
   "extends": "dtmi:no:energymanager:asset:Urinal;1",
   "@context": "dtmi:dtdl:context;2"

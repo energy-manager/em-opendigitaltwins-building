@@ -5,19 +5,25 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "flushing type"
+        "en": "Flushing type"
       },
       "name": "flushingType",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "PressureAssisted",
-            "name": "PressureAssisted"
+            "name": "PressureAssisted",
+            "displayName": {
+              "en": "Pressure-assisted"
+            }
           },
           {
             "enumValue": "Gravity",
-            "name": "Gravity"
+            "name": "Gravity",
+            "displayName": {
+              "en": "Gravity"
+            }
           }
         ],
         "valueSchema": "string"
@@ -26,7 +32,7 @@
     }
   ],
   "displayName": {
-    "en": "Toilet with Tank"
+    "en": "Toilet with tank"
   },
   "extends": "dtmi:no:energymanager:asset:Toilet;1",
   "@context": "dtmi:dtdl:context;2"

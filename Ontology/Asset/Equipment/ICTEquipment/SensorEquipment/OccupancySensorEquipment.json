@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:asset:OccupancySensorEquipment;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Occupancy Sensor"
+    "en": "Occupancy sensor"
   },
   "extends": "dtmi:no:energymanager:asset:SensorEquipment;1",
   "@context": "dtmi:dtdl:context;2"

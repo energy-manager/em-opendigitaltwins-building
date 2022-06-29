@@ -5,7 +5,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "type"
+        "en": "Type"
       },
       "name": "type",
       "schema": "string",
@@ -14,7 +14,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "minimum temperature rating"
+        "en": "Minimum temperature rating"
       },
       "name": "minTemperatureRating",
       "schema": "double",
@@ -23,7 +23,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "minimum mass flow rating"
+        "en": "Minimum mass flow rating"
       },
       "name": "minMassFlowRating",
       "schema": "double",
@@ -32,7 +32,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "maximum temperature rating"
+        "en": "Maximum temperature rating"
       },
       "name": "maxTemperatureRating",
       "schema": "double",
@@ -41,7 +41,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "maximum pressure rating"
+        "en": "Maximum pressure rating"
       },
       "name": "maxPressureRating",
       "schema": "double",
@@ -50,7 +50,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "maximum mass flow rating"
+        "en": "Maximum mass flow rating"
       },
       "name": "maxMassFlowRating",
       "schema": "double",
@@ -67,7 +67,7 @@
     {
       "@type": "Relationship",
       "displayName": {
-        "en": "measures"
+        "en": "Measures"
       },
       "name": "measures"
     }

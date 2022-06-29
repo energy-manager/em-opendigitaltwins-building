@@ -5,7 +5,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "power input"
+        "en": "Power input"
       },
       "name": "powerInput",
       "schema": "double",

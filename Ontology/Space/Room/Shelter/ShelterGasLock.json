@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:room:ShelterGasLock;1",
   "@type": "Interface",
   "displayName": {
-    "en": "ShelterGasLock"
+    "en": "Shelter gas lock"
   },
   "extends": "dtmi:no:energymanager:room:Shelter;1",
   "@context": "dtmi:dtdl:context;2"

@@ -5,7 +5,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "water per flush"
+        "en": "Water per flush"
       },
       "name": "waterPerFlush",
       "schema": "double",
@@ -14,19 +14,25 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "installation type"
+        "en": "Installation type"
       },
       "name": "installationType",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Enum",
-        "dtmi:dtdl:property:enumValues;2": [
+        "enumValues": [
           {
             "enumValue": "WallMounted",
-            "name": "WallMounted"
+            "name": "WallMounted",
+            "displayName": {
+              "en": "Wall-mounted"
+            }
           },
           {
             "enumValue": "FloorMounted",
-            "name": "FloorMounted"
+            "name": "FloorMounted",
+            "displayName": {
+              "en": "Floor-mounted"
+            }
           }
         ],
         "valueSchema": "string"

@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:room:UtilitiesRoom;1",
   "@type": "Interface",
   "displayName": {
-    "en": "UtilitiesRoom"
+    "en": "Utilities room"
   },
   "extends": "dtmi:no:energymanager:core:Room;1",
   "@context": "dtmi:dtdl:context;2"

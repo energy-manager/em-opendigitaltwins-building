@@ -14,18 +14,24 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "Custom Tags"
+        "en": "Custom tags"
       },
       "name": "customTags",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Map",
-        "dtmi:dtdl:property:mapKey;2": {
+        "mapKey": {
           "name": "tagName",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Name"
+          }
         },
-        "dtmi:dtdl:property:mapValue;2": {
+        "mapValue": {
           "name": "tagValue",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Value"
+          }
         }
       },
       "writable": true
@@ -36,15 +42,21 @@
         "en": "External IDs"
       },
       "name": "externalIds",
-      "dtmi:dtdl:property:schema;2": {
+      "schema": {
         "@type": "Map",
-        "dtmi:dtdl:property:mapKey;2": {
+        "mapKey": {
           "name": "externalIdName",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Name"
+          }
         },
-        "dtmi:dtdl:property:mapValue;2": {
+        "mapValue": {
           "name": "externalIdValue",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Value"
+          }
         }
       },
       "writable": true
@@ -52,7 +64,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "name"
+        "en": "Name"
       },
       "name": "name",
       "schema": "string",

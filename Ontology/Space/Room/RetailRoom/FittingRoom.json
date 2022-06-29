@@ -2,7 +2,7 @@
   "@id": "dtmi:no:energymanager:room:FittingRoom;1",
   "@type": "Interface",
   "displayName": {
-    "en": "FittingRoom"
+    "en": "Fitting room"
   },
   "extends": "dtmi:no:energymanager:room:RetailRoom;1",
   "@context": "dtmi:dtdl:context;2"

@@ -5,7 +5,7 @@
     "en": "For e.g. medical or other treatment or consultation."
   },
   "displayName": {
-    "en": "TreatmentRoom"
+    "en": "Treatment room"
   },
   "extends": "dtmi:no:energymanager:core:Room;1",
   "@context": "dtmi:dtdl:context;2"
