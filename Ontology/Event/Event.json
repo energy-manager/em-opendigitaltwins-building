@@ -5,6 +5,15 @@
     {
       "@type": "Property",
       "displayName": {
+        "en": "Name"
+      },
+      "name": "name",
+      "schema": "string",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "displayName": {
         "en": "Has updated time"
       },
       "name": "hasUpdatedTime",
@@ -146,15 +155,6 @@
           }
         }
       },
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "Name"
-      },
-      "name": "name",
-      "schema": "string",
       "writable": true
     }
   ],

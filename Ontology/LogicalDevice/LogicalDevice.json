@@ -5,6 +5,15 @@
     {
       "@type": "Property",
       "displayName": {
+        "en": "Name"
+      },
+      "name": "name",
+      "schema": "string",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "displayName": {
         "en": "IP address"
       },
       "name": "IPAddress",
@@ -102,15 +111,6 @@
           }
         }
       },
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "Name"
-      },
-      "name": "name",
-      "schema": "string",
       "writable": true
     }
   ],

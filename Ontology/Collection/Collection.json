@@ -5,6 +5,15 @@
     {
       "@type": "Property",
       "displayName": {
+        "en": "Name"
+      },
+      "name": "name",
+      "schema": "string",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "displayName": {
         "en": "Custom tags"
       },
       "name": "customTags",
@@ -50,15 +59,6 @@
           }
         }
       },
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "Name"
-      },
-      "name": "name",
-      "schema": "string",
       "writable": true
     }
   ],

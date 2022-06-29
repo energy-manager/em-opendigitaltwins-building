@@ -3,6 +3,15 @@
   "@type": "Interface",
   "contents": [
     {
+      "@type": "Property",
+      "displayName": {
+        "en": "Name"
+      },
+      "name": "name",
+      "schema": "string",
+      "writable": true
+    },
+    {  
       "@type": "Relationship",
       "description": {
         "en": "A role that is held by some agent (e.g., a Person could hold a Sales Representative role, or an organization could hold a Maintenance Responsibility role)."
@@ -26,18 +35,24 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "Custom Tags"
+        "en": "Custom tags"
       },
       "name": "customTags",
       "schema": {
         "@type": "Map",
         "mapKey": {
           "name": "tagName",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Name"
+          }
         },
-        "dtmi:dtdl:property:mapValue;2": {
+        "mapValue": {
           "name": "tagValue",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Value"
+          }
         }
       },
       "writable": true
@@ -52,22 +67,19 @@
         "@type": "Map",
         "mapKey": {
           "name": "externalIdName",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Name"
+          }
         },
-        "dtmi:dtdl:property:mapValue;2": {
+        "mapValue": {
           "name": "externalIdValue",
-          "schema": "string"
+          "schema": "string",
+          "displayName": {
+            "en": "Value"
+          }
         }
       },
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "Name"
-      },
-      "name": "name",
-      "schema": "string",
       "writable": true
     }
   ],
