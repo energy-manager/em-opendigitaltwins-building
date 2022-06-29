@@ -11,8 +11,7 @@
         "en": "Last value"
       },
       "name": "lastValue",
-      "schema": "dateTime",
-      "writable": true
+      "schema": "dateTime"
     }
   ],
   "displayName": {

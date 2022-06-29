@@ -15,8 +15,7 @@
       },
       "name": "lastValue",
       "schema": "double",
-      "unit": "ampere",
-      "writable": true
+      "unit": "ampere"
     }
   ],
   "displayName": {

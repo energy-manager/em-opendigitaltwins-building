@@ -15,8 +15,7 @@
       },
       "name": "lastValue",
       "schema": "double",
-      "unit": "kilogram",
-      "writable": true
+      "unit": "kilogram"
     }
   ],
   "displayName": {

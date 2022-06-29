@@ -11,8 +11,7 @@
         "en": "Last value"
       },
       "name": "lastValue",
-      "schema": "double",
-      "writable": true
+      "schema": "double"
     }
   ],
   "displayName": {

@@ -15,8 +15,7 @@
       },
       "name": "lastValue",
       "schema": "double",
-      "unit": "watt",
-      "writable": true
+      "unit": "watt"
     }
   ],
   "displayName": {

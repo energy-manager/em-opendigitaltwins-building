@@ -15,8 +15,7 @@
       },
       "name": "lastValue",
       "schema": "double",
-      "unit": "lux",
-      "writable": true
+      "unit": "lux"
     }
   ],
   "displayName": {

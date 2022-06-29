@@ -15,8 +15,7 @@
       },
       "name": "lastValue",
       "schema": "double",
-      "unit": "volt",
-      "writable": true
+      "unit": "volt"
     }
   ],
   "displayName": {

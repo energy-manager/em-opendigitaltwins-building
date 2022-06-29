@@ -15,8 +15,7 @@
       },
       "name": "lastValue",
       "schema": "double",
-      "unit": "kilowattHour",
-      "writable": true
+      "unit": "kilowattHour"
     }
   ],
   "displayName": {
