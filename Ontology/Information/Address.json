@@ -55,6 +55,15 @@
       "name": "addressLine1",
       "schema": "string",
       "writable": true
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Location"
+      },
+      "name": "location",
+      "schema": "point",
+      "writable": true
     }
   ],
   "displayName": {

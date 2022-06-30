@@ -2,7 +2,8 @@
   "@id": "dtmi:no:energymanager:asset:IAQSensorEquipment;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Indoor air quality sensor"
+    "en": "Indoor air quality sensor",
+    "nb-NO": "Inneklimasensor"
   },
   "extends": "dtmi:no:energymanager:asset:SensorEquipment;1",
   "@context": "dtmi:dtdl:context;2"
