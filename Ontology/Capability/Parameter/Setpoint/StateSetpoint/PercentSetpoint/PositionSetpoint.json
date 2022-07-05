@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:PositionSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:PositionSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Position setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:PercentSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:PercentSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

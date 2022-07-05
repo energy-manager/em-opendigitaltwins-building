@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:CurrentMagnitudeSensor;1",
+  "@id": "dtmi:no:energymanager:sensor:CurrentMagnitudeSensor;1",
   "@type": "Interface",
   "contents": [
     {
@@ -21,6 +21,6 @@
   "displayName": {
     "en": "Current magnitude sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:CurrentSensor;1",
+  "extends": "dtmi:no:energymanager:sensor:CurrentSensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

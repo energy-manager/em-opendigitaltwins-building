@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:LevelActuator;1",
+  "@id": "dtmi:no:energymanager:actuator:LevelActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Level actuator"
   },
-  "extends": "dtmi:no:energymanager:capability:PercentActuator;1",
+  "extends": "dtmi:no:energymanager:actuator:PercentActuator;1",
   "@context": "dtmi:dtdl:context;2"
 }

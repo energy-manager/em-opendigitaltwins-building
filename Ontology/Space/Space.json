@@ -195,7 +195,7 @@
       "displayName": {
         "en": "Area"
       },
-      "schema": "dtmi:no:energymanager:SpaceArea;1"
+      "schema": "dtmi:no:energymanager:space:component:SpaceArea;1"
     },
     {
       "@type": "Component",
@@ -203,7 +203,7 @@
       "displayName": {
         "en": "Capacity"
       },
-      "schema": "dtmi:no:energymanager:SpaceCapacity;1"
+      "schema": "dtmi:no:energymanager:space:component:SpaceCapacity;1"
     },
     {
       "@type": "Component",
@@ -211,7 +211,7 @@
       "displayName": {
         "en": "Occupancy"
       },
-      "schema": "dtmi:no:energymanager:SpaceOccupancy;1"
+      "schema": "dtmi:no:energymanager:space:component:SpaceOccupancy;1"
     },
     {
       "@type": "Component",
@@ -219,7 +219,7 @@
       "displayName": {
         "en": "Temperature"
       },
-      "schema": "dtmi:no:energymanager:SpaceTemperature;1"
+      "schema": "dtmi:no:energymanager:space:component:SpaceTemperature;1"
     },
     {
       "@type": "Component",
@@ -227,7 +227,7 @@
       "displayName": {
         "en": "Humidity"
       },
-      "schema": "dtmi:no:energymanager:SpaceHumidity;1"
+      "schema": "dtmi:no:energymanager:space:component:SpaceHumidity;1"
     },
     {
       "@type": "Component",
@@ -235,7 +235,7 @@
       "displayName": {
         "en": "CO2"
       },
-      "schema": "dtmi:no:energymanager:SpaceCO2;1"
+      "schema": "dtmi:no:energymanager:space:component:SpaceCO2;1"
     }
   ],
   "description": {

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:AngularVelocitySensor;1",
+  "@id": "dtmi:no:energymanager:sensor:AngularVelocitySensor;1",
   "@type": "Interface",
   "contents": [
     {
@@ -17,6 +17,6 @@
   "displayName": {
     "en": "Angular velocity sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:VelocitySensor;1",
+  "extends": "dtmi:no:energymanager:sensor:VelocitySensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

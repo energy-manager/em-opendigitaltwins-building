@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:StartSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:StartSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Start setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:StartStopSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:StartStopSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:addressing:Address;1",
+  "@id": "dtmi:no:energymanager:information:Address;1",
   "@type": "Interface",
   "contents": [
     {
@@ -57,13 +57,13 @@
       "writable": true
     },
     {
-      "@type": "Property",
+      "@type": "Telemetry",
       "displayName": {
         "en": "Location"
       },
+      "comment": "NOTE: Because GeoJSON is array-based (coordinates are stored in an array) and DTDL v2 does not support arrays in Properties, geospatial types cannot be used in Property schemas, but can be used in Telemetry and Commands schemas. See: https://github.com/Azure/opendigitaltwins-dtdl/blob/master/DTDL/v2/dtdlv2.md#geospatial-schemas",
       "name": "location",
-      "schema": "point",
-      "writable": true
+      "schema": "point"
     }
   ],
   "displayName": {

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:OffState;1",
+  "@id": "dtmi:no:energymanager:state:OffState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Off state"
   },
-  "extends": "dtmi:no:energymanager:capability:OnOffState;1",
+  "extends": "dtmi:no:energymanager:state:OnOffState;1",
   "@context": "dtmi:dtdl:context;2"
 }

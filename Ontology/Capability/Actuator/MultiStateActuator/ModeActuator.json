@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:ModeActuator;1",
+  "@id": "dtmi:no:energymanager:actuator:ModeActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Mode actuator"
   },
-  "extends": "dtmi:no:energymanager:capability:MultiStateActuator;1",
+  "extends": "dtmi:no:energymanager:actuator:MultiStateActuator;1",
   "@context": "dtmi:dtdl:context;2"
 }

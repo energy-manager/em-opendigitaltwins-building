@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:OperationalNonOperationalState;1",
+  "@id": "dtmi:no:energymanager:state:OperationalNonOperationalState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Operational non operational state"
   },
-  "extends": "dtmi:no:energymanager:capability:BinaryState;1",
+  "extends": "dtmi:no:energymanager:state:BinaryState;1",
   "@context": "dtmi:dtdl:context;2"
 }

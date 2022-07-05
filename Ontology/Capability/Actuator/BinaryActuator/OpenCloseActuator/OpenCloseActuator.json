@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:OpenCloseActuator;1",
+  "@id": "dtmi:no:energymanager:actuator:OpenCloseActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Open/close actuator"
   },
-  "extends": "dtmi:no:energymanager:capability:BinaryActuator;1",
+  "extends": "dtmi:no:energymanager:actuator:BinaryActuator;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:AirQualitySetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:AirQualitySetpoint;1",
   "@type": "Interface",
   "contents": [
     {
@@ -17,6 +17,6 @@
   "displayName": {
     "en": "Air quality setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:QuantitySetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:QuantitySetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:ConditionState;1",
+  "@id": "dtmi:no:energymanager:state:ConditionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Condition state"
   },
-  "extends": "dtmi:no:energymanager:capability:MultiState;1",
+  "extends": "dtmi:no:energymanager:state:MultiState;1",
   "@context": "dtmi:dtdl:context;2"
 }

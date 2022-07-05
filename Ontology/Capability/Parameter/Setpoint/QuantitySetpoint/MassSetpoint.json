@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:MassSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:MassSetpoint;1",
   "@type": "Interface",
   "contents": [
     {
@@ -21,6 +21,6 @@
   "displayName": {
     "en": "Mass setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:QuantitySetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:QuantitySetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

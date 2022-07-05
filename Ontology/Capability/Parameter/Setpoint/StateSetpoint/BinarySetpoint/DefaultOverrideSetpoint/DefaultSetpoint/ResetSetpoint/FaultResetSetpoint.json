@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:FaultResetSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:FaultResetSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fault reset setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:ResetSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:ResetSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

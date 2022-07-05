@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:FlowSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:FlowSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Flow setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:QuantitySetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:QuantitySetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

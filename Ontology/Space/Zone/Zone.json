@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:core:Zone;1",
+  "@id": "dtmi:no:energymanager:space:Zone;1",
   "@type": "Interface",
   "description": {
     "en": "A sub-zone within a building, e.g., an HVAC zone, a security zone, etc."

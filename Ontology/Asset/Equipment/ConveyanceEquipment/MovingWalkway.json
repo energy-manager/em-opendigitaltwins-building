@@ -39,7 +39,8 @@
       },
       "name": "inclination",
       "schema": "double",
-      "writable": true
+      "writable": true,
+      "unit": "degreeOfArc"
     }
   ],
   "displayName": {

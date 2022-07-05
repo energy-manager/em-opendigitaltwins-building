@@ -40,7 +40,8 @@
       },
       "name": "mainsRating",
       "schema": "double",
-      "writable": true
+      "writable": true,
+      "unit": "ampere"
     }
   ],
   "displayName": {

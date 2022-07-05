@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:PresenceAbsenceSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:PresenceAbsenceSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Presence absence setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:BinarySetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:BinarySetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

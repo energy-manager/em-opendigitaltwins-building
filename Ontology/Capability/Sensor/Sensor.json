@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:core:sensor;1",
+  "@id": "dtmi:no:energymanager:core:Sensor;1",
   "@type": "Interface",
   "contents": [
     {
@@ -19,6 +19,6 @@
   "displayName": {
     "en": "Sensor"
   },
-  "extends": "dtmi:no:energymanager:core:capability;1",
+  "extends": "dtmi:no:energymanager:core:Capability;1",
   "@context": "dtmi:dtdl:context;2"
 }

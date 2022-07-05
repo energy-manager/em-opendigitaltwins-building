@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:core:LogicalController;1",
+  "@id": "dtmi:no:energymanager:logicaldevice:LogicalController;1",
   "@type": "Interface",
   "displayName": {
     "en": "Logical controller"

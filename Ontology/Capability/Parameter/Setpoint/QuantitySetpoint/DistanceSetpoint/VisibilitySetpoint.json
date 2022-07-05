@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:VisibilitySetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:VisibilitySetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Visibility setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:DistanceSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:DistanceSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

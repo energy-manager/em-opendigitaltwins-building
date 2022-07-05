@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:core:Land;1",
+  "@id": "dtmi:no:energymanager:space:Land;1",
   "@type": "Interface",
   "contents": [
     {
@@ -8,7 +8,7 @@
         "en": "Address"
       },
       "name": "address",
-      "schema": "dtmi:no:energymanager:addressing:Address;1"
+      "schema": "dtmi:no:energymanager:information:Address;1"
     }
   ],
   "description": {

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:NormalState;1",
+  "@id": "dtmi:no:energymanager:state:NormalState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Normal state"
   },
-  "extends": "dtmi:no:energymanager:capability:NormalFaultState;1",
+  "extends": "dtmi:no:energymanager:state:NormalFaultState;1",
   "@context": "dtmi:dtdl:context;2"
 }

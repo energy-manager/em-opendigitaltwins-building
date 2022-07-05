@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:PositionState;1",
+  "@id": "dtmi:no:energymanager:state:PositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Position state"
   },
-  "extends": "dtmi:no:energymanager:capability:PercentState;1",
+  "extends": "dtmi:no:energymanager:state:PercentState;1",
   "@context": "dtmi:dtdl:context;2"
 }

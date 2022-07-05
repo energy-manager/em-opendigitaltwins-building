@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:building:Slab;1",
+  "@id": "dtmi:no:energymanager:buildingcomponent:Slab;1",
   "@type": "Interface",
   "displayName": {
     "en": "Slab"

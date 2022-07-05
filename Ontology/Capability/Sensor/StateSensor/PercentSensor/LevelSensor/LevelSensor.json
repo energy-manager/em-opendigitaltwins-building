@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:LevelSensor;1",
+  "@id": "dtmi:no:energymanager:sensor:LevelSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Level sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:PercentSensor;1",
+  "extends": "dtmi:no:energymanager:sensor:PercentSensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

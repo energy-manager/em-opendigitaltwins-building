@@ -12,7 +12,8 @@
       },
       "name": "voltageSecondary",
       "schema": "double",
-      "writable": true
+      "writable": true,
+      "unit": "volt"
     },
     {
       "@type": [
@@ -24,7 +25,8 @@
       },
       "name": "voltagePrimary",
       "schema": "double",
-      "writable": true
+      "writable": true,
+      "unit": "volt"
     },
     {
       "@type": "Property",

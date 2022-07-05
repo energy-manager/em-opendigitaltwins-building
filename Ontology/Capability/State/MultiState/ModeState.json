@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:ModeState;1",
+  "@id": "dtmi:no:energymanager:state:ModeState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Mode state"
   },
-  "extends": "dtmi:no:energymanager:capability:MultiState;1",
+  "extends": "dtmi:no:energymanager:state:MultiState;1",
   "@context": "dtmi:dtdl:context;2"
 }

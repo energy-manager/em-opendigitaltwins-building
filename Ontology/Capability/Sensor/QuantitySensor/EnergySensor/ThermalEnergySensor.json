@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:ThermalEnergySensor;1",
+  "@id": "dtmi:no:energymanager:sensor:ThermalEnergySensor;1",
   "@type": "Interface",
   "contents": [
     {
@@ -17,6 +17,6 @@
   "displayName": {
     "en": "Thermal energy sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:EnergySensor;1",
+  "extends": "dtmi:no:energymanager:sensor:EnergySensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

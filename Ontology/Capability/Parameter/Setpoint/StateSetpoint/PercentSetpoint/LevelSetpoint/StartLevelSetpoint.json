@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:StartLevelSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:StartLevelSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Start level setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:LevelSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:LevelSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:MassFlowSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:MassFlowSetpoint;1",
   "@type": "Interface",
   "contents": [
     {
@@ -17,6 +17,6 @@
   "displayName": {
     "en": "Mass flow setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:FlowSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:FlowSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

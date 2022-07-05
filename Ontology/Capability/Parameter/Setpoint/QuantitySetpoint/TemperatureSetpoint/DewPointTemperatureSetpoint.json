@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:DewPointTemperatureSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:DewPointTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Dew point temperature setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:TemperatureSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:TemperatureSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:ActiveElectricalEnergySetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:ActiveElectricalEnergySetpoint;1",
   "@type": "Interface",
   "contents": [
     {
@@ -21,6 +21,6 @@
   "displayName": {
     "en": "Active electrical energy setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:ElectricalEnergySetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:ElectricalEnergySetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

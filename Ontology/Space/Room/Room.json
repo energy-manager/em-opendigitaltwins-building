@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:core:Room;1",
+  "@id": "dtmi:no:energymanager:space:Room;1",
   "@type": "Interface",
   "description": {
     "en": "Base class for all more specific room types."

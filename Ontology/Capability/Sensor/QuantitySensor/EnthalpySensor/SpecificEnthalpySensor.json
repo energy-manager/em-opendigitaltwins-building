@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:SpecificEnthalpySensor;1",
+  "@id": "dtmi:no:energymanager:sensor:SpecificEnthalpySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Specific enthalpy sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:EnthalpySensor;1",
+  "extends": "dtmi:no:energymanager:sensor:EnthalpySensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

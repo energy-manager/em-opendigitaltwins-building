@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:PercentSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:PercentSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Percent setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:StateSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:StateSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

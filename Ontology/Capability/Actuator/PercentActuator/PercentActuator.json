@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:no:energymanager:capability:PercentActuator;1",
+  "@id": "dtmi:no:energymanager:actuator:PercentActuator;1",
   "@type": "Interface",
   "contents": [
     {
       "@type": "Property",
       "description": {
-        "en": "Most recently reported or set value of a core:Capability."
+        "en": "Most recently reported or set value of a core:Actuator."
       },
       "displayName": {
         "en": "Last value"

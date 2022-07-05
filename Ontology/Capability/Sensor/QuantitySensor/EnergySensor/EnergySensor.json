@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:EnergySensor;1",
+  "@id": "dtmi:no:energymanager:sensor:EnergySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Energy sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:QuantitySensor;1",
+  "extends": "dtmi:no:energymanager:sensor:QuantitySensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:ResetActuator;1",
+  "@id": "dtmi:no:energymanager:actuator:ResetActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Reset actuator"
   },
-  "extends": "dtmi:no:energymanager:capability:DefaultActuator;1",
+  "extends": "dtmi:no:energymanager:actuator:DefaultActuator;1",
   "@context": "dtmi:dtdl:context;2"
 }

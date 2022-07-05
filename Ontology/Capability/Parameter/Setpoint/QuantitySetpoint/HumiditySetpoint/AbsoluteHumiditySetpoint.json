@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:AbsoluteHumiditySetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:AbsoluteHumiditySetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Absolute humidity setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:HumiditySetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:HumiditySetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

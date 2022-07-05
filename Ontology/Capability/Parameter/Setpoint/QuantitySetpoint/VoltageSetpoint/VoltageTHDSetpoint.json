@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:VoltageTHDSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:VoltageTHDSetpoint;1",
   "@type": "Interface",
   "contents": [
     {
@@ -17,6 +17,6 @@
   "displayName": {
     "en": "Voltage thd setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:VoltageSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:VoltageSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

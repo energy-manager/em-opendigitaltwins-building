@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:WetBulbTemperatureSensor;1",
+  "@id": "dtmi:no:energymanager:sensor:WetBulbTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Wet bulb temperature sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:TemperatureSensor;1",
+  "extends": "dtmi:no:energymanager:sensor:TemperatureSensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

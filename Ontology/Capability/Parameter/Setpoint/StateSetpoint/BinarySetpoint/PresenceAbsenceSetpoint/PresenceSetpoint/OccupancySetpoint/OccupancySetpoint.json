@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:OccupancySetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:OccupancySetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Occupancy setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:PresenceSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:PresenceSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

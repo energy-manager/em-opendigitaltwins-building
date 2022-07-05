@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:CloseSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:CloseSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Close setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:OpenCloseSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:OpenCloseSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

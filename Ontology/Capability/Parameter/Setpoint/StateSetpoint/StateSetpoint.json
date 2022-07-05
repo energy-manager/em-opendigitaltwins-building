@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:StateSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:StateSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "State setpoint"
   },
-  "extends": "dtmi:no:energymanager:core:Setpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:Setpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

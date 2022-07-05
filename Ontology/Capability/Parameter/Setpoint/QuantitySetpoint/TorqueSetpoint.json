@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:TorqueSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:TorqueSetpoint;1",
   "@type": "Interface",
   "contents": [
     {
@@ -17,6 +17,6 @@
   "displayName": {
     "en": "Torque setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:QuantitySetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:QuantitySetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

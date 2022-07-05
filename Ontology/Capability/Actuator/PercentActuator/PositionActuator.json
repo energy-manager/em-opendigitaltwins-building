@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:PositionActuator;1",
+  "@id": "dtmi:no:energymanager:actuator:PositionActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Position actuator"
   },
-  "extends": "dtmi:no:energymanager:capability:PercentActuator;1",
+  "extends": "dtmi:no:energymanager:actuator:PercentActuator;1",
   "@context": "dtmi:dtdl:context;2"
 }

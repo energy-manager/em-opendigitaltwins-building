@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:core:OccupancyZone;1",
+  "@id": "dtmi:no:energymanager:zone:OccupancyZone;1",
   "@type": "Interface",
   "description": {
     "en": "Occupancy Zone is a spatial area where devices are monitoring or reporting on the concept of Occupancy (motion sensors, people counters, cameras, etc.)"
@@ -7,6 +7,6 @@
   "displayName": {
     "en": "Occupancy zone"
   },
-  "extends": "dtmi:no:energymanager:core:Zone;1",
+  "extends": "dtmi:no:energymanager:space:Zone;1",
   "@context": "dtmi:dtdl:context;2"
 }

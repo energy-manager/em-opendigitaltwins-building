@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:OpenState;1",
+  "@id": "dtmi:no:energymanager:state:OpenState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Open state"
   },
-  "extends": "dtmi:no:energymanager:capability:OpenCloseState;1",
+  "extends": "dtmi:no:energymanager:state:OpenCloseState;1",
   "@context": "dtmi:dtdl:context;2"
 }

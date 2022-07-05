@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:DistanceSensor;1",
+  "@id": "dtmi:no:energymanager:sensor:DistanceSensor;1",
   "@type": "Interface",
   "contents": [
     {
@@ -17,6 +17,6 @@
   "displayName": {
     "en": "Distance sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:QuantitySensor;1",
+  "extends": "dtmi:no:energymanager:sensor:QuantitySensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

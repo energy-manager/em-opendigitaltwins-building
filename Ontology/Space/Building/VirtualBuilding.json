@@ -7,6 +7,6 @@
   "displayName": {
     "en": "Virtual building"
   },
-  "extends": "dtmi:no:energymanager:core:Building;1",
+  "extends": "dtmi:no:energymanager:space:Building;1",
   "@context": "dtmi:dtdl:context;2"
 }

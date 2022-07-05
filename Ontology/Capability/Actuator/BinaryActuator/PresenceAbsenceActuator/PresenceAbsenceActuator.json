@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:PresenceAbsenceActuator;1",
+  "@id": "dtmi:no:energymanager:actuator:PresenceAbsenceActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Presence/absence actuator"
   },
-  "extends": "dtmi:no:energymanager:capability:BinaryActuator;1",
+  "extends": "dtmi:no:energymanager:actuator:BinaryActuator;1",
   "@context": "dtmi:dtdl:context;2"
 }

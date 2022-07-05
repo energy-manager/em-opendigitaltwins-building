@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:OffSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:OffSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Off setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:OnOffSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:OnOffSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

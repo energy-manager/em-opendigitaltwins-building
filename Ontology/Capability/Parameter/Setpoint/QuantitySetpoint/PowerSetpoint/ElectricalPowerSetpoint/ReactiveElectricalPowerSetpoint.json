@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:ReactiveElectricalPowerSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:ReactiveElectricalPowerSetpoint;1",
   "@type": "Interface",
   "contents": [
     {
@@ -17,6 +17,6 @@
   "displayName": {
     "en": "Reactive electrical power setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:ElectricalPowerSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:ElectricalPowerSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

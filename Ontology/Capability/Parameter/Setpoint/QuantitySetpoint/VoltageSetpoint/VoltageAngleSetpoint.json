@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:VoltageAngleSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:VoltageAngleSetpoint;1",
   "@type": "Interface",
   "contents": [
     {
@@ -17,6 +17,6 @@
   "displayName": {
     "en": "Voltage angle setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:VoltageSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:VoltageSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

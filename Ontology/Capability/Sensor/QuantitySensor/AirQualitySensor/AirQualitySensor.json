@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:airQualitySensor;1",
+  "@id": "dtmi:no:energymanager:sensor:AirQualitySensor;1",
   "@type": "Interface",
   "contents": [
     {
@@ -20,6 +20,6 @@
   "displayName": {
     "en": "Air quality sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:quantitySensor;1",
+  "extends": "dtmi:no:energymanager:sensor:QuantitySensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

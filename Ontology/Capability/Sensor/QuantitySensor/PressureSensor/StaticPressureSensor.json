@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:StaticPressureSensor;1",
+  "@id": "dtmi:no:energymanager:sensor:StaticPressureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Static pressure sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:PressureSensor;1",
+  "extends": "dtmi:no:energymanager:sensor:PressureSensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

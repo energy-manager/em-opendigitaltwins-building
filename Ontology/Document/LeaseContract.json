@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:business:LeaseContract;1",
+  "@id": "dtmi:no:energymanager:document:LeaseContract;1",
   "@type": "Interface",
   "description": {
     "en": "Formal document that identifies the Tenant and the leased asset or property; states lease term and fee (rent), and detailed terms and conditions of the lease agreement."

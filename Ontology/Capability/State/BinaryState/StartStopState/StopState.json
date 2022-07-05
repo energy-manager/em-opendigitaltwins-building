@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:StopState;1",
+  "@id": "dtmi:no:energymanager:state:StopState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Stop state"
   },
-  "extends": "dtmi:no:energymanager:capability:StartStopState;1",
+  "extends": "dtmi:no:energymanager:state:StartStopState;1",
   "@context": "dtmi:dtdl:context;2"
 }

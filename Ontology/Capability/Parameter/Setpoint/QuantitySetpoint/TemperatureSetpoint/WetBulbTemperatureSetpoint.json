@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:WetBulbTemperatureSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:WetBulbTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Wet bulb temperature setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:TemperatureSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:TemperatureSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

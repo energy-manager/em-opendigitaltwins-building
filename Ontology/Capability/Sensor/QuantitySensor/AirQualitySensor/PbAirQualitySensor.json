@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:PbAirQualitySensor;1",
+  "@id": "dtmi:no:energymanager:sensor:PbAirQualitySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pb (lead) air quality sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:AirQualitySensor;1",
+  "extends": "dtmi:no:energymanager:sensor:AirQualitySensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:WeatherConditionState;1",
+  "@id": "dtmi:no:energymanager:state:WeatherConditionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Weather condition state"
   },
-  "extends": "dtmi:no:energymanager:capability:ConditionState;1",
+  "extends": "dtmi:no:energymanager:state:ConditionState;1",
   "@context": "dtmi:dtdl:context;2"
 }

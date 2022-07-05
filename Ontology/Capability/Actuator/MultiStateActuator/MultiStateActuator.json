@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:MultiStateActuator;1",
+  "@id": "dtmi:no:energymanager:actuator:MultiStateActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Multi-state actuator"

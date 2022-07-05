@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:FaultResetState;1",
+  "@id": "dtmi:no:energymanager:state:FaultResetState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fault reset state"
   },
-  "extends": "dtmi:no:energymanager:capability:ResetState;1",
+  "extends": "dtmi:no:energymanager:state:ResetState;1",
   "@context": "dtmi:dtdl:context;2"
 }

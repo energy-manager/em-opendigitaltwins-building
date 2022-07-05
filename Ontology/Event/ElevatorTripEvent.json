@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:no:energymanager:core:ElevatorTripEvent;1",
+    "@id": "dtmi:no:energymanager:event:ElevatorTripEvent;1",
     "@type": "Interface",
     "displayName": {
       "en": "Elevator Trip Event"

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:OccupancySensor;1",
+  "@id": "dtmi:no:energymanager:sensor:OccupancySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "OccupancySensor"
   },
-  "extends": "dtmi:no:energymanager:capability:PresenceSensor;1",
+  "extends": "dtmi:no:energymanager:sensor:PresenceSensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

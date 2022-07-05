@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:NormalFaultSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:NormalFaultSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Normal fault setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:BinarySetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:BinarySetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

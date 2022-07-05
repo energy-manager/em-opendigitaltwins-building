@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:core:asset;1",
+  "@id": "dtmi:no:energymanager:core:Asset;1",
   "@type": "Interface",
   "contents": [
     {

@@ -20,7 +20,7 @@
         "en": "address"
       },
       "name": "address",
-      "schema": "dtmi:no:energymanager:addressing:Address;1"
+      "schema": "dtmi:no:energymanager:information:Address;1"
     }
   ],
   "description": {

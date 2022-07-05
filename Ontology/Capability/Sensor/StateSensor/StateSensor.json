@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:StateSensor;1",
+  "@id": "dtmi:no:energymanager:sensor:StateSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "State sensor"

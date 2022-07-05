@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:core:Region;1",
+  "@id": "dtmi:no:energymanager:space:Region;1",
   "@type": "Interface",
   "description": {
     "en": "An administrative geospatial unit larger than the individual real estate. For instance, \"Lombary\", \"North America\", \"The Back Bay\", \"Elnätsområde Syd\", etc."

@@ -4,6 +4,6 @@
   "displayName": {
     "en": "Copying room"
   },
-  "extends": "dtmi:no:energymanager:core:Room;1",
+  "extends": "dtmi:no:energymanager:space:Room;1",
   "@context": "dtmi:dtdl:context;2"
 }

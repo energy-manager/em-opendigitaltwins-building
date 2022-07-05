@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:VolumeFlowSensor;1",
+  "@id": "dtmi:no:energymanager:sensor:VolumeFlowSensor;1",
   "@type": "Interface",
   "contents": [
     {
@@ -17,6 +17,6 @@
   "displayName": {
     "en": "Volume flow sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:FlowSensor;1",
+  "extends": "dtmi:no:energymanager:sensor:FlowSensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

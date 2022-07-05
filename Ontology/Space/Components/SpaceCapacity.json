@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:SpaceCapacity;1",
+  "@id": "dtmi:no:energymanager:space:component:SpaceCapacity;1",
   "@type": "Interface",
   "displayName": {
     "en": "Space Capacity"

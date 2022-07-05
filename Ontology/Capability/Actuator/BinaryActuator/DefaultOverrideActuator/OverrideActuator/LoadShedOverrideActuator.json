@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:LoadShedOverrideActuator;1",
+  "@id": "dtmi:no:energymanager:actuator:LoadShedOverrideActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Load shed override actuator"
   },
-  "extends": "dtmi:no:energymanager:capability:OverrideActuator;1",
+  "extends": "dtmi:no:energymanager:actuator:OverrideActuator;1",
   "@context": "dtmi:dtdl:context;2"
 }

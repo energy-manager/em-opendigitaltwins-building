@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:core:SubBuilding;1",
+  "@id": "dtmi:no:energymanager:space:SubBuilding;1",
   "@type": "Interface",
   "contents": [
     {
@@ -36,7 +36,7 @@
         "en": "Address"
       },
       "name": "address",
-      "schema": "dtmi:no:energymanager:addressing:Address;1"
+      "schema": "dtmi:no:energymanager:information:Address;1"
     }
   ],
   "description": {

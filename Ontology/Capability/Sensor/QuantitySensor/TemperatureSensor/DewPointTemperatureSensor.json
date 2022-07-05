@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:DewPointTemperatureSensor;1",
+  "@id": "dtmi:no:energymanager:sensor:DewPointTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Dew point temperature sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:TemperatureSensor;1",
+  "extends": "dtmi:no:energymanager:sensor:TemperatureSensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

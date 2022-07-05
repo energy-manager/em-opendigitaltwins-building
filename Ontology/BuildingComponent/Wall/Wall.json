@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:building:Wall;1",
+  "@id": "dtmi:no:energymanager:buildingcomponent:Wall;1",
   "@type": "Interface",
   "displayName": {
     "en": "Wall"

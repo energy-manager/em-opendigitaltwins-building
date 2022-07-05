@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:StopSensor;1",
+  "@id": "dtmi:no:energymanager:sensor:StopSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Stop sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:StartStopSensor;1",
+  "extends": "dtmi:no:energymanager:sensor:StartStopSensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

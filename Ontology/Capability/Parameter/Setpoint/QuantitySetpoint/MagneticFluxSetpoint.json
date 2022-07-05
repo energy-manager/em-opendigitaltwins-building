@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:MagneticFluxSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:MagneticFluxSetpoint;1",
   "@type": "Interface",
   "contents": [
     {
@@ -17,6 +17,6 @@
   "displayName": {
     "en": "Magnetic flux setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:QuantitySetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:QuantitySetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

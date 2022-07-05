@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:ThermalEnergySetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:ThermalEnergySetpoint;1",
   "@type": "Interface",
   "contents": [
     {
@@ -17,6 +17,6 @@
   "displayName": {
     "en": "Thermal energy setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:EnergySetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:EnergySetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

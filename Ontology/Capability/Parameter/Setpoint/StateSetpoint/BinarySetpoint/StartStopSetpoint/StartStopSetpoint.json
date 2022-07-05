@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:StartStopSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:StartStopSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Start stop setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:BinarySetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:BinarySetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

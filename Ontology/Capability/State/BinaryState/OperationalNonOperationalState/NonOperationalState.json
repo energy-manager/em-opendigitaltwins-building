@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:NonOperationalState;1",
+  "@id": "dtmi:no:energymanager:state:NonOperationalState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Non operational state"
   },
-  "extends": "dtmi:no:energymanager:capability:OperationalNonOperationalState;1",
+  "extends": "dtmi:no:energymanager:state:OperationalNonOperationalState;1",
   "@context": "dtmi:dtdl:context;2"
 }

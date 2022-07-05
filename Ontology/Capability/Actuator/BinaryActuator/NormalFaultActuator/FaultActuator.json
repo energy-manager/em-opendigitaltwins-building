@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:FaultActuator;1",
+  "@id": "dtmi:no:energymanager:actuator:FaultActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fault actuator"
   },
-  "extends": "dtmi:no:energymanager:capability:NormalFaultActuator;1",
+  "extends": "dtmi:no:energymanager:actuator:NormalFaultActuator;1",
   "@context": "dtmi:dtdl:context;2"
 }

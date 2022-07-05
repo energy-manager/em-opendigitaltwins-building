@@ -12,7 +12,8 @@
       },
       "name": "runtime",
       "schema": "double",
-      "writable": true
+      "writable": true,
+      "unit": "second"
     },
     {
       "@type": "Property",
@@ -33,7 +34,8 @@
       },
       "name": "powerOutput",
       "schema": "double",
-      "writable": true
+      "writable": true,
+      "unit": "kilowatt"
     },
     {
       "@type": [
@@ -45,7 +47,8 @@
       },
       "name": "outputVoltage",
       "schema": "double",
-      "writable": true
+      "writable": true,
+      "unit": "volt"
     },
     {
       "@type": "Property",
@@ -85,7 +88,8 @@
       },
       "name": "inputVoltage",
       "schema": "double",
-      "writable": true
+      "writable": true,
+      "unit": "volt"
     },
     {
       "@type": "Property",

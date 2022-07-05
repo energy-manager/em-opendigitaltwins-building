@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:FeelsLikeTemperatureSensor;1",
+  "@id": "dtmi:no:energymanager:sensor:FeelsLikeTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Feels like temperature sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:TemperatureSensor;1",
+  "extends": "dtmi:no:energymanager:sensor:TemperatureSensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

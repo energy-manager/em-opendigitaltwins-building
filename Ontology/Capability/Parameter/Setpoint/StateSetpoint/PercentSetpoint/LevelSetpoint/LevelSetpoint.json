@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:LevelSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:LevelSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Level setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:PercentSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:PercentSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

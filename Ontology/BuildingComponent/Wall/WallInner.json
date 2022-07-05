@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:building:WallInner;1",
+  "@id": "dtmi:no:energymanager:buildingcomponent:WallInner;1",
   "@type": "Interface",
   "displayName": {
     "en": "Inner wall"
   },
-  "extends": "dtmi:no:energymanager:building:Wall;1",
+  "extends": "dtmi:no:energymanager:buildingcomponent:Wall;1",
   "@context": "dtmi:dtdl:context;2"
 }

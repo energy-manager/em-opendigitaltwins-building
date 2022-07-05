@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:LinearAccelerationSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:LinearAccelerationSetpoint;1",
   "@type": "Interface",
   "contents": [
     {
@@ -17,6 +17,6 @@
   "displayName": {
     "en": "Linear acceleration setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:AccelerationSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:AccelerationSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

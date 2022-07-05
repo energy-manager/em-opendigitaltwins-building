@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:CapabilityPropertySet;1",
+  "@id": "dtmi:no:energymanager:propertyset:CapabilityPropertySet;1",
   "@type": "Interface",
   "contents": [
     {

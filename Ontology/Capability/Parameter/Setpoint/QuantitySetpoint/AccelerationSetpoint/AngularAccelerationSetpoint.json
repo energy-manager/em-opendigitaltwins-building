@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:AngularAccelerationSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:AngularAccelerationSetpoint;1",
   "@type": "Interface",
   "contents": [
     {
@@ -17,6 +17,6 @@
   "displayName": {
     "en": "Angular acceleration setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:AccelerationSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:AccelerationSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

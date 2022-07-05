@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:core:LogicalGateway;1",
+  "@id": "dtmi:no:energymanager:logicaldevice:LogicalGateway;1",
   "@type": "Interface",
   "displayName": {
     "en": "Logical gateway"

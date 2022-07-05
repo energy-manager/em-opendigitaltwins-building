@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:building:Terrace;1",
+  "@id": "dtmi:no:energymanager:buildingcomponent:Terrace;1",
   "@type": "Interface",
   "displayName": {
     "en": "Terrace"

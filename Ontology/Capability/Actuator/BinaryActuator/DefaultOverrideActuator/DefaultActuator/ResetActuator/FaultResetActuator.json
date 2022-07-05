@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:FaultResetActuator;1",
+  "@id": "dtmi:no:energymanager:actuator:FaultResetActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fault reset actuator"
   },
-  "extends": "dtmi:no:energymanager:capability:ResetActuator;1",
+  "extends": "dtmi:no:energymanager:actuator:ResetActuator;1",
   "@context": "dtmi:dtdl:context;2"
 }

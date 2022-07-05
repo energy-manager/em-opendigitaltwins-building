@@ -21,7 +21,8 @@
       },
       "name": "inputVoltage",
       "schema": "double",
-      "writable": true
+      "writable": true,
+      "unit": "volt"
     },
     {
       "@type": "Property",

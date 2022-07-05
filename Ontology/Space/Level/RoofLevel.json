@@ -4,6 +4,6 @@
   "displayName": {
     "en": "Roof level"
   },
-  "extends": "dtmi:no:energymanager:core:Level;1",
+  "extends": "dtmi:no:energymanager:space:Level;1",
   "@context": "dtmi:dtdl:context;2"
 }

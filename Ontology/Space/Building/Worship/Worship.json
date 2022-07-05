@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:building:Culture;1",
+  "@id": "dtmi:no:energymanager:building:Worship;1",
   "@type": "Interface",
   "displayName": {
     "en": "Culture"
   },
-  "extends": "dtmi:no:energymanager:core:Building;1",
+  "extends": "dtmi:no:energymanager:space:Building;1",
   "@context": "dtmi:dtdl:context;2"
 }

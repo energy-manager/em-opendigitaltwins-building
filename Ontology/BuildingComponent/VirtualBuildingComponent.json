@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:building:VirtualBuildingComponent;1",
+  "@id": "dtmi:no:energymanager:buildingcomponent:VirtualBuildingComponent;1",
   "@type": "Interface",
   "description": {
     "en": "A non-physical component. Belongs to a Building . One Building may have zero, one, or many Virtual components. E.g a temperature value from an external service for the area of a building."

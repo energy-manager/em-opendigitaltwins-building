@@ -12,7 +12,8 @@
       },
       "name": "powerInput",
       "schema": "double",
-      "writable": true
+      "writable": true,
+      "unit": "kilowatt"
     }
   ],
   "displayName": {

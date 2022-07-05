@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:StopActuator;1",
+  "@id": "dtmi:no:energymanager:actuator:StopActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Stop actuator"
   },
-  "extends": "dtmi:no:energymanager:capability:StartStopActuator;1",
+  "extends": "dtmi:no:energymanager:actuator:StartStopActuator;1",
   "@context": "dtmi:dtdl:context;2"
 }

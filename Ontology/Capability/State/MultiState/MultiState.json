@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:MultiState;1",
+  "@id": "dtmi:no:energymanager:state:MultiState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Multi state"

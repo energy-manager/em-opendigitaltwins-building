@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:DefaultSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:DefaultSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Default setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:DefaultOverrideSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:DefaultOverrideSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

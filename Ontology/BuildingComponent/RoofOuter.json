@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:building:RoofOuter;1",
+  "@id": "dtmi:no:energymanager:buildingcomponent:RoofOuter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Roof, outer"

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:OnLevelState;1",
+  "@id": "dtmi:no:energymanager:state:OnLevelState;1",
   "@type": "Interface",
   "displayName": {
     "en": "On level state"
   },
-  "extends": "dtmi:no:energymanager:capability:LevelState;1",
+  "extends": "dtmi:no:energymanager:state:LevelState;1",
   "@context": "dtmi:dtdl:context;2"
 }

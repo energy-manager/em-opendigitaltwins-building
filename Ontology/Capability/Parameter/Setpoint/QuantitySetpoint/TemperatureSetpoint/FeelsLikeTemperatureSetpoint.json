@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:FeelsLikeTemperatureSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:FeelsLikeTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Feels like temperature setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:TemperatureSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:TemperatureSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

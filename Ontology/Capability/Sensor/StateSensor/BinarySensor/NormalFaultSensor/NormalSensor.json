@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:NormalSensor;1",
+  "@id": "dtmi:no:energymanager:sensor:NormalSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Normal sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:NormalFaultSensor;1",
+  "extends": "dtmi:no:energymanager:sensor:NormalFaultSensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

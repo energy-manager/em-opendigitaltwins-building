@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:core:capability;1",
+  "@id": "dtmi:no:energymanager:core:Capability;1",
   "@type": "Interface",
   "contents": [
     {
@@ -29,7 +29,7 @@
         "en": "Categorization properties"
       },
       "name": "categorizationProperties",
-      "schema": "dtmi:no:energymanager:capability:capabilityPropertySet;1"
+      "schema": "dtmi:no:energymanager:propertyset:CapabilityPropertySet;1"
     },
     {
       "@type": "Relationship",

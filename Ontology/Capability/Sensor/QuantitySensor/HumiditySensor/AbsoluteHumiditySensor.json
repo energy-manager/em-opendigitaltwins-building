@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:AbsoluteHumiditySensor;1",
+  "@id": "dtmi:no:energymanager:sensor:AbsoluteHumiditySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Absolute humidity sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:HumiditySensor;1",
+  "extends": "dtmi:no:energymanager:sensor:HumiditySensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

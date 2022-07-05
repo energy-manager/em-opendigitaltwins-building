@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:core:Setpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:Setpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Setpoint"

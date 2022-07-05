@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:NO2AirQualitySetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:NO2AirQualitySetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "NO2 air quality setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:AirQualitySetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:AirQualitySetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

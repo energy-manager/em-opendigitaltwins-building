@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:PercentState;1",
+  "@id": "dtmi:no:energymanager:state:PercentState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Percent state"

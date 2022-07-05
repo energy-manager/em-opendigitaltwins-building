@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:FaultSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:FaultSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fault setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:NormalFaultSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:NormalFaultSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

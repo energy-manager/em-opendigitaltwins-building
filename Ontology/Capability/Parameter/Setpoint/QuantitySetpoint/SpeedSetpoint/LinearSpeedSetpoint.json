@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:LinearSpeedSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:LinearSpeedSetpoint;1",
   "@type": "Interface",
   "contents": [
     {
@@ -17,6 +17,6 @@
   "displayName": {
     "en": "Linear speed setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:SpeedSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:SpeedSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:QuantitySensor;1",
+  "@id": "dtmi:no:energymanager:sensor:QuantitySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Quantity sensor"

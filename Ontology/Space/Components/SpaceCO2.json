@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:SpaceCO2;1",
+  "@id": "dtmi:no:energymanager:space:component:SpaceCO2;1",
   "@type": "Interface",
   "displayName": {
     "en": "Space CO2"

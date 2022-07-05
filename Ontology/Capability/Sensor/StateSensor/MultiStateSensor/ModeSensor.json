@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:ModeSensor;1",
+  "@id": "dtmi:no:energymanager:sensor:ModeSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Mode sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:MultiStateSensor;1",
+  "extends": "dtmi:no:energymanager:sensor:MultiStateSensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

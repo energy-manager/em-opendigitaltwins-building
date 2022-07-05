@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:SpeedSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:SpeedSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Speed setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:QuantitySetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:QuantitySetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

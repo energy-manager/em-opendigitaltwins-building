@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:OnOffActuator;1",
+  "@id": "dtmi:no:energymanager:actuator:OnOffActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "On/off actuator"
   },
-  "extends": "dtmi:no:energymanager:capability:BinaryActuator;1",
+  "extends": "dtmi:no:energymanager:actuator:BinaryActuator;1",
   "@context": "dtmi:dtdl:context;2"
 }

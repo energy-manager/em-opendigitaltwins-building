@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:business:Lease;1",
+  "@id": "dtmi:no:energymanager:event:Lease;1",
   "@type": "Interface",
   "contents": [
     {
@@ -35,7 +35,7 @@
         "en": "regulated by"
       },
       "name": "regulatedBy",
-      "target": "dtmi:no:energymanager:business:LeaseContract;1"
+      "target": "dtmi:no:energymanager:document:LeaseContract;1"
     },
     {
       "@type": "Relationship",

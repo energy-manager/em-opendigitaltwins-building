@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:PressureSensor;1",
+  "@id": "dtmi:no:energymanager:sensor:PressureSensor;1",
   "@type": "Interface",
   "contents": [
     {
@@ -17,6 +17,6 @@
   "displayName": {
     "en": "Pressure sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:QuantitySensor;1",
+  "extends": "dtmi:no:energymanager:sensor:QuantitySensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

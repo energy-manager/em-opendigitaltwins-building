@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:StaticPressureSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:StaticPressureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Static pressure setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:PressureSetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:PressureSetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }

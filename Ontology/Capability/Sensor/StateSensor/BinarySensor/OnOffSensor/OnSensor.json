@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:OnSensor;1",
+  "@id": "dtmi:no:energymanager:sensor:OnSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "On sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:OnOffSensor;1",
+  "extends": "dtmi:no:energymanager:sensor:OnOffSensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:CloseSensor;1",
+  "@id": "dtmi:no:energymanager:sensor:CloseSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Close sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:OpenCloseSensor;1",
+  "extends": "dtmi:no:energymanager:sensor:OpenCloseSensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

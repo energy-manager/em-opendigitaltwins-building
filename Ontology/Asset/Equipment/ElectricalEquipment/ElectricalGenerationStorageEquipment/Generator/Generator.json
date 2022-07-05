@@ -12,7 +12,8 @@
       },
       "name": "outputVoltage",
       "schema": "double",
-      "writable": true
+      "writable": true,
+      "unit": "volt"
     },
     {
       "@type": "Property",
@@ -109,7 +110,8 @@
       },
       "name": "standbyPower",
       "schema": "double",
-      "writable": true
+      "writable": true,
+      "unit": "kilowatt"
     },
     {
       "@type": "Property",
@@ -130,7 +132,8 @@
       },
       "name": "primePower",
       "schema": "double",
-      "writable": true
+      "writable": true,
+      "unit": "kilowatt"
     }
   ],
   "displayName": {

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:ElectricalPowerSensor;1",
+  "@id": "dtmi:no:energymanager:sensor:ElectricalPowerSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Electrical power sensor"
   },
-  "extends": "dtmi:no:energymanager:capability:PowerSensor;1",
+  "extends": "dtmi:no:energymanager:sensor:PowerSensor;1",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,9 +1,9 @@
 {
-  "@id": "dtmi:no:energymanager:capability:OccupancyState;1",
+  "@id": "dtmi:no:energymanager:state:OccupancyState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Occupancy state"
   },
-  "extends": "dtmi:no:energymanager:capability:PresenceState;1",
+  "extends": "dtmi:no:energymanager:state:PresenceState;1",
   "@context": "dtmi:dtdl:context;2"
 }

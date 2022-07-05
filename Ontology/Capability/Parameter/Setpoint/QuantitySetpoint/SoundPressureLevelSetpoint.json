@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:no:energymanager:capability:SoundPressureLevelSetpoint;1",
+  "@id": "dtmi:no:energymanager:parameter:SoundPressureLevelSetpoint;1",
   "@type": "Interface",
   "contents": [
     {
@@ -17,6 +17,6 @@
   "displayName": {
     "en": "Sound pressure level setpoint"
   },
-  "extends": "dtmi:no:energymanager:capability:QuantitySetpoint;1",
+  "extends": "dtmi:no:energymanager:parameter:QuantitySetpoint;1",
   "@context": "dtmi:dtdl:context;2"
 }
