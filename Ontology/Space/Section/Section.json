@@ -1,0 +1,47 @@
+{
+  "@id": "dtmi:no:energymanager:space:Section;1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Property",
+      "description": {
+        "en": "Reference to the unique identity of the apartment/section in the property register in the country where the building is located.",
+        "nb-NO": "Tinglyst seksjonsnummer. Se også https://seeiendom.kartverket.no/"
+      },
+      "displayName": {
+        "en": "Section register designation",
+        "nb-NO": "Seksjonsnummer"
+      },
+      "name": "sectionRegisterDesignation",
+      "schema": "string",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "description": {
+        "en": "Registered type in property register in the country where the building is located.",
+        "nb-NO": "Registrert seksjonstype, f.eks. Boligseksjon, Næringsseksjon. Se også https://seeiendom.kartverket.no/"
+      },
+      "displayName": {
+        "en": "The registered section type",
+        "nb-NO": "Registrert seksjonstype"
+      },
+      "name": "registeredType",
+      "schema": "string",
+      "writable": true
+    },
+    {
+      "@type": "Component",
+      "displayName": {
+        "en": "Address"
+      },
+      "name": "address",
+      "schema": "dtmi:no:energymanager:information:Address;1"
+    }
+  ],
+  "displayName": {
+    "en": "Apartment"
+  },
+  "extends": "dtmi:no:energymanager:core:Space;1",
+  "@context": "dtmi:dtdl:context;2"
+}

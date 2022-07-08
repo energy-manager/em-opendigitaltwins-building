@@ -1,0 +1,130 @@
+[
+    {
+        "comment": "Typo in relationships. E.g. referred to 'asset' when it should be 'Asset'.", 
+        "ops": [
+            {
+                "op": "delete",
+                "model": "dtmi:no:energymanager:core:Asset;1"        
+            },
+            {
+                "op": "add",
+                "file": "Asset\\Asset.json"    
+            }
+        ]
+    },
+    {
+        "comment": "Added translation for property identification",
+        "ops": [
+            { 
+                "op": "delete",
+                "model": "dtmi:no:energymanager:core:RealEstate;1"
+            },
+            {
+                "op": "add",
+                "file": "Collection\\SpaceCollection\\RealEstate.json"    
+            }
+        ]
+    },
+    {
+        "comment": "Removed apartment from collection and added it to space section instead. More logical structure.",
+        "ops": [
+            {
+                "op": "delete",
+                "model": "dtmi:no:energymanager:core:Apartment;1"
+            }
+        ]
+    },
+    {
+        "comment": "Added building number and purpose",
+        "ops": [
+            {
+                "op": "delete",
+                "model": "dtmi:no:energymanager:space:Building;1"
+            },
+            {
+                "op": "add",
+                "file": "Space\\Building\\Building.json"    
+            }
+        ]
+    },
+    {
+        "comment": "Moved IAQ parameters from space to room, as it didn't make sense to have IAQ on e.g. land",
+        "ops": [
+            {
+                "op": "delete",
+                "model": "dtmi:no:energymanager:space:Room;1"
+            },
+            {
+                "op": "add",
+                "file": "Space\\Room\\Room.json"    
+            }
+        ]
+    },
+    {
+        "comment": "Added land registration number",
+        "ops": [
+            {
+                "op": "delete",
+                "model": "dtmi:no:energymanager:space:Land;1"
+            },
+            {
+                "op": "add",
+                "file": "Space\\Land.json"    
+            }
+        ]
+    },
+    {
+        "comment": "Removed IAQ parameters",
+        "ops": [
+            {
+                "op": "delete",
+                "model": "dtmi:no:energymanager:core:Space;1"
+            },
+            {
+                "op": "add",
+                "file": "Space\\Space.json"    
+            }
+        ]
+    },
+    {
+        "comment": "Added section as a space e.g. apartment inside a apartment block, commercial store inside a shopping mall, ...",
+        "ops": [
+            {
+                "op": "add",
+                "file": "Space\\Section\\Section.json"    
+            }
+        ]
+    },
+    {
+        "comment": "Apartment created as section",
+        "ops": [
+            {
+                "op": "add",
+                "file": "Space\\Section\\Apartment.json"    
+            }
+        ]
+    },
+    {
+        "comment": "Commercial created as section",
+        "ops": [
+            {
+                "op": "add",
+                "file": "Space\\Section\\Commercial.json"    
+            }
+        ]
+    },
+    {
+        "comment": "Removed geo as telemetry and added coordinates as property",
+        "ops": [
+            {
+                "op": "delete",
+                "model": "dtmi:no:energymanager:information:Address;1"
+            },
+            {
+                "op": "add",
+                "file": "Information\\Address.json"    
+
+            }
+        ]
+    }
+]

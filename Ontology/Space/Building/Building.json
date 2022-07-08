@@ -3,6 +3,34 @@
   "@type": "Interface",
   "contents": [
     {
+      "@type": "Property",
+      "description": {
+        "en": "Reference to the unique identity of the building in the property register in the country where the building is located.",
+        "nb-NO": "Tinglyst bygningsnummer. Se også https://seeiendom.kartverket.no/"
+      },
+      "displayName": {
+        "en": "Building register designation",
+        "nb-NO": "Bygningsnummer"
+      },
+      "name": "buildingRegisterDesignation",
+      "schema": "string",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "description": {
+        "en": "Registered purpose in property register in the country where the building is located.",
+        "nb-NO": "Formålet bygget er registrert eller godkjent for. Se også https://seeiendom.kartverket.no/"
+      },
+      "displayName": {
+        "en": "The registered building purpose",
+        "nb-NO": "Formålet bygget er registrert eller godkjent for"
+      },
+      "name": "purposeType",
+      "schema": "string",
+      "writable": true
+    },
+    {
       "@type": "Component",
       "displayName": {
         "en": "Address"

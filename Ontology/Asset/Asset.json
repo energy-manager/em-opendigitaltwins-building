@@ -166,18 +166,18 @@
         "en": "is part of"
       },
       "name": "isPartOf",
-      "target": "dtmi:no:energymanager:core:asset;1"
+      "target": "dtmi:no:energymanager:core:Asset;1"
     },
     {
       "@type": "Relationship",
       "description": {
-        "en": "Indicates that an entity is included in some Collection, e.g., a Building is included in a RealEstate, or a Room is included in an Apartment. Inverse of: includes"
+        "en": "Indicates that an entity is included in some Collection, e.g., a Furniture is included in a FurnitureCollection. Inverse of: includes"
       },
       "displayName": {
         "en": "included in"
       },
       "name": "includedIn",
-      "target": "dtmi:no:energymanager:core:collection;1"
+      "target": "dtmi:no:energymanager:core:Collection;1"
     },
     {
       "@type": "Relationship",
@@ -188,7 +188,7 @@
         "en": "has part"
       },
       "name": "hasPart",
-      "target": "dtmi:no:energymanager:core:asset;1"
+      "target": "dtmi:no:energymanager:core:Asset;1"
     },
     {
       "@type": "Relationship",
@@ -196,16 +196,19 @@
         "en": "has capability"
       },
       "name": "hasCapability",
-      "target": "dtmi:no:energymanager:core:capability;1"
+      "target": "dtmi:no:energymanager:core:Capability;1"
     },
     {
       "@type": "Relationship",
+      "description": {
+        "en": "An Asset is located in some Space. Inverse of: contains"
+      },
       "displayName": {
         "en": "located in"
       },
       "minMultiplicity": 0,
       "name": "locatedIn",
-      "target": "dtmi:no:energymanager:core:space;1"
+      "target": "dtmi:no:energymanager:core:Space;1"
     },
     {
       "@type": "Relationship",
@@ -213,7 +216,7 @@
         "en": "serviced by"
       },
       "name": "servicedBy",
-      "target": "dtmi:no:energymanager:core:agent;1"
+      "target": "dtmi:no:energymanager:core:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -221,7 +224,7 @@
         "en": "manufactured by"
       },
       "name": "manufacturedBy",
-      "target": "dtmi:no:energymanager:core:agent;1"
+      "target": "dtmi:no:energymanager:core:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -229,7 +232,7 @@
         "en": "installed by"
       },
       "name": "installedBy",
-      "target": "dtmi:no:energymanager:core:agent;1"
+      "target": "dtmi:no:energymanager:core:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -237,7 +240,7 @@
         "en": "commissioned by"
       },
       "name": "commissionedBy",
-      "target": "dtmi:no:energymanager:core:agent;1"
+      "target": "dtmi:no:energymanager:core:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -248,7 +251,7 @@
         "en": "hosts"
       },
       "name": "hosts",
-      "target": "dtmi:no:energymanager:core:logicalDevice;1"
+      "target": "dtmi:no:energymanager:core:LogicalDevice;1"
     },
     {
       "@type": "Property",

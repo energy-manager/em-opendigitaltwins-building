@@ -57,13 +57,32 @@
       "writable": true
     },
     {
-      "@type": "Telemetry",
+      "@type": "Property",
+      "name": "coordinates",
       "displayName": {
-        "en": "Location"
+        "en": "Coordinates"
       },
-      "comment": "NOTE: Because GeoJSON is array-based (coordinates are stored in an array) and DTDL v2 does not support arrays in Properties, geospatial types cannot be used in Property schemas, but can be used in Telemetry and Commands schemas. See: https://github.com/Azure/opendigitaltwins-dtdl/blob/master/DTDL/v2/dtdlv2.md#geospatial-schemas",
-      "name": "location",
-      "schema": "point"
+      "writable": true,
+      "schema": {
+        "@id": "dtmi:no:energymanager:information:Coordinates;1",
+        "@type": "Object",
+        "fields": [
+          {
+            "name": "latitude",
+            "displayName": {
+              "en": "Latitude"
+            },
+            "schema": "double"
+          },
+          {
+            "name": "longitude",
+            "displayName": {
+              "en": "Longitude"
+            },
+            "schema": "double"
+          }
+        ]
+      }
     }
   ],
   "displayName": {

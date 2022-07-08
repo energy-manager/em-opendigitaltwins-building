@@ -5,10 +5,12 @@
     {
       "@type": "Property",
       "description": {
-        "en": "Reference to the unique identity of the real estate in the property register in the country where the real estate is located."
+        "en": "Reference to the unique identity of the real estate in the property register in the country where the real estate is located.",
+        "nb-NO": "Tinglyst gårds- og bruksnummer. Format bør følge: kommune-gårdsnummer/bruksnummer, f.eks. 1234-56/789. Se også https://seeiendom.kartverket.no/"
       },
       "displayName": {
-        "en": "Property register designation"
+        "en": "Property register designation",
+        "nb-NO": "Gårds- og bruksnummer"
       },
       "name": "propertyRegisterDesignation",
       "schema": "string",

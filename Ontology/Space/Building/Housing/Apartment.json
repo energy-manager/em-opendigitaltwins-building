@@ -1,9 +1,0 @@
-{
-  "@id": "dtmi:no:energymanager:building:Apartment;1",
-  "@type": "Interface",
-  "displayName": {
-    "en": "Apartment"
-  },
-  "extends": "dtmi:no:energymanager:building:Housing;1",
-  "@context": "dtmi:dtdl:context;2"
-}

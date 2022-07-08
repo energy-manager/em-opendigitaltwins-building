@@ -1,6 +1,32 @@
 {
   "@id": "dtmi:no:energymanager:space:Room;1",
   "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Component",
+      "name": "temperature",
+      "displayName": {
+        "en": "Temperature"
+      },
+      "schema": "dtmi:no:energymanager:space:component:SpaceTemperature;1"
+    },
+    {
+      "@type": "Component",
+      "name": "humidity",
+      "displayName": {
+        "en": "Humidity"
+      },
+      "schema": "dtmi:no:energymanager:space:component:SpaceHumidity;1"
+    },
+    {
+      "@type": "Component",
+      "name": "CO2",
+      "displayName": {
+        "en": "CO2"
+      },
+      "schema": "dtmi:no:energymanager:space:component:SpaceCO2;1"
+    }
+  ],
   "description": {
     "en": "Base class for all more specific room types."
   },

@@ -3,6 +3,20 @@
   "@type": "Interface",
   "contents": [
     {
+      "@type": "Property",
+      "description": {
+        "en": "Reference to the unique identity of the land in the property register in the country where the land is located.",
+        "nb-NO": "Representasjonpunktet på teig/tomt. Oppgitt i meter (nord, øst) EUREF89 og UTM sone (EPSG kode). Se også https://seeiendom.kartverket.no/"
+      },
+      "displayName": {
+        "en": "Land register designation",
+        "nb-NO": "Teig registreringsnummer"
+      },
+      "name": "landRegisterDesignation",
+      "schema": "string",
+      "writable": true
+    },
+    {
       "@type": "Component",
       "displayName": {
         "en": "Address"

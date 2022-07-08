@@ -8,7 +8,7 @@
         "en": "The number of people who can fit in a Space."
       },
       "displayName": {
-        "en": "Person capacity"
+        "en": "person capacity"
       },
       "name": "personCapacity",
       "schema": "integer",
@@ -20,17 +20,17 @@
         "Property"
       ],
       "displayName": {
-        "en": "Weight capacity"
+        "en": "weight capacity"
       },
       "name": "weightCapacity",
       "schema": "double",
-      "writable": true,
-      "unit": "kilogram"
+      "unit": "kilogram",
+      "writable": true
     },
     {
       "@type": "Property",
       "displayName": {
-        "en": "Maximum travel speed"
+        "en": "maximum travel speed"
       },
       "name": "maxTravelSpeed",
       "schema": "double",
@@ -39,7 +39,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "Maximum travel distance"
+        "en": "maximum travel distance"
       },
       "name": "maxTravelDistance",
       "schema": "double",
@@ -48,7 +48,7 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "Maximum landings"
+        "en": "maximum landings"
       },
       "name": "maxLandings",
       "schema": "integer",

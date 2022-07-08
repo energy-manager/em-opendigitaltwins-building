@@ -1,0 +1,9 @@
+{
+  "@id": "dtmi:no:energymanager:space:Commercial;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Commercial"
+  },
+  "extends": "dtmi:no:energymanager:space:Section;1",
+  "@context": "dtmi:dtdl:context;2"
+}

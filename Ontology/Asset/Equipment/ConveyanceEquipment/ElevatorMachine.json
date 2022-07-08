@@ -8,7 +8,7 @@
         "Property"
       ],
       "displayName": {
-        "en": "Weight capacity"
+        "en": "weight capacity"
       },
       "name": "weightCapacity",
       "schema": "double",
@@ -21,7 +21,7 @@
         "Property"
       ],
       "displayName": {
-        "en": "Motor power"
+        "en": "motor power"
       },
       "name": "motorPower",
       "schema": "double",
@@ -30,7 +30,7 @@
     }
   ],
   "displayName": {
-    "en": "Elevator machine"
+    "en": "Elevator Machine"
   },
   "extends": "dtmi:no:energymanager:asset:ConveyanceEquipment;1",
   "@context": "dtmi:dtdl:context;2"
